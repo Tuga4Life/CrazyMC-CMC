@@ -4,34 +4,11 @@
 	order_index: 0
 	filename: "beggining"
 	title: "Welcome"
-	icon: {
-		id: "cataclysm:void_core"
-		Count: 1b
-		tag: {
-			RepairCost: 1
-			Enchantments: [{
-				lvl: 3s
-				id: "minecraft:unbreaking"
-			}]
-		}
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": { }
-		}
-	}
+	icon: "pandorasbox:pandoras_box"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [{
-		icon: {
-			id: "cataclysm:void_core"
-			Count: 1b
-			tag: {
-				RepairCost: 1
-				Enchantments: [{
-					lvl: 3s
-					id: "minecraft:unbreaking"
-				}]
-			}
-		}
+		icon: "pandorasbox:pandoras_box"
 		x: 0.0d
 		y: 0.0d
 		shape: "hexagon"

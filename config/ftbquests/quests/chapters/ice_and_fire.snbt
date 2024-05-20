@@ -7,5 +7,264 @@
 	icon: "iceandfire:dragon_skull_lightning"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Are you the Dragon Slayer??"]
+			id: "0BB3230D9AB47CD4"
+			tasks: [{
+				id: "155CD9A1A439267F"
+				type: "item"
+				item: "iceandfire:dragon_skull_fire"
+			}]
+			rewards: [{
+				id: "3A24877CBC5455AD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: [
+				"0BB3230D9AB47CD4"
+				"155CD9A1A439267F"
+			]
+			id: "63618F9A218A2875"
+			tasks: [{
+				id: "710DC007FC388BD4"
+				type: "item"
+				item: "iceandfire:fire_dragon_heart"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["68636488C017B498"]
+			id: "2A20036BC9447DFE"
+			tasks: [{
+				id: "2C766308B4B0561B"
+				type: "item"
+				item: "iceandfire:ice_dragon_heart"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["14E4A7B3992AA26C"]
+			id: "74D7028E6987CFD5"
+			tasks: [{
+				id: "3CAF23C4AEBF7AD8"
+				type: "item"
+				item: "iceandfire:lightning_dragon_heart"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Are you the Dragon Slayer??"]
+			id: "14E4A7B3992AA26C"
+			tasks: [{
+				id: "009FE0A3E4B52262"
+				type: "item"
+				item: "iceandfire:dragon_skull_lightning"
+			}]
+			rewards: [{
+				id: "13D18EAC86F2EFC8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Are you the Dragon Slayer?"]
+			id: "68636488C017B498"
+			tasks: [{
+				id: "72D98367F1ED0376"
+				type: "item"
+				item: "iceandfire:dragon_skull_ice"
+			}]
+			rewards: [{
+				id: "6565C3E4CBD668BD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Baby lightning dragon"
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["74D7028E6987CFD5"]
+			id: "708E7945AEFBFC78"
+			tasks: [{
+				id: "1BE2D25DDA37213D"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0BEE435A6D8A1EAF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Baby fire dragon"
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["63618F9A218A2875"]
+			id: "0FD498CCEA1949CF"
+			tasks: [{
+				id: "1CA758338C5CA346"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Baby ice dragon"
+			x: -3.0d
+			y: 3.5d
+			dependencies: ["2A20036BC9447DFE"]
+			id: "0782455ED8107D93"
+			tasks: [{
+				id: "67588200C4C9ADDD"
+				type: "advancement"
+				advancement: "iceandfire:iceandfire/dragon_egg"
+				criterion: ""
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["3ED8A9C9B74FF033"]
+			id: "28D97B8DC939D0BA"
+			tasks: [{
+				id: "08ED7B90FC0CD6C0"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+			}]
+			rewards: [{
+				id: "493A9821C12F0EBD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["214EDFD04B8D7953"]
+			id: "7F473FBF2A983275"
+			tasks: [{
+				id: "0B3C9DCB3AB561E3"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+			}]
+			rewards: [{
+				id: "435AD867545F0DE6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["5C21FFCE14A61846"]
+			id: "51433DA20C00DCDE"
+			tasks: [{
+				id: "35C5D8592403710B"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+			}]
+			rewards: [{
+				id: "28452AB23A52AD6A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["0FD498CCEA1949CF"]
+			id: "214EDFD04B8D7953"
+			tasks: [
+				{
+					id: "2A77076BEBE732C7"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 25L
+				}
+				{
+					id: "3B0157F0A9584D99"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "322E29F994E204ED"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+			]
+			rewards: [{
+				id: "0B08B50536A90F98"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["0782455ED8107D93"]
+			id: "5C21FFCE14A61846"
+			tasks: [
+				{
+					id: "2C76A0454BDA2A39"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+					count: 25L
+				}
+				{
+					id: "35D8A6E853C3DBFC"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+				}
+				{
+					id: "2379A42A33970057"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+			]
+			rewards: [{
+				id: "13BD670FB93CC3C6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			dependencies: ["708E7945AEFBFC78"]
+			id: "3ED8A9C9B74FF033"
+			tasks: [
+				{
+					id: "21EB605B172F0729"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_brick"
+					count: 25L
+				}
+				{
+					id: "6DB727C784892F30"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+				{
+					id: "134E6CFC24C07B4A"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+			]
+		}
+	]
 }

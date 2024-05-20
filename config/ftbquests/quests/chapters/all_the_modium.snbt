@@ -180,6 +180,7 @@
 			title: "Allthemodium Armor"
 			x: 0.0d
 			y: 5.0d
+			description: ["This is very OP"]
 			dependencies: ["1AC8901518F9198A"]
 			id: "2241934301FA0FED"
 			tasks: [
@@ -280,6 +281,7 @@
 		{
 			x: -1.5d
 			y: 5.0d
+			description: ["In this dimension you will find almost all types of ores and a new danger is added... be careful with the dragons."]
 			dependencies: ["1AC8901518F9198A"]
 			id: "68579A80A8703C9F"
 			tasks: [{
@@ -304,6 +306,7 @@
 			title: "Vibranium Armor"
 			x: -5.0d
 			y: 2.5d
+			description: ["is there anything better??!"]
 			dependencies: ["0A31BED1699B7841"]
 			id: "1DFE714CEE2FF1F1"
 			tasks: [
@@ -405,6 +408,7 @@
 			title: "Unobtanium Armor"
 			x: 5.0d
 			y: 2.5d
+			description: ["This is to broken!!!"]
 			dependencies: ["1446806A2B67BF66"]
 			id: "4C3AC802C2021108"
 			tasks: [
@@ -523,6 +527,65 @@
 				id: "46ECF4453479E29F"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			description: ["be careful"]
+			dependencies: ["68579A80A8703C9F"]
+			id: "29CFECDD1C236046"
+			tasks: [{
+				id: "5A1560C6BD1FC2A1"
+				type: "dimension"
+				dimension: "allthemodium:the_other"
+			}]
+			rewards: [{
+				id: "5261C97D4C6BEBBB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			dependencies: [
+				"29CFECDD1C236046"
+				"3ED8A9C9B74FF033"
+			]
+			id: "464FF2E78357900D"
+			tasks: [{
+				id: "1DFF8DD0E31F91CE"
+				type: "item"
+				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: [
+				"29CFECDD1C236046"
+				"5C21FFCE14A61846"
+			]
+			id: "1EA6DDA5F2CF01E8"
+			tasks: [{
+				id: "7515AD8244D75796"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			dependencies: [
+				"29CFECDD1C236046"
+				"3ED8A9C9B74FF033"
+			]
+			id: "48153BF9924F99CE"
+			tasks: [{
+				id: "4EE4C5F6B220BF49"
+				type: "item"
+				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
 			}]
 		}
 	]

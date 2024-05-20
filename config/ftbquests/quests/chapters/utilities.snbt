@@ -63,9 +63,10 @@
 			}]
 		}
 		{
-			x: 12.0d
-			y: 0.0d
+			x: 13.125d
+			y: 3.125d
 			description: ["Pets that help you"]
+			size: 1.25d
 			id: "6359F4ED997A3042"
 			tasks: [{
 				id: "0CD11BEFF0156C61"
@@ -97,6 +98,1448 @@
 			}]
 			rewards: [{
 				id: "75444DFCD06A7E97"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "31C9E1AADDC7E457"
+			tasks: [{
+				id: "43FAF76F4D4052A7"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_blaze"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5C8264B91D1644D9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "200966A769521EE2"
+			tasks: [{
+				id: "271206D0B0E5A5EF"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_creeper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B5D9715B7D1CBF2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "4C8FA31D05B3F298"
+			tasks: [{
+				id: "06F2FC154C5B534F"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_enderman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "512A28D2E210BB54"
+			tasks: [{
+				id: "19F68BBF04DEC4FD"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_ghast"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "044CD44E1B33988E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "2D917F4ECECC461F"
+			tasks: [{
+				id: "67FC116DCF454305"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_iron_golem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "01B99F5326202612"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "3418BF98E9A0E96D"
+			tasks: [{
+				id: "73C3A07689932F16"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_magma_cube"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DC389575D117AA1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "3BB7F72A4618955B"
+			tasks: [{
+				id: "3D2462EC7CA432BA"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_snow_golem"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6353D0BA6458CED6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "71A9AA2B30A1FE8C"
+			tasks: [{
+				id: "01BC023C2FDCC1BA"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_spider"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FF735C54DFD4675"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "057EE323A6143795"
+			tasks: [{
+				id: "235F71F612740151"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_chicken"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4F15BE15548519DA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "6C281F1D8A52B288"
+			tasks: [{
+				id: "080D7D2882BFD825"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_cow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "145CACA9D4D1187B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "323B162815C96481"
+			tasks: [{
+				id: "2121A635E41BBE3A"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_mooshroom"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C35A6EEB0AD60C6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "1E3120C88644A75D"
+			tasks: [{
+				id: "57AD5A396F1467C8"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_ocelot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5967B6E75924C8E0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "767FCC93F19E8E6D"
+			tasks: [{
+				id: "13C77CF57D0DD44E"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_pig"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6176F679EE433CE6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "030264E356199874"
+			tasks: [{
+				id: "4B6EFE2FA1F75FD1"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_sheep"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5A4BF6E416F71F0E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "1D01979F0F500DAE"
+			tasks: [{
+				id: "4A6FDF69056874AC"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_squid"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6150C016264EDC18"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "2AC199944FF6BE22"
+			tasks: [{
+				id: "33D4DA5E9699B2DB"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_anvil"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2EB91B039221B6CB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7004A74872CEF79C"
+			tasks: [{
+				id: "6C83701BB88F397E"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_brewing_stand"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6BF8623784214B36"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "58E191E14120FD89"
+			tasks: [{
+				id: "6CDA270217488AC5"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_bed"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73541B3AF2AAF9C4"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "0D5AD7494B498AAD"
+			tasks: [{
+				id: "6A41769F6C0724EB"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_crafting_table"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19733807F4F0371C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "199AD6CDE07AE80A"
+			tasks: [{
+				id: "72B4834B05D66A6F"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_enchanting_table"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "215A120A87A5D7A7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "38FBE4D7B5ADB8A8"
+			tasks: [{
+				id: "667952D7C5EB1525"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_ender_chest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "415488D450E0232D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "3038D84C2EF8B315"
+			tasks: [{
+				id: "24EAA1CC3C59ED10"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_furnace"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "108C4ACC29B75490"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "5312BEEB4A537366"
+			tasks: [{
+				id: "77858E9BCE2E94A3"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_jukebox"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "07E3656D83E0C284"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "72805C0B43D806B4"
+			tasks: [{
+				id: "166ADD79B86030BF"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_nether_portal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72F8355B382FCE09"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "0EFD63A1DA4936EC"
+			tasks: [{
+				id: "3E6BE65A56F1E246"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_saddle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4144021B02548693"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "66BB6EDCAA09E7EC"
+			tasks: [{
+				id: "3875B74B833F0F45"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_banana"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7E5BBBAB17A3D2AE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "5F4B8F8F40EC1193"
+			tasks: [{
+				id: "3AC17F62D23C6D23"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_biome"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "013FFAAD5ACC7ED7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 14.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "515FA645CDCC08F8"
+			tasks: [{
+				id: "37B826ACCEBF7FF6"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_flying_saddle"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "514851700E807A50"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "2FE204ADBC477079"
+			tasks: [{
+				id: "109C958F0FE4E2A3"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_grave"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4911F73424CE4C82"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "686099637C9E6588"
+			tasks: [{
+				id: "48963261FE38AC54"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_lead"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "49A815055A9B80FC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "327B5DBD34193989"
+			tasks: [{
+				id: "7ED08671DD36B6BE"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_loot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5FC85177A18E49C9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7300D3CA3C967A1B"
+			tasks: [{
+				id: "2CE3000DBDDB898A"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_mickerson"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "745F66A778EC62F5"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "26E30B529BBE3B5B"
+			tasks: [{
+				id: "5F369AD8EBCAB140"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_purplicious_cow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "08B7C28B1E4875EB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7B258DC0737D8123"
+			tasks: [{
+				id: "42EDEBA94828A628"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_qcm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "463EC77A91BD954A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "38E787C33349BDC7"
+			tasks: [{
+				id: "1F607F1A50F28E8F"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_quiver"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "338299F569085F02"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 17.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "1C82C158F91EF9A4"
+			tasks: [{
+				id: "22791C6EFE907A20"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_sponge"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "65BC9815996E8322"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "52189F63C6389C3B"
+			tasks: [{
+				id: "6AB1C18A909DA091"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_cobblestone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5AF4EFCFFA4C2101"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "17A725E014A07B9D"
+			tasks: [{
+				id: "61C1026DB174BA42"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_dirt"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "751AB38E9F70A25A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "1B535F072470862D"
+			tasks: [{
+				id: "225DE8EDC40EC52A"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_juggernaut"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "04595980D3988909"
+			tasks: [{
+				id: "5209E703C4ADC1FB"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_siamese"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D3DC242A9E4F434"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7337925419E134F7"
+			tasks: [{
+				id: "65C8781BCCF25B65"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_cheetah"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "24B8B4411BB5F956"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "6CE80959A865B3CF"
+			tasks: [{
+				id: "3FE5FB3A6A6EE8E4"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_siamese"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1957F2DDDE4600FE"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "332C04B12726A86D"
+			tasks: [{
+				id: "7217770BFD1D2B0D"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_pacman"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4676F1A4250061EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "6D307A796E6673AB"
+			tasks: [{
+				id: "58D677562C11B3F3"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_pixie"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2581C8F1B4385272"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 17.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "4C1DE4ED6A2927DD"
+			tasks: [{
+				id: "5D11B93DE2CEB860"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_silverfish"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "139622648B4342B1"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "0497F2A5C7DA7865"
+			tasks: [{
+				id: "16DF0572A37B81BB"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_torch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7DF06B2167E5E449"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "6C142803F9979B3C"
+			tasks: [{
+				id: "7BB2D37E5DCD6E39"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_wolf"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3AE3C24AC9A8F94C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 11.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "21536C1A966AE0B2"
+			tasks: [{
+				id: "6C0C35B0243924D3"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_dubstep"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "44163C36BC5B8983"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7BBB9A10F4C94E8E"
+			tasks: [{
+				id: "5EBFFC915DBC8036"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "374BA9DC79AD16ED"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "51B627F92F7918C8"
+			tasks: [{
+				id: "473C0EC91315D128"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E22EA5317944E66"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "711107B3F819A8DD"
+			tasks: [{
+				id: "2136DCCEF405ED45"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_heart"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C42A1CD39C9C10D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "0744DBDCF7B33DBD"
+			tasks: [
+				{
+					id: "0AF02757020A8DF5"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_april_fool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "052D1137049F8B44"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_christmas_tree"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3E9EDF73D0650E59"
+					type: "item"
+					item: "inventorypets:pet_menorah"
+				}
+				{
+					id: "097414B534956ADB"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_mishumaa_saba"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "552331B5F3909891"
+					type: "item"
+					item: {
+						id: "inventorypets:pet_politically_correct"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "59C3347283CF6933"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6A02245043A9B34E"]
+			id: "44C6DD5ACA93EB6E"
+			tasks: [
+				{
+					id: "7C9AA20E36DE9AD4"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "504D8C062C90C379"
+					type: "item"
+					item: {
+						id: "explorerscompass:explorerscompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [{
+				id: "6B8077CC7B27B07E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "6D35BDF7FACE5AFF"
+			tasks: [{
+				id: "5F47ED05C24E4970"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_black_hole"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "21AD36CEA2D55B17"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 17.0d
+			y: 11.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "5FF3911B015359BA"
+			tasks: [{
+				id: "0223508B477DD061"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_cloud"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43DB4030A4C50042"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "19A2D7813D669485"
+			tasks: [{
+				id: "0A2BE8F2F639F8D0"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_pufferfish"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "73C9E48BCD12B1CD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "41034A4A37582381"
+			tasks: [{
+				id: "3EE0AB3D62A81444"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_slime"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "59B0C75EEDA93391"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 20.0d
+			y: 7.5d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7F46110034522D3D"
+			tasks: [{
+				id: "3B214C6B2DF7E43F"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_wither"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E4BBF78B006DD71"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "782DE021E22AC3FD"
+			tasks: [{
+				id: "7C638CA4138CC654"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_sun"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "799E61D3F207BAC7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 18.5d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "5B6580D4F1B07F73"
+			tasks: [{
+				id: "4B3E2BD3CDA08984"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_chest_new"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 20.0d
+			y: 6.0d
+			hide_dependency_lines: true
+			dependencies: ["6359F4ED997A3042"]
+			id: "7E30508ED04C0BD3"
+			tasks: [{
+				id: "66CFE224D082EB8F"
+				type: "item"
+				item: {
+					id: "inventorypets:pet_double_chest_new"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "2364393EB8BDF144"
 				type: "xp"
 				xp: 100
 			}]
