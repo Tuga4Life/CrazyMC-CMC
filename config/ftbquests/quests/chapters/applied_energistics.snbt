@@ -1,0 +1,11 @@
+{
+	id: "4F0E0A46205C2C7F"
+	group: "1BA593271D75467B"
+	order_index: 1
+	filename: "applied_energistics"
+	title: "Applied Energistics"
+	icon: "appliedenergistics2:singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

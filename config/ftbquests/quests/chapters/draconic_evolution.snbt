@@ -1,0 +1,11 @@
+{
+	id: "56EA940DBE042F26"
+	group: ""
+	order_index: 6
+	filename: "draconic_evolution"
+	title: "Draconic Evolution"
+	icon: "draconicevolution:draconium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

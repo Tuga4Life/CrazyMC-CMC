@@ -1,0 +1,13 @@
+{
+	id: "34D4A6397DFAA7A1"
+	order_index: 2
+	title: "unobtanium"
+	icon: "allthemodium:unobtainium_ingot"
+	loot_size: 1
+	rewards: [
+		{ item: "allthemodium:unobtainium_nugget", weight: 6 }
+		{ item: "allthemodium:unobtainium_ingot" }
+		{ item: "allthemodium:crushed_unobtainium_ore" }
+		{ item: "allthemodium:unobtainium_ore" }
+	]
+}

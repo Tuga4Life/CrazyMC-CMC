@@ -1,0 +1,105 @@
+{
+	id: "268DEBEAFEE72F16"
+	group: ""
+	order_index: 10
+	filename: "utilities"
+	title: "Utilities"
+	icon: "angelring:itemring"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Utilities that will help you on your adventure"]
+			id: "6A02245043A9B34E"
+			tasks: [{
+				id: "3CC7ECB64F19FF3D"
+				type: "checkmark"
+				title: "Special things"
+			}]
+			rewards: [{
+				id: "16A362D34C49E78C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			description: ["Fly like in creative"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "2D4CC5BDAB5283F0"
+			tasks: [{
+				id: "5D7FFC1933859B8E"
+				type: "item"
+				item: "angelring:itemring"
+			}]
+			rewards: [{
+				id: "57B10DAD57B16F68"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			description: ["A wand that changes blocks effortlessly"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "0E362A8BA04A22D7"
+			tasks: [{
+				id: "076983BA86E55CA3"
+				type: "item"
+				item: {
+					id: "botania:exchange_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "5735C974169DE378"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: ["Pets that help you"]
+			id: "6359F4ED997A3042"
+			tasks: [{
+				id: "0CD11BEFF0156C61"
+				type: "checkmark"
+				title: "Iventory Pets"
+			}]
+			rewards: [{
+				id: "14574BBC02760E25"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["Stocks and accelerate time"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "1C43AE04E2DB21C5"
+			tasks: [{
+				id: "03DF4A71E0E4936C"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "75444DFCD06A7E97"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

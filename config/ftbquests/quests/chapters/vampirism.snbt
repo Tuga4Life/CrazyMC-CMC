@@ -1,0 +1,11 @@
+{
+	id: "68E10D7EBA56B9BB"
+	group: ""
+	order_index: 12
+	filename: "vampirism"
+	title: "Vampirism"
+	icon: "vampirism:vampire_fang"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

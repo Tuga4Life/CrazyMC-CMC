@@ -1,0 +1,11 @@
+{
+	id: "658574E17569D5FF"
+	group: ""
+	order_index: 11
+	filename: "reactors"
+	title: "Reactors"
+	icon: "biggerreactors:yellorium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,17 @@
+{
+	id: "44085F43FC35484B"
+	group: ""
+	order_index: 4
+	filename: "kill"
+	title: "Bosses"
+	icon: {
+		id: "minecraft:diamond_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "3A6D92B6E544E384"
+	group: ""
+	order_index: 2
+	filename: "ars_nouveau"
+	title: "Ars Nouveau"
+	icon: "ars_nouveau:archmage_spell_book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

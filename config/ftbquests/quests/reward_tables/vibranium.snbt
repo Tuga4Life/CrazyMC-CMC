@@ -1,0 +1,13 @@
+{
+	id: "2193547A274ABCF2"
+	order_index: 0
+	title: "allthemodium"
+	icon: "allthemodium:vibranium_ingot"
+	loot_size: 1
+	rewards: [
+		{ item: "allthemodium:crushed_vibranium_ore" }
+		{ item: "allthemodium:vibranium_nugget", weight: 6 }
+		{ item: "allthemodium:vibranium_ingot" }
+		{ item: "allthemodium:vibranium_ore" }
+	]
+}

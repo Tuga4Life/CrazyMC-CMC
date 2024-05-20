@@ -1,0 +1,52 @@
+{
+	id: "64853AFC1056CE77"
+	group: ""
+	order_index: 0
+	filename: "beggining"
+	title: "Welcome"
+	icon: {
+		id: "cataclysm:void_core"
+		Count: 1b
+		tag: {
+			RepairCost: 1
+			Enchantments: [{
+				lvl: 3s
+				id: "minecraft:unbreaking"
+			}]
+		}
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		icon: {
+			id: "cataclysm:void_core"
+			Count: 1b
+			tag: {
+				RepairCost: 1
+				Enchantments: [{
+					lvl: 3s
+					id: "minecraft:unbreaking"
+				}]
+			}
+		}
+		x: 0.0d
+		y: 0.0d
+		shape: "hexagon"
+		description: ["Start your adventure using the starting equipment"]
+		size: 3.0d
+		id: "466D3D52A737C58C"
+		tasks: [{
+			id: "38FA3855FDE78A36"
+			type: "checkmark"
+			title: "Let's start"
+		}]
+		rewards: [{
+			id: "1336869E89C0CF85"
+			type: "xp"
+			xp: 100
+		}]
+	}]
+}

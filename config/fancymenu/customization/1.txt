@@ -1,0 +1,110 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = resources/78954.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 67
+  action = movebutton
+  y = 195
+}
+
+customization {
+  identifier = %id=400322%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = top-left
+  x = 67
+  action = movebutton
+  y = 229
+}
+
+customization {
+  identifier = %id=400382%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 67
+  action = movebutton
+  y = 46
+}
+
+customization {
+  identifier = %id=502382%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 67
+  action = movebutton
+  y = 165
+}
+
+customization {
+  identifier = %id=400298%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 67
+  action = movebutton
+  y = 262
+}
+
+customization {
+  identifier = %id=400346%
+  width = 129
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+

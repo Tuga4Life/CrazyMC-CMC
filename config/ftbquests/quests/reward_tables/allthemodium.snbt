@@ -1,0 +1,13 @@
+{
+	id: "67112054CE6C48F6"
+	order_index: 1
+	title: "allthemodium"
+	icon: "allthemodium:allthemodium_ingot"
+	loot_size: 1
+	rewards: [
+		{ item: "allthemodium:allthemodium_nugget", weight: 6 }
+		{ item: "allthemodium:allthemodium_ingot" }
+		{ item: "allthemodium:allthemodium_ore" }
+		{ item: "allthemodium:crushed_allthemodium_ore" }
+	]
+}

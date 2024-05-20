@@ -1,0 +1,529 @@
+{
+	id: "51596EF6BE9C5081"
+	group: ""
+	order_index: 1
+	filename: "all_the_modium"
+	title: "Allthemodium"
+	icon: "allthemodium:allthemodium_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "allthemodium:allthemodium_ingot"
+			x: 0.0d
+			y: -3.0d
+			description: ["This is one of the most powerful ingots"]
+			size: 2.0d
+			id: "7F44082EEA9F23EC"
+			tasks: [{
+				id: "171085D71C6BE5FD"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "6C4D62B14385D459"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "allthemodium:allthemodium"
+						}
+					}
+				}
+				{
+					id: "7D00F994F7702481"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["2536F6E0536BEE80"]
+			id: "3AE912E00EB1C722"
+			tasks: [{
+				id: "68AE6267F98A96CD"
+				type: "item"
+				item: "allthemodium:allthemodium_ore"
+			}]
+			rewards: [
+				{
+					id: "7E4F00852336A384"
+					type: "random"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "6E849C9ABE807862"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["2536F6E0536BEE80"]
+			id: "6911F0AC36FDF7DE"
+			tasks: [{
+				id: "3A27D670E15E51DB"
+				type: "item"
+				item: "allthemodium:vibranium_ore"
+			}]
+			rewards: [
+				{
+					id: "49C9D366AE20A650"
+					type: "random"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "2706C8D58DB7AC6F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["2536F6E0536BEE80"]
+			id: "3F031EDE7AD0D795"
+			tasks: [{
+				id: "727B832EACB67AE0"
+				type: "item"
+				item: "allthemodium:unobtainium_ore"
+			}]
+			rewards: [
+				{
+					id: "24C726F4710337B6"
+					type: "random"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "07506ED930B203AB"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["3AE912E00EB1C722"]
+			id: "1AC8901518F9198A"
+			tasks: [{
+				id: "4CA591BC9890B000"
+				type: "item"
+				item: "allthemodium:allthemodium_ingot"
+			}]
+			rewards: [
+				{
+					id: "191916B8B23D018E"
+					type: "random"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "36A885AF81E1F7A2"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["6911F0AC36FDF7DE"]
+			id: "0A31BED1699B7841"
+			tasks: [{
+				id: "7C5BC7EDF054200B"
+				type: "item"
+				item: "allthemodium:vibranium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4E6EB18E03B03404"
+					type: "random"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "62029F0BCA430886"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.5d
+			dependencies: ["3F031EDE7AD0D795"]
+			id: "1446806A2B67BF66"
+			tasks: [{
+				id: "754A69A42F8A7F01"
+				type: "item"
+				item: "allthemodium:unobtainium_ingot"
+			}]
+			rewards: [
+				{
+					id: "4160C6B062E4D1BC"
+					type: "random"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "203C27B98D399442"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Allthemodium Armor"
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["1AC8901518F9198A"]
+			id: "2241934301FA0FED"
+			tasks: [
+				{
+					id: "11FE73C0A6856AD1"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0FE95C3F64C9C27A"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7AFDE67C447CE594"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2BB2877388398C02"
+					type: "item"
+					item: {
+						id: "allthemodium:allthemodium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E797E4B96FFA8A6"
+					type: "random"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "228195448C11F8D5"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["1AC8901518F9198A"]
+			id: "14F88A6885961F07"
+			tasks: [
+				{
+					id: "22607FE1A28D374F"
+					type: "item"
+					item: "ironfurnaces:allthemodium_furnace"
+				}
+				{
+					id: "5048532C60088B3E"
+					type: "item"
+					item: {
+						id: "ironjetpacks:allthemodium_jetpack"
+						Count: 1b
+						tag: {
+							Throttle: 1.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "40EA11BC9DA20EAA"
+					type: "random"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "6F3327594680F1FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			dependencies: ["1AC8901518F9198A"]
+			id: "68579A80A8703C9F"
+			tasks: [{
+				id: "4C750C2A340FEEF2"
+				type: "item"
+				item: "allthemodium:teleport_pad"
+			}]
+			rewards: [
+				{
+					id: "6297852107556709"
+					type: "random"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "6AE3124E6E036ADF"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Vibranium Armor"
+			x: -5.0d
+			y: 2.5d
+			dependencies: ["0A31BED1699B7841"]
+			id: "1DFE714CEE2FF1F1"
+			tasks: [
+				{
+					id: "6E452AFCB0C682A4"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A96E82A54E4E0FA"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D836F6FA168C4BD"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3FFEC92EA8FEF7E2"
+					type: "item"
+					item: {
+						id: "allthemodium:vibranium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7EB09D3D23694E00"
+					type: "random"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "6BFE74930D56FF3D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			dependencies: ["0A31BED1699B7841"]
+			id: "3E626ADE89A559AF"
+			tasks: [
+				{
+					id: "3ED16E894924CD27"
+					type: "item"
+					item: "ironfurnaces:vibranium_furnace"
+				}
+				{
+					id: "15327FC972B67519"
+					type: "item"
+					item: {
+						id: "ironjetpacks:vibranium_jetpack"
+						Count: 1b
+						tag: {
+							Throttle: 1.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7670F8573C90EF12"
+					type: "random"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "676560F973C9DC0B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Unobtanium Armor"
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["1446806A2B67BF66"]
+			id: "4C3AC802C2021108"
+			tasks: [
+				{
+					id: "399EC18C62765CFC"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3EACE31655DCFD43"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FBE7E152FEDE05E"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D75792A1FF3B927"
+					type: "item"
+					item: {
+						id: "allthemodium:unobtainium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5E7DF2565137F6B5"
+					type: "random"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "3AFD9E08D554CAA7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["1446806A2B67BF66"]
+			id: "2A79D23BA6A158B2"
+			tasks: [
+				{
+					id: "31ADAAFFABD71693"
+					type: "item"
+					item: "ironfurnaces:unobtainium_furnace"
+				}
+				{
+					id: "0516039323FBED7C"
+					type: "item"
+					item: {
+						id: "ironjetpacks:unobtainium_jetpack"
+						Count: 1b
+						tag: {
+							Throttle: 1.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6B8F35C97A8BE4ED"
+					type: "random"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "378EA3AEE6C488E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["Now you can read all about it"]
+			dependencies: ["7F44082EEA9F23EC"]
+			id: "2536F6E0536BEE80"
+			tasks: [{
+				id: "1CF905A4E9304012"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "allthemodium:allthemodium"
+					}
+				}
+			}]
+			rewards: [{
+				id: "46ECF4453479E29F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	id: "3320DB8943DB44C8"
+	group: ""
+	order_index: 7
+	filename: "ice_and_fire"
+	title: "Ice and Fire"
+	icon: "iceandfire:dragon_skull_lightning"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

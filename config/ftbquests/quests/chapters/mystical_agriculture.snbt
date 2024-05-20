@@ -1,0 +1,11 @@
+{
+	id: "7E73569F21EC4BA5"
+	group: ""
+	order_index: 9
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:infusion_altar"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

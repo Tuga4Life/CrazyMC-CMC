@@ -1,0 +1,11 @@
+{
+	id: "19AEF50EF3107A67"
+	group: ""
+	order_index: 5
+	filename: "cataclysm"
+	title: "Cataclysm"
+	icon: "cataclysm:void_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}
