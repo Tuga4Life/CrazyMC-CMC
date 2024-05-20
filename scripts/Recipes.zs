@@ -343,7 +343,7 @@ craftingTable.addShaped("hollypetsun",<item:inventorypets:pet_sun>, [
 craftingTable.removeRecipe(<item:pandorasbox:pandoras_box>);
 
 //adding recipe
-mods.extendedcrafting.TableCrafting.addShaped("b8f79af5-b1b0-4901-bbdb-8bb7be714520", 0, <>, [
+mods.extendedcrafting.TableCrafting.addShaped("b8f79af5-b1b0-4901-bbdb-8bb7be714520", 0, <item:pandorasbox:pandoras_box>, [
 	[<item:minecraft:air>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:endrem:guardian_eye>.withTag({Damage: 0 as int}), <item:botania:life_essence>, <item:endrem:rogue_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>, <item:minecraft:air>], 
 	[<item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:endrem:witch_eye>.withTag({Damage: 0 as int}), <item:draconicadditions:chaos_heart>, <item:endrem:end_crystal_eye>.withTag({Damage: 0 as int}), <item:draconicadditions:chaos_heart>, <item:endrem:nether_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>], 
 	[<item:cataclysm:ignitium_ingot>, <item:endrem:magical_eye>.withTag({Damage: 0 as int}), <tag:items:forge:ingots/dragonsteel_lightning>, <item:iceandfire:ghost_ingot>, <tag:items:forge:ingots/dragonsteel_ice>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:forge:ingots/dragonsteel_lightning>, <item:endrem:wither_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>], 
