@@ -3,12 +3,10 @@ mods.jei.JEI.hideItem(<item:chaosawakens:copper_ore>);
 mods.jei.JEI.hideItem(<item:mekanism:copper_ore>);
 mods.jei.JEI.hideItem(<item:thermal:copper_ore>);
 mods.jei.JEI.hideItem(<item:tconstruct:copper_ore>);
-mods.jei.JEI.hideItem(<item:tmechworks:copper_ore>);
 mods.jei.JEI.hideItem(<item:iceandfire:copper_ore>);
 
 //hide aluminum ore
 mods.jei.JEI.hideItem(<item:chaosawakens:aluminum_ore>);
-mods.jei.JEI.hideItem(<item:tmechworks:aluminum_ore>);
 
 //hide lead ore
 mods.jei.JEI.hideItem(<item:mekanism:lead_ore>);

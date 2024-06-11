@@ -1,0 +1,32 @@
+{
+	id: "29BAA1EC2BDB75C8"
+	group: ""
+	order_index: 9
+	filename: "ice_and_fire_2"
+	title: "Ice and fire"
+	icon: "iceandfire:dragon_skull_lightning"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 15.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Coming_soon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 0.5d
+		y: 6.0d
+		id: "56654E9071C18083"
+		tasks: [{
+			id: "67FFE15A7225623E"
+			type: "checkmark"
+			title: "More is coming soon"
+		}]
+	}]
+}

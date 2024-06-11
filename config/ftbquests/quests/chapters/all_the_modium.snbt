@@ -549,6 +549,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
+			description: ["The lightning dragon will help you to forge"]
 			dependencies: [
 				"29CFECDD1C236046"
 				"3ED8A9C9B74FF033"
@@ -559,10 +560,28 @@
 				type: "item"
 				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
 			}]
+			rewards: [
+				{
+					id: "5A8107FEF312C301"
+					type: "loot"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "1E632A1E2BBD5C95"
+					type: "loot"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "2D6B160794434A85"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: 7.5d
+			description: ["The ice dragon will help you to forge"]
 			dependencies: [
 				"29CFECDD1C236046"
 				"5C21FFCE14A61846"
@@ -573,10 +592,28 @@
 				type: "item"
 				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
 			}]
+			rewards: [
+				{
+					id: "177151EC10612261"
+					type: "loot"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "3BABCE3CD258500C"
+					type: "loot"
+					table_id: 3806850350891837345L
+				}
+				{
+					id: "4F2392CD86678474"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 7.5d
+			description: ["The fire dragon will help you to forge"]
 			dependencies: [
 				"29CFECDD1C236046"
 				"3ED8A9C9B74FF033"
@@ -586,6 +623,153 @@
 				id: "4EE4C5F6B220BF49"
 				type: "item"
 				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "11BACED54A60EF98"
+					type: "loot"
+					table_id: 2419370308450041074L
+				}
+				{
+					id: "63AA3DD0FED21C52"
+					type: "loot"
+					table_id: 7426752809123203318L
+				}
+				{
+					id: "57E629D994CA5ECE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"48153BF9924F99CE"
+				"1EA6DDA5F2CF01E8"
+				"464FF2E78357900D"
+			]
+			id: "56411CF022ECC0A8"
+			tasks: [{
+				id: "0BE2405F59C87E0D"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "25AD5A06223AB8C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"464FF2E78357900D"
+				"48153BF9924F99CE"
+				"1EA6DDA5F2CF01E8"
+			]
+			id: "64B0E8349718EE1C"
+			tasks: [{
+				id: "7CF0C67B6065C7F5"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_pick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F8696AF547CEFA8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"464FF2E78357900D"
+				"48153BF9924F99CE"
+				"1EA6DDA5F2CF01E8"
+			]
+			id: "433F8A74E4A7B621"
+			tasks: [{
+				id: "06CC9C4B63778EAE"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02AFE22D7B5873EA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 1.0d
+			y: 9.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"464FF2E78357900D"
+				"48153BF9924F99CE"
+				"1EA6DDA5F2CF01E8"
+			]
+			id: "783D84CE59CA22FA"
+			tasks: [{
+				id: "2D94C99D9C32322D"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "470820765493B9C6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 12.5d
+			dependencies: [
+				"433F8A74E4A7B621"
+				"56411CF022ECC0A8"
+				"64B0E8349718EE1C"
+				"783D84CE59CA22FA"
+			]
+			id: "303BE1BF09D28395"
+			tasks: [{
+				id: "4DC2505085B2D2C9"
+				type: "item"
+				item: {
+					id: "allthemodium:alloy_paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

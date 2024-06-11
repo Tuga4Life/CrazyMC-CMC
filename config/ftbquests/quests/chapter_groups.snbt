@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "1BA593271D75467B", title: "Storage" }]
+	chapter_groups: [
+		{ id: "1BA593271D75467B", title: "Storage" }
+		{ id: "761F85CA97850FE2", title: "Dimensions" }
+	]
 }

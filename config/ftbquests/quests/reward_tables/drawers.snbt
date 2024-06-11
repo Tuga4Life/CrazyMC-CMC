@@ -1,0 +1,23 @@
+{
+	id: "08C3F44140F5E9B9"
+	order_index: 3
+	title: "drawers"
+	icon: "storagedrawers:emerald_storage_upgrade"
+	loot_size: 1
+	rewards: [
+		{ item: "storagedrawers:obsidian_storage_upgrade" }
+		{ item: "storagedrawers:iron_storage_upgrade", weight: 4 }
+		{ item: "storagedrawers:gold_storage_upgrade", weight: 3 }
+		{ item: "storagedrawers:diamond_storage_upgrade", weight: 2 }
+		{ item: "storagedrawers:emerald_storage_upgrade" }
+		{ item: "storagedrawers:one_stack_upgrade", weight: 4 }
+		{ item: "storagedrawers:void_upgrade", weight: 4 }
+		{ item: "storagedrawers:upgrade_template", weight: 20 }
+		{ item: "storagedrawers:fill_level_upgrade", weight: 4 }
+		{ item: "storagedrawers:conversion_upgrade", weight: 4 }
+		{ item: "storagedrawers:redstone_upgrade", weight: 4 }
+		{ item: "storagedrawers:min_redstone_upgrade", weight: 4 }
+		{ item: "storagedrawers:max_redstone_upgrade", weight: 4 }
+		{ item: "storagedrawers:illumination_upgrade", weight: 4 }
+	]
+}

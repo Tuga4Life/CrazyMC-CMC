@@ -7,5 +7,26 @@
 	icon: "cataclysm:void_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 15.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Coming_soon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 0.5d
+		y: 5.5d
+		id: "3797B3C1848C50DE"
+		tasks: [{
+			id: "50BFEBDD6D18172F"
+			type: "checkmark"
+			title: "More is coming soon"
+		}]
+	}]
 }

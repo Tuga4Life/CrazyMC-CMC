@@ -1,11 +1,906 @@
 {
-	id: "60455ACEA63B0781"
+	id: "15AAF17B6665223D"
 	group: "1BA593271D75467B"
 	order_index: 2
 	filename: "refined_storage"
 	title: "Refined Storage"
-	icon: "refinedstorage:controller"
+	icon: "refinedstorage:creative_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			title: "Refined Storage"
+			x: 0.0d
+			y: -7.5d
+			shape: "gear"
+			subtitle: "Make your first controller!"
+			description: ["The Controller is the core of the Refined Storage network. You need to connect all the Refined Storage devices to this block."]
+			size: 1.5d
+			id: "01F18150EC923482"
+			tasks: [{
+				id: "196B8B6D59ABFC74"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "50D20E15686FD0FA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			description: ["The 1k Storage Disk can store 1000 items."]
+			hide_dependency_lines: true
+			dependencies: ["01F18150EC923482"]
+			id: "4101F8275B41C79B"
+			tasks: [{
+				id: "1121780C6403D660"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "2FFAB7ACB26B74C9"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["The 4k Storage Disk can store 4000 items."]
+			dependencies: ["4101F8275B41C79B"]
+			id: "3FD801D7DE9176FB"
+			tasks: [{
+				id: "1420D2099CBB6833"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "2F5AE3A8F68EB802"
+				type: "xp"
+				xp: 40
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			description: ["The 16k Storage Disk can store 16000 items."]
+			dependencies: ["3FD801D7DE9176FB"]
+			id: "03C78165C5CBD9E1"
+			tasks: [{
+				id: "0346A00E2F8F7532"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [{
+				id: "26F9E420E8E40B69"
+				type: "xp"
+				xp: 160
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["The 64k Storage Disk can store 64000 items."]
+			dependencies: ["03C78165C5CBD9E1"]
+			id: "3F8EEE1AD4420702"
+			tasks: [{
+				id: "02A8CBA1DAC84DAE"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "1758DA1F1D1346CF"
+				type: "xp"
+				xp: 640
+			}]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			subtitle: "Automated crafting!"
+			description: ["The Crafter is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."]
+			dependencies: ["59F5ED931FD70C55"]
+			id: "44881E39AB1D62AA"
+			tasks: [{
+				id: "202A7EA0318662C5"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [
+				{
+					id: "3351B9B6898579ED"
+					type: "item"
+					item: "refinedstorage:pattern"
+				}
+				{
+					id: "2EB791B29FE40D75"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "You spin me right round'"
+			description: ["The Wrench in Refined Storage is a tool that can do two things. Rotate blocks and Break Refined Storage covers. Simply sneak and right click when using the Wrench."]
+			dependencies: ["01F18150EC923482"]
+			id: "3FAD086F7D9CCAE9"
+			tasks: [{
+				id: "411F819314EF6C57"
+				type: "item"
+				item: "refinedstorage:wrench"
+			}]
+			rewards: [
+				{
+					id: "7E7AB250574EF3EC"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "140795CF391B574A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			subtitle: "Connections!"
+			description: ["Cable is used to connect devices to the Controller. Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."]
+			dependencies: ["01F18150EC923482"]
+			id: "6904EC449FBEE387"
+			tasks: [{
+				id: "1A2C2B95FDA9D2DA"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			rewards: [
+				{
+					id: "3940AD01E5D76358"
+					type: "item"
+					item: "refinedstorage:cable"
+					count: 10
+				}
+				{
+					id: "1174925025CC0A56"
+					type: "random"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -8.5d
+			subtitle: "Importing Items!"
+			dependencies: ["6904EC449FBEE387"]
+			id: "532229D285CA4858"
+			tasks: [{
+				id: "0E57EE9B975D05C3"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "1DE253380778110D"
+				type: "random"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.5d
+			subtitle: "Breaking Blocks!"
+			dependencies: ["6904EC449FBEE387"]
+			id: "6092490EC9008A05"
+			tasks: [{
+				id: "5762E9CE9A7D3FCA"
+				type: "item"
+				item: "refinedstorage:destructor"
+			}]
+			rewards: [{
+				id: "706F07A4768DE9FA"
+				type: "random"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			subtitle: "Placing Blocks!"
+			dependencies: ["6904EC449FBEE387"]
+			id: "2CFEE04BA574921E"
+			tasks: [{
+				id: "2BB33FEBA2B071DF"
+				type: "item"
+				item: "refinedstorage:constructor"
+			}]
+			rewards: [{
+				id: "3CDBEEDBD20A61DE"
+				type: "random"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			subtitle: "Exporting Items!"
+			dependencies: ["6904EC449FBEE387"]
+			id: "4CD83943865018EA"
+			tasks: [{
+				id: "528F054C15BB7191"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "40C3EDC23E165575"
+				type: "random"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk."]
+			hide_dependency_lines: true
+			dependencies: ["01F18150EC923482"]
+			id: "4B81E84CAE814BA9"
+			tasks: [{
+				id: "3F9B17A338B2EEFE"
+				type: "item"
+				item: "refinedstorage:64k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "5257B268B12D1897"
+				type: "xp"
+				xp: 640
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk."]
+			dependencies: ["4B81E84CAE814BA9"]
+			id: "39C8E1705EF1CD31"
+			tasks: [{
+				id: "440737C224526B0B"
+				type: "item"
+				item: "refinedstorage:256k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "1CDF6DD01E3B6C67"
+				type: "xp"
+				xp: 2560
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["The 1024k Fluid Storage Part is used to craft the 1024k Fluid Storage Disk."]
+			dependencies: ["39C8E1705EF1CD31"]
+			id: "60244F26B9ABED49"
+			tasks: [{
+				id: "40AEA1CE52FAFCAB"
+				type: "item"
+				item: "refinedstorage:1024k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "0EE83852F6A8D8B3"
+				type: "xp"
+				xp: 10240
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk."]
+			dependencies: ["60244F26B9ABED49"]
+			id: "3751015CD5C84134"
+			tasks: [{
+				id: "2B57DE504688FC8D"
+				type: "item"
+				item: "refinedstorage:4096k_fluid_storage_part"
+			}]
+			rewards: [{
+				id: "632A471F231C5490"
+				type: "xp"
+				xp: 40960
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			dependencies: ["6904EC449FBEE387"]
+			id: "253657BE5D9D9162"
+			tasks: [{
+				id: "4D9E7CCF420BDE8C"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "33EE37E408A14D2A"
+				type: "random"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Secure your grid!"
+			description: ["Allows you to limit who can access your grid, and what permissions they have."]
+			dependencies: ["01F18150EC923482"]
+			id: "3B84215240D9F2CB"
+			tasks: [{
+				id: "20F3020C07C9D22B"
+				type: "item"
+				item: "refinedstorage:security_manager"
+			}]
+			rewards: [
+				{
+					id: "03E85C433BFA3B18"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+				{
+					id: "12F5EB99A88BDA34"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5B27B838C1209955"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			description: ["Will detect contents in your storage and send a redstone signal if it is the right amount."]
+			dependencies: ["01F18150EC923482"]
+			id: "5D31FCC61B02E17A"
+			tasks: [{
+				id: "6C6F92D9A6D8DFD6"
+				type: "item"
+				item: "refinedstorage:detector"
+			}]
+			rewards: [{
+				id: "0D362C4E06567DAD"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.5d
+			shape: "rsquare"
+			description: ["Lets you access your storage."]
+			dependencies: ["01F18150EC923482"]
+			id: "43E8912CB307E421"
+			tasks: [{
+				id: "68A80F00CAFF427D"
+				type: "item"
+				item: "refinedstorage:grid"
+			}]
+			rewards: [
+				{
+					id: "1A45B613CFF253C5"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "4084476511FAC756"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.0d
+			description: ["Lets you access your storage but with a craftin table."]
+			dependencies: ["43E8912CB307E421"]
+			id: "0F00BBDF3618B3BA"
+			tasks: [{
+				id: "5B74E6CB7AB75F92"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [
+				{
+					id: "25751AA29401891B"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "39C9C2F65EC7B5FE"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -9.0d
+			shape: "rsquare"
+			description: ["Allows you to create patterns for autocrafting."]
+			dependencies: [
+				"43E8912CB307E421"
+				"59F5ED931FD70C55"
+			]
+			dependency_requirement: "one_started"
+			id: "65C8A43FEDBA3835"
+			tasks: [{
+				id: "79E70744DBC24777"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [
+				{
+					id: "48213A77A484A452"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "061E95251C2DDBDC"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -4.5d
+			description: ["Lets you access your fluid storage."]
+			dependencies: ["43E8912CB307E421"]
+			id: "51E9D03CD755A607"
+			tasks: [{
+				id: "4EAE7D47133842B1"
+				type: "item"
+				item: "refinedstorage:fluid_grid"
+			}]
+			rewards: [
+				{
+					id: "55BAE0C439DA1592"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "767130FFD33367D9"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -7.5d
+			description: ["Allows you to access your grid wirelessly."]
+			dependencies: ["43E8912CB307E421"]
+			id: "15ECBC8E174FA39B"
+			tasks: [{
+				id: "1488D961F51ED182"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+			rewards: [
+				{
+					id: "2E717182A91C8DB0"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "50FA73C848B373CD"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			description: ["Allows you to access your fluid grid wirelessly."]
+			dependencies: ["51E9D03CD755A607"]
+			id: "7FA85713C86166DA"
+			tasks: [{
+				id: "77FE4FDC2F752084"
+				type: "item"
+				item: "refinedstorage:wireless_fluid_grid"
+			}]
+			rewards: [
+				{
+					id: "16636BD47D76E6A3"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "7D6055904EDC15B8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			description: ["Allows you to access your grid wirelessly but with a crafting table built-in."]
+			dependencies: ["0F00BBDF3618B3BA"]
+			id: "744842B2AED28344"
+			tasks: [{
+				id: "5C72FB6EFDAF0813"
+				type: "item"
+				item: "refinedstorageaddons:wireless_crafting_grid"
+			}]
+			rewards: [
+				{
+					id: "0FFEC060660BAA9C"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "578915A127F96FA4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "On-The-Go Grid"
+			description: ["The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network."]
+			hide_dependency_lines: true
+			dependencies: ["43E8912CB307E421"]
+			hide: false
+			id: "66D85424EC74EDCC"
+			tasks: [{
+				id: "301E0669A3CD84EF"
+				type: "item"
+				item: {
+					id: "refinedstorage:portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "Floppy time!"
+			description: ["Put your storage disks in here to add storage to your grid!"]
+			dependencies: ["7604D8B3C9FCCFD9"]
+			id: "12A43F82FC67A289"
+			tasks: [{
+				id: "3724447C3E0F9942"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [
+				{
+					id: "5E67E5BB195B9D4A"
+					type: "item"
+					item: "refinedstorage:storage_housing"
+				}
+				{
+					id: "7A54E7642990EC9E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			description: ["Allows you to take items and fluids from one disk into another grid's disks."]
+			dependencies: ["12A43F82FC67A289"]
+			id: "4844DEF57A2287B4"
+			tasks: [{
+				id: "057EA89AE615DA6D"
+				type: "item"
+				item: "refinedstorage:disk_manipulator"
+			}]
+			rewards: [
+				{
+					id: "22347763BACFA48D"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "230054DF05617267"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -9.0d
+			description: ["Used to tell crafters how to carft items for auto-crafting."]
+			dependencies: ["01F18150EC923482"]
+			id: "59F5ED931FD70C55"
+			tasks: [{
+				id: "45359CC3EC90B74B"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+			rewards: [{
+				id: "4BBA283872ECB12E"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			description: ["Allows you to monitor the number of a certain item in your grid."]
+			dependencies: ["43E8912CB307E421"]
+			id: "64E85274D24FE394"
+			tasks: [{
+				id: "59E1432B592B686C"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+			}]
+			rewards: [{
+				id: "6AC46C5C8136A9C3"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			shape: "rsquare"
+			subtitle: "Storage, at a distance"
+			description: ["The Wireless Transmitter is used to send signals to wireless network items in Refined Storage."]
+			hide_dependency_lines: true
+			dependencies: [
+				"15ECBC8E174FA39B"
+				"744842B2AED28344"
+				"7FA85713C86166DA"
+			]
+			dependency_requirement: "one_started"
+			id: "6B04FC81351CD1AB"
+			tasks: [{
+				id: "48935A6041672A29"
+				type: "item"
+				item: "refinedstorage:wireless_transmitter"
+			}]
+			rewards: [
+				{
+					id: "1B5CDE3E773B797B"
+					type: "item"
+					item: "refinedstorage:range_upgrade"
+				}
+				{
+					id: "157988A5DF6824A2"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "1349CDDAC3DD757D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -6.0d
+			dependencies: ["6B04FC81351CD1AB"]
+			id: "3E0D29502690E02F"
+			tasks: [
+				{
+					id: "4DD51C8F38808EB9"
+					type: "item"
+					item: "rsinfinitybooster:infinity_card"
+				}
+				{
+					id: "3C3F1953DAA71996"
+					type: "item"
+					item: "rsinfinitybooster:dimension_card"
+				}
+			]
+			rewards: [{
+				id: "7D535E04682F441F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			shape: "rsquare"
+			description: ["A Storage Disk is an item where items from the storage network are stored on. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."]
+			hide_dependency_lines: true
+			dependencies: ["01F18150EC923482"]
+			dependency_requirement: "one_started"
+			id: "7604D8B3C9FCCFD9"
+			tasks: [{
+				id: "546B04909ABE8383"
+				type: "item"
+				item: "refinedstorage:storage_housing"
+			}]
+			rewards: [
+				{
+					id: "515E647757277F55"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+				{
+					id: "3936FDF8F1733364"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Grid Networks"
+			x: 4.5d
+			y: -7.5d
+			subtitle: "Networking!"
+			description: [
+				"Transmits grid information to a Network Receiver, allowing expansion of the system thousands of blocks away."
+				""
+				"Bind the Network Card via right-click to a Network Receiver, and then place the Network Card in the Network transmitter."
+			]
+			id: "3E890BABC4C41370"
+			tasks: [
+				{
+					id: "2E028480454ECBB5"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "1CB0AFE99559C1B5"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+			]
+			rewards: [
+				{
+					id: "7D644616E6416286"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+				{
+					id: "5EF47DFF582BEFBA"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			dependencies: [
+				"4B81E84CAE814BA9"
+				"4101F8275B41C79B"
+			]
+			optional: true
+			id: "58AA6CD9D96244D1"
+			tasks: [
+				{
+					id: "15F0A882BE1594B1"
+					type: "item"
+					item: "refinedstorage:1k_storage_disk"
+				}
+				{
+					id: "269EECC6F9A9D984"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_disk"
+				}
+			]
+			rewards: [{
+				id: "7C3A424ABFBE7194"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: [
+				"4B81E84CAE814BA9"
+				"4101F8275B41C79B"
+			]
+			optional: true
+			id: "62625CAF6649AB53"
+			tasks: [
+				{
+					id: "4540AB0231FE3B1A"
+					type: "item"
+					item: "refinedstorage:1k_storage_block"
+				}
+				{
+					id: "71707FDB64DE5E1D"
+					type: "item"
+					item: "refinedstorage:64k_fluid_storage_block"
+				}
+			]
+			rewards: [{
+				id: "49948820B719775C"
+				type: "loot"
+				table_id: 4001436279668650237L
+			}]
+		}
+		{
+			title: "Destructor Upgrades"
+			x: -1.5d
+			y: -4.5d
+			description: ["These can add different attributes to Deconstructors to effect what happens when they mine a block."]
+			hide_dependency_lines: true
+			dependencies: ["6092490EC9008A05"]
+			id: "787415570026FFAA"
+			tasks: [
+				{
+					id: "416E0011066156D2"
+					type: "item"
+					item: "refinedstorage:silk_touch_upgrade"
+				}
+				{
+					id: "086992D773D34C15"
+					type: "item"
+					item: "refinedstorage:fortune_3_upgrade"
+				}
+			]
+		}
+		{
+			title: "Other Upgrades"
+			x: -1.5d
+			y: -3.0d
+			description: ["This can make machines work faster, or automatically craft items that are requested to be outputted."]
+			hide_dependency_lines: true
+			dependency_requirement: "one_completed"
+			id: "2B27E4E04A628C60"
+			tasks: [
+				{
+					id: "0B3AB478E6493DBC"
+					type: "item"
+					item: "refinedstorage:speed_upgrade"
+				}
+				{
+					id: "2B39C12AEFA55C59"
+					type: "item"
+					item: "refinedstorage:stack_upgrade"
+				}
+				{
+					id: "086F83FEFD57D69B"
+					type: "item"
+					item: "refinedstorage:crafting_upgrade"
+				}
+			]
+			rewards: [{
+				id: "50F64D3CD84E80EE"
+				type: "xp"
+				xp: 30
+			}]
+		}
+		{
+			x: 4.5d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"4CD83943865018EA"
+				"2CFEE04BA574921E"
+				"6092490EC9008A05"
+				"532229D285CA4858"
+			]
+			id: "35EC08D610382860"
+			tasks: [{
+				id: "5BFCB4F5C8CCA8C9"
+				type: "item"
+				item: "refinedstorage:filter"
+			}]
+			rewards: [
+				{
+					id: "03634CAA1407E7D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "09F4823B32994B06"
+					type: "loot"
+					table_id: 4001436279668650237L
+				}
+			]
+		}
+	]
 }

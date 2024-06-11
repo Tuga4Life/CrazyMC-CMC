@@ -1,11 +1,32 @@
 {
 	id: "658574E17569D5FF"
 	group: ""
-	order_index: 11
+	order_index: 13
 	filename: "reactors"
 	title: "Reactors"
 	icon: "biggerreactors:yellorium_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 15.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Coming_soon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 0.5d
+		y: 6.0d
+		id: "3649AFEA85D35700"
+		tasks: [{
+			id: "0CE7DF9D2AD05691"
+			type: "checkmark"
+			title: "More is coming soon"
+		}]
+	}]
 }

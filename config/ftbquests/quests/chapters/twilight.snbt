@@ -1,0 +1,32 @@
+{
+	id: "0E364EEF6AD0104C"
+	group: "761F85CA97850FE2"
+	order_index: 0
+	filename: "twilight"
+	title: "Twilight"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: 0.0d
+		width: 15.0d
+		height: 13.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Coming_soon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [{
+		x: 0.5d
+		y: 6.0d
+		id: "218C74810F1EBA4D"
+		tasks: [{
+			id: "5A867059B5A5346C"
+			type: "checkmark"
+			title: "More is coming soon"
+		}]
+	}]
+}

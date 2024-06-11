@@ -1,0 +1,23 @@
+{
+	id: "214F5444ACA05DF7"
+	order_index: 8
+	title: "mekanism"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:basic_tier_installer", weight: 4 }
+		{ item: "mekanism:elite_tier_installer", weight: 2 }
+		{ item: "mekanism:advanced_tier_installer", weight: 3 }
+		{ item: "mekanism:ultimate_tier_installer" }
+		{ item: "mekanism:basic_control_circuit", weight: 6 }
+		{ item: "mekanism:advanced_control_circuit", weight: 5 }
+		{ item: "mekanism:elite_control_circuit", weight: 4 }
+		{ item: "mekanism:ultimate_control_circuit", weight: 3 }
+		{ item: "mekanism:alloy_infused", weight: 8 }
+		{ item: "mekanism:alloy_reinforced", weight: 4 }
+		{ item: "mekanism:alloy_atomic", weight: 2 }
+		{ item: "mekanism:enriched_carbon", weight: 8 }
+		{ item: "mekanism:enriched_redstone", weight: 8 }
+		{ item: "mekanism:enriched_diamond", weight: 4 }
+		{ item: "mekanism:enriched_refined_obsidian", weight: 2 }
+	]
+}

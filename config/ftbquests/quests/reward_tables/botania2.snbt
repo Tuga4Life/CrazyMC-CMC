@@ -1,0 +1,19 @@
+{
+	id: "1752B224DD7012F6"
+	order_index: 7
+	title: "botania2"
+	icon: "botania:gaia_head"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:gaia_ingot", weight: 2 }
+		{ item: "botania:life_essence", weight: 3 }
+		{ item: "botania:gaia_head", weight: 3 }
+		{
+			item: {
+				id: "botania:dice"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

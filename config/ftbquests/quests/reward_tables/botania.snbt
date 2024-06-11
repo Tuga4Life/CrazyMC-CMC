@@ -1,0 +1,18 @@
+{
+	id: "36906979D75F4CCB"
+	order_index: 6
+	title: "Botania"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:manasteel_ingot", weight: 8 }
+		{ item: "botania:mana_pearl", weight: 7 }
+		{ item: "botania:mana_diamond", weight: 6 }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botania:dragonstone" }
+		{ item: "botania:elementium_ingot" }
+		{ item: "botania:quartz_mana", weight: 8 }
+		{ item: "botania:mana_string", weight: 8 }
+		{ item: "botania:livingrock", weight: 8 }
+		{ item: "botania:livingwood", weight: 8 }
+	]
+}

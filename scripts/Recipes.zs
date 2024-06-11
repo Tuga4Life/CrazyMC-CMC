@@ -337,7 +337,7 @@ craftingTable.addShaped("hollypetsun",<item:inventorypets:pet_sun>, [
 ]);
 
 
-/////////////////////////////////PANDORA///////////////////////////////////
+/////////////////////////////////PANDORA'SBOX///////////////////////////////////
 
 //remove recipe
 craftingTable.removeRecipe(<item:pandorasbox:pandoras_box>);
@@ -352,5 +352,24 @@ mods.extendedcrafting.TableCrafting.addShaped("b8f79af5-b1b0-4901-bbdb-8bb7be714
 	[<item:cataclysm:ignitium_ingot>, <tag:items:vampirism:pure_blood>, <item:iceandfire:ghost_ingot>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/polonium>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:vampirism:pure_blood>, <item:chaosawakens:royal_guardian_scale>], 
 	[<item:chaosawakens:royal_guardian_scale>, <item:endrem:old_eye>.withTag({Damage: 0 as int}), <tag:items:forge:ingots/dragonsteel_lightning>, <item:iceandfire:ghost_ingot>, <tag:items:forge:ingots/dragonsteel_ice>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:forge:ingots/dragonsteel_lightning>, <item:endrem:lost_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>], 
 	[<item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:endrem:cold_eye>.withTag({Damage: 0 as int}), <item:mysticalagradditions:insanium_essence>, <item:endrem:corrupted_eye>.withTag({Damage: 0 as int}), <item:mysticalagradditions:insanium_essence>, <item:endrem:black_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>], 
-	[<tag:items:forge:storage_blocks>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <tag:items:forge:storage_blocks>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:storage_blocks>]
+	[<item:allthecompressed:nether_star_block_9x>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:allthecompressed:nether_star_block_9x>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>, <item:allthecompressed:nether_star_block_9x>]
+]);
+
+/////////////////////////////////REFINED STORAGE/////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:rsinfinitybooster:infinity_card>);
+craftingTable.removeRecipe(<item:rsinfinitybooster:dimension_card>);
+
+//adding recipe
+craftingTable.addShaped("dimensioncard",<item:rsinfinitybooster:dimension_card>, [
+    [<item:rsinfinitybooster:infinity_card>, <item:allthecompressed:nether_star_block_1x>, <item:rsinfinitybooster:infinity_card>],
+    [<item:allthecompressed:nether_star_block_1x>, <item:allthecompressed:vibranium_block_1x>, <item:allthecompressed:nether_star_block_1x>],
+    [<item:rsinfinitybooster:infinity_card>, <item:allthecompressed:nether_star_block_1x>, <item:rsinfinitybooster:infinity_card>]
+]);
+
+craftingTable.addShaped("infinitycard",<item:rsinfinitybooster:infinity_card>, [
+    [<item:allthemodium:vibranium_ingot>, <item:refinedstorage:range_upgrade>, <item:allthemodium:vibranium_ingot>],
+    [<item:refinedstorage:range_upgrade>, <item:allthecompressed:nether_star_block_1x>, <item:refinedstorage:range_upgrade>],
+    [<item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>]
 ]);

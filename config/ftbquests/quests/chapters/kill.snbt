@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 4
 	filename: "kill"
-	title: "Bosses"
+	title: "Bounty"
 	icon: {
 		id: "minecraft:diamond_sword"
 		Count: 1b
@@ -13,5 +13,272 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [{
+		x: 1.0d
+		y: 4.5d
+		width: 5.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Coming_soon.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["75116D931E9AE759"]
+			id: "05B823E0CB347E56"
+			tasks: [{
+				id: "419E9685C4393161"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 5L
+			}]
+			rewards: [{
+				id: "59977557B76EF99E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			icon: "botania:gaia_head"
+			x: -1.5d
+			y: 0.0d
+			id: "75116D931E9AE759"
+			tasks: [{
+				id: "3980F97B751F98F4"
+				type: "kill"
+				entity: "botania:doppleganger"
+				value: 1L
+			}]
+			rewards: [{
+				id: "4EC52816D25E3273"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["05B823E0CB347E56"]
+			id: "739664FBB1DF2B76"
+			tasks: [{
+				id: "07A5139BE1391080"
+				type: "kill"
+				icon: "botania:gaia_head"
+				entity: "botania:doppleganger"
+				value: 10L
+			}]
+			rewards: [{
+				id: "193ED7A66F930DE4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "60B76EB297B90254"
+			tasks: [{
+				id: "1561767532A1C29B"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "531DE13666D1C3EB"
+					type: "item"
+					item: "majruszs_difficulty:ender_dragon_treasure_bag"
+				}
+				{
+					id: "144D7134F7FF030B"
+					type: "item"
+					item: {
+						id: "travelersbackpack:dragon"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "268BC8CE7FD4F0B7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["60B76EB297B90254"]
+			id: "2DFFAEF3E2668BCE"
+			tasks: [{
+				id: "3F1E9E9EF7E8BC6E"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "4734DCC1F2A05003"
+					type: "item"
+					item: "majruszs_difficulty:ender_dragon_treasure_bag"
+				}
+				{
+					id: "3172AE4856B02906"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["2DFFAEF3E2668BCE"]
+			id: "56FFA4D79597F213"
+			tasks: [{
+				id: "71E2EE664308FD86"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "003BB8A99B9E5574"
+					type: "item"
+					item: "majruszs_difficulty:ender_dragon_treasure_bag"
+				}
+				{
+					id: "23374B38B23D2B03"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "5EACA8A759E46747"
+			tasks: [{
+				id: "166C45F4584E9C99"
+				type: "kill"
+				icon: "draconicadditions:chaos_heart"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "71FA575A20B768AF"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			dependencies: ["5EACA8A759E46747"]
+			id: "403C2C55F8C2BB2B"
+			tasks: [{
+				id: "725349BDBBD0B4C8"
+				type: "kill"
+				icon: "draconicadditions:chaos_heart"
+				entity: "draconicevolution:draconic_guardian"
+				value: 3L
+			}]
+			rewards: [{
+				id: "39966499A3E21A64"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "4855A38D340703D3"
+			tasks: [{
+				id: "1A0354A6FA7E8123"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "172A9EAC271B2490"
+					type: "item"
+					item: {
+						id: "travelersbackpack:wither"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6D4A0E2E1ABCB42B"
+					type: "item"
+					item: "majruszs_difficulty:wither_treasure_bag"
+				}
+				{
+					id: "6ECA84C16C76C27E"
+					type: "xp"
+					xp: 50
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["4855A38D340703D3"]
+			id: "353C2FE48DA4F967"
+			tasks: [{
+				id: "382CD3FCCC9DBC94"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "788B6B2DEF60DE84"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10DD17F870C41D71"
+					type: "item"
+					item: "majruszs_difficulty:wither_treasure_bag"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["353C2FE48DA4F967"]
+			id: "2AF8C9EB43634545"
+			tasks: [{
+				id: "27A00912F6451CC1"
+				type: "kill"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 50L
+			}]
+			rewards: [
+				{
+					id: "2726B6FFEA988FD9"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "4CE7B3ED2AF85874"
+					type: "item"
+					item: "majruszs_difficulty:wither_treasure_bag"
+				}
+			]
+		}
+	]
 }

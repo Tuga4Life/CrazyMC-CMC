@@ -1,0 +1,855 @@
+{
+	id: "1DB294A8F8686321"
+	group: "1BA593271D75467B"
+	order_index: 1
+	filename: "storage"
+	title: "Basic Storage"
+	icon: "ironchest:diamond_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -1.5d
+			subtitle: "More space"
+			dependencies: ["563CFA1EF74E52E9"]
+			id: "58514FDE153FD971"
+			tasks: [{
+				id: "77A9435B6739348E"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [
+				{
+					id: "0400694A753E47C8"
+					type: "loot"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "2953EEDAB42409F1"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "I WANT MORE SPACE"
+			dependencies: ["58514FDE153FD971"]
+			id: "3E33730DC2115D26"
+			tasks: [{
+				id: "0427B441A750316F"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [
+				{
+					id: "405DBA69A509EDC5"
+					type: "random"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "2CE2C7DE36A76A42"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "More and MORE SPACE"
+			dependencies: ["3E33730DC2115D26"]
+			id: "4C0BDD483CCB40C4"
+			tasks: [{
+				id: "00ED02255105A973"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "382FDA0D2D3A5ABE"
+					type: "random"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "730D567C9B4DC02C"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			subtitle: "I can see..."
+			description: [
+				"The crystal chest has the same storage capacity as the diamond chest, but you can see through it."
+				""
+				"*Note: Too many of these has been known to cause lag."
+			]
+			dependencies: ["4C0BDD483CCB40C4"]
+			id: "73CD1D166E4B89BE"
+			tasks: [{
+				id: "2CCB463CF049D5D9"
+				type: "item"
+				item: "ironchest:crystal_chest"
+			}]
+			rewards: [
+				{
+					id: "23301B47F863D59D"
+					type: "random"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "2FF1692493F92470"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -1.5d
+			subtitle: "The best <3"
+			description: ["The obsidian chest has the same storage capacity as a diamond chest, it just can't be blown up."]
+			dependencies: ["4C0BDD483CCB40C4"]
+			id: "77F241BEE9902751"
+			tasks: [{
+				id: "34B6EB0B801E4743"
+				type: "item"
+				item: "ironchest:obsidian_chest"
+			}]
+			rewards: [
+				{
+					id: "5E26AC6B7F820AA1"
+					type: "random"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "55465F0F50284DD8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "My First Drawer"
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -9.0d
+			y: -5.0d
+			subtitle: "Stacks on Stacks"
+			description: [
+				"Craft yourself a 1x1 drawer. This item holds 32 stacks of a single item."
+				""
+				""
+				""
+				""
+			]
+			dependencies: ["0682DC1F2417DAEB"]
+			id: "2746575C929B6C50"
+			tasks: [{
+				id: "79EC3CF180A5A940"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6DFD494C0F3C6E32"
+					type: "loot"
+					table_id: 631616933861910969L
+				}
+				{
+					id: "1F63D61A06F4284E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.0d
+			subtitle: "Auto-Convert to blocks."
+			description: [
+				"This item can convert items placed inside to their nugget or block forms."
+				""
+				"For example: An Iron Ingot placed in this will allow you to pull out 9 nuggets, or if more iron is placed in, will covert it to Iron Blocks."
+			]
+			dependencies: ["2746575C929B6C50"]
+			dependency_requirement: "one_started"
+			id: "2B422B7E0CE3590D"
+			tasks: [{
+				id: "4AC0DA5197DEBC7B"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [
+				{
+					id: "6912118F1D1B8A34"
+					type: "loot"
+					table_id: 631616933861910969L
+				}
+				{
+					id: "01D041CF0A176CE8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			subtitle: "The Brain of the Drawers."
+			description: [
+				"When placed and connected to other drawers, this block acts as a \"Hub.\""
+				""
+				"If you double right-click this, all items within the Storage Drawers \"Network\" will be pulled from your inventory."
+			]
+			dependencies: ["2B422B7E0CE3590D"]
+			dependency_requirement: "one_started"
+			id: "6FBAE89EE782DABA"
+			tasks: [{
+				id: "1872E00684ADC839"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [
+				{
+					id: "316113F0B8DD4873"
+					type: "random"
+					table_id: 631616933861910969L
+				}
+				{
+					id: "0314EFAAF5A68DF8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -11.0d
+			subtitle: "2x the Storage"
+			dependencies: ["6EFEF430894B1838"]
+			id: "07404AE25D403F15"
+			tasks: [{
+				id: "2E689BA0178BFCAA"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "29DEB81DF0018C54"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -9.0d
+			y: -9.0d
+			dependencies: ["2746575C929B6C50"]
+			dependency_requirement: "one_started"
+			id: "6EFEF430894B1838"
+			tasks: [{
+				id: "39D461293FA1948E"
+				type: "item"
+				item: "storagedrawers:upgrade_template"
+			}]
+			rewards: [
+				{
+					id: "3C9DE89A2D0DD349"
+					type: "loot"
+					table_id: 631616933861910969L
+				}
+				{
+					id: "3BF29AFCC2B1C118"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -10.0d
+			subtitle: "4x the Storage"
+			dependencies: ["6EFEF430894B1838"]
+			id: "6CD64A7FC1DB9142"
+			tasks: [{
+				id: "799463624E607E0B"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "472BC3A410F2B58F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -7.0d
+			y: -9.0d
+			subtitle: "8x the Storage"
+			dependencies: ["6EFEF430894B1838"]
+			id: "03128285B915068C"
+			tasks: [{
+				id: "74BD86E29FF9CA22"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "3ED8E2F3B208C5AF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			subtitle: "16x the Storage"
+			dependencies: ["6EFEF430894B1838"]
+			id: "0351BAA7E42AB7FF"
+			tasks: [{
+				id: "1A9171F031CF50B1"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "4C65E8405683B1AB"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -7.0d
+			y: -7.0d
+			subtitle: "32x the Storage"
+			dependencies: ["6EFEF430894B1838"]
+			id: "7EFF53FAC2017DD3"
+			tasks: [{
+				id: "61C00A10F2C73DAE"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "570C0BDA698B02F5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -9.5d
+			y: -11.0d
+			description: [
+				"The drawer key locks drawers. This is useful when pumping out items in a network."
+				""
+				"It locks the drawer to only accept that item, even if it has 0 stored."
+				""
+				"The Quantify Key shows the quantity on a Drawer."
+			]
+			dependencies: ["6EFEF430894B1838"]
+			id: "2128E9346CD1B036"
+			tasks: [
+				{
+					id: "7D325B505D4357D8"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "5DB5D3AC4B494F59"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+			]
+			rewards: [
+				{
+					id: "5B267ACED8EE7F6E"
+					type: "item"
+					item: "storagedrawers:fill_level_upgrade"
+				}
+				{
+					id: "75C3698ACE341C8B"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -10.0d
+			dependencies: ["6EFEF430894B1838"]
+			id: "464997A7F2D97778"
+			tasks: [{
+				id: "3D490365C62BA7CE"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "35FC943D517F2EEE"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -8.0d
+			dependencies: ["6EFEF430894B1838"]
+			optional: true
+			id: "41785A3C46F4689D"
+			tasks: [{
+				id: "66FB04C1363BEED2"
+				type: "item"
+				item: "storagedrawers:redstone_upgrade"
+			}]
+			rewards: [{
+				id: "0C82E826E71A2C2F"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -7.0d
+			dependencies: ["6EFEF430894B1838"]
+			optional: true
+			id: "31334BC08715B6C1"
+			tasks: [{
+				id: "68306F5C39A979FE"
+				type: "item"
+				item: "storagedrawers:max_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "261FACE7AF726A34"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -9.0d
+			dependencies: ["6EFEF430894B1838"]
+			optional: true
+			id: "5EC418B8BE9EBDC4"
+			tasks: [{
+				id: "0D8D5D175ABEA414"
+				type: "item"
+				item: "storagedrawers:min_redstone_upgrade"
+			}]
+			rewards: [{
+				id: "6ADE3971FFF31341"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.5d
+			y: -11.0d
+			subtitle: "Shine bright like a.... drawer?"
+			description: ["This upgrade illuminates the drawer text at night."]
+			dependencies: ["6EFEF430894B1838"]
+			optional: true
+			id: "44D4BCE983B9A605"
+			tasks: [{
+				id: "34B9ED06F236BE1E"
+				type: "item"
+				item: "storagedrawers:illumination_upgrade"
+			}]
+			rewards: [{
+				id: "073E65F1F5783D6D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -11.0d
+			y: -11.0d
+			dependencies: ["6EFEF430894B1838"]
+			optional: true
+			id: "7E779B8E22899945"
+			tasks: [{
+				id: "46E26D4D0001B4EE"
+				type: "item"
+				item: "storagedrawers:conversion_upgrade"
+			}]
+			rewards: [{
+				id: "4ED4B72A8138E151"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: -5.0d
+			subtitle: "A mini-hub."
+			description: ["Works like the controller. Used as another entry point to your Drawer Network."]
+			dependencies: ["6FBAE89EE782DABA"]
+			id: "1A4B1CA7EC15348E"
+			tasks: [{
+				id: "38E95D826B04DC4F"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [
+				{
+					id: "76058EC17B7ACFE6"
+					type: "random"
+					table_id: 631616933861910969L
+				}
+				{
+					id: "2681AB1127E7CB35"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			icon: "storagedrawers:oak_full_drawers_1"
+			x: -11.25d
+			y: -5.0d
+			shape: "square"
+			description: [
+				"Storage Drawers is a mod for storing stacks of the same items."
+				""
+				"This is useful for items like Cobblestone, Dirt, etc."
+			]
+			size: 1.5d
+			id: "0682DC1F2417DAEB"
+			tasks: [{
+				id: "4B299AC7F0233132"
+				type: "checkmark"
+				title: "Storage Drawers"
+			}]
+			rewards: [{
+				id: "3E922A7D213E8FC5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			title: "Iron Chests"
+			icon: "ironchest:iron_chest"
+			x: -11.25d
+			y: -1.5d
+			shape: "square"
+			subtitle: "Upgradable Chests!"
+			description: [
+				"Iron Chests allows you to upgrade your chests with metals to increase storage!"
+				""
+				"No more vanilla double-chest rooms!"
+			]
+			size: 1.5d
+			id: "563CFA1EF74E52E9"
+			tasks: [{
+				id: "034F49638F207523"
+				type: "checkmark"
+				title: "Iron Chests"
+			}]
+			rewards: [{
+				id: "3084341A7D014CF5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -13.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"77F241BEE9902751"
+				"73CD1D166E4B89BE"
+			]
+			hide: false
+			id: "2A90763CBDD42CB0"
+			tasks: [{
+				id: "1A70D7F061ECDBF7"
+				type: "item"
+				item: "ironchest:dirt_chest"
+			}]
+			rewards: [
+				{
+					id: "10995ACBF1882DD0"
+					type: "loot"
+					table_id: 3261373324024738833L
+				}
+				{
+					id: "55B90BC1C0634F57"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Simple storage"
+			icon: "storagenetwork:master"
+			x: -11.25d
+			y: 4.5d
+			shape: "square"
+			size: 1.5d
+			id: "1921945E6EF0D2FC"
+			tasks: [{
+				id: "0C7D9E95DED82E3F"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "4115CC4E64CBAC19"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			dependencies: ["1921945E6EF0D2FC"]
+			id: "1E2E0D15E7C5E194"
+			tasks: [{
+				id: "3572A243FC626114"
+				type: "item"
+				item: "storagenetwork:kabel"
+			}]
+			rewards: [{
+				id: "1C2BD3D0AD7C49ED"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.0d
+			y: 7.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			id: "4199962189D38807"
+			tasks: [{
+				id: "6119218139290594"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "568588FD6E2B32B5"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 6.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			optional: true
+			id: "4E015AD94E2AE7A6"
+			tasks: [{
+				id: "4B9BD51D7FED6EF3"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [{
+				id: "58C1A28EDA4760A7"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.5d
+			y: 6.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			optional: true
+			id: "56CAD7E34B7499FF"
+			tasks: [{
+				id: "0F79833E3D78995D"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			rewards: [{
+				id: "24C4874CDC925094"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 7.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			optional: true
+			id: "2E3FCE1AB72BF44F"
+			tasks: [{
+				id: "033F0820BE47B2D2"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [{
+				id: "4914437219E309D1"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			dependencies: ["1E2E0D15E7C5E194"]
+			id: "21EDFBE9C3B99BAE"
+			tasks: [{
+				id: "7979489F74A462E7"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+			rewards: [{
+				id: "65E708A82D4FDEBA"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			dependencies: ["21EDFBE9C3B99BAE"]
+			id: "5D646F9DD73C5008"
+			tasks: [{
+				id: "4849F287A8D5E50B"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "1C975908B745E7D8"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			optional: true
+			id: "10F5CBE5FB01C681"
+			tasks: [{
+				id: "36D98A79D5A7E36A"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "5F7610600D91657D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			optional: true
+			id: "6AFBBC33FCBABA8E"
+			tasks: [{
+				id: "1C11D8AF719820AE"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "44A516A08724A658"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			dependencies: ["1E2E0D15E7C5E194"]
+			id: "7D326751678B22F5"
+			tasks: [{
+				id: "39B59E73E0032B6C"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+			rewards: [{
+				id: "0491119662B26A8B"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["6AFBBC33FCBABA8E"]
+			optional: true
+			id: "3DCAFA953309C37C"
+			tasks: [{
+				id: "53FC845B96028414"
+				type: "item"
+				item: "storagenetwork:exchange"
+			}]
+			rewards: [{
+				id: "23AABAD1E274A4D3"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["10F5CBE5FB01C681"]
+			optional: true
+			id: "47C917C463D8A697"
+			tasks: [{
+				id: "5C002FE949DD22B8"
+				type: "item"
+				item: "storagenetwork:collector"
+			}]
+			rewards: [{
+				id: "5E30E7CE59E0E466"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -10.0d
+			y: 1.5d
+			dependencies: ["7D326751678B22F5"]
+			optional: true
+			id: "7A6AD4CF5ED51692"
+			tasks: [{
+				id: "1E039B0D76CA24DA"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "523AB32C1A54E5FF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			dependencies: ["5D646F9DD73C5008"]
+			optional: true
+			id: "66F7C8C08DAE40D3"
+			tasks: [{
+				id: "7B3ABC60CF7EBB75"
+				type: "item"
+				item: "storagenetwork:builder_remote"
+			}]
+			rewards: [{
+				id: "0B196A0C9B60725A"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["7D326751678B22F5"]
+			id: "5CEB07DDA8D698E6"
+			tasks: [{
+				id: "41B3F9E637E54619"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [{
+				id: "1FC09BF5E9C33562"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
+}

@@ -1,7 +1,7 @@
 {
 	id: "268DEBEAFEE72F16"
 	group: ""
-	order_index: 10
+	order_index: 12
 	filename: "utilities"
 	title: "Utilities"
 	icon: "angelring:itemring"
@@ -1329,8 +1329,13 @@
 			}]
 		}
 		{
+			title: "Nature and Explorer Compass"
 			x: 1.5d
 			y: 1.5d
+			description: [
+				"The Nature Compass is used to find Biomes."
+				"The Explorer Compass is used to find dungeons."
+			]
 			dependencies: ["6A02245043A9B34E"]
 			id: "44C6DD5ACA93EB6E"
 			tasks: [
@@ -1540,6 +1545,47 @@
 			}]
 			rewards: [{
 				id: "2364393EB8BDF144"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			description: ["Used to grow plants"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "0D02B2A4ED9C0CC7"
+			tasks: [
+				{
+					id: "3C6C8AFE62601FB6"
+					type: "item"
+					item: "botanypots:botany_pot"
+				}
+				{
+					id: "3C6BC40A20A31AA0"
+					type: "item"
+					item: "botanypots:hopper_botany_pot"
+				}
+			]
+			rewards: [{
+				id: "111F93AEA6917F08"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			description: ["Used to find meteorites"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "4C9021FDF5AB557B"
+			tasks: [{
+				id: "253DBCE0B025B1FC"
+				type: "item"
+				item: "appliedenergistics2:sky_compass"
+			}]
+			rewards: [{
+				id: "343C75BBE5356AC1"
 				type: "xp"
 				xp: 100
 			}]

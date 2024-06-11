@@ -7,23 +7,35 @@
 	icon: "pandorasbox:pandoras_box"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		icon: "pandorasbox:pandoras_box"
-		x: 0.0d
-		y: 0.0d
-		shape: "hexagon"
-		description: ["Start your adventure using the starting equipment"]
-		size: 3.0d
-		id: "466D3D52A737C58C"
-		tasks: [{
-			id: "38FA3855FDE78A36"
-			type: "checkmark"
-			title: "Let's start"
-		}]
-		rewards: [{
-			id: "1336869E89C0CF85"
-			type: "xp"
-			xp: 100
-		}]
-	}]
+	quests: [
+		{
+			icon: "pandorasbox:pandoras_box"
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["Start your adventure using the starting equipment"]
+			size: 3.0d
+			id: "466D3D52A737C58C"
+			tasks: [{
+				id: "38FA3855FDE78A36"
+				type: "checkmark"
+				title: "Let's start"
+			}]
+			rewards: [{
+				id: "1336869E89C0CF85"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			id: "7CBEA9E79CF662A4"
+			tasks: [{
+				id: "13162F2DD9665DDA"
+				type: "checkmark"
+				title: "GitHub"
+			}]
+		}
+	]
 }
