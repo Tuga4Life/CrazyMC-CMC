@@ -28,14 +28,169 @@
 			}]
 		}
 		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "supplementaries:textures/gui/book/icon/github.png"
+				}
+			}
 			x: 0.0d
 			y: 4.0d
+			shape: "gear"
+			description: [
+				"If you find bugs and problems that need to be resolved, use the issues page, which you can find on the modpack page on Curse Forge."
+				"Do not use the comments on the Curse Forge modpack page to report these issues."
+			]
+			dependencies: ["466D3D52A737C58C"]
+			size: 2.0d
 			id: "7CBEA9E79CF662A4"
 			tasks: [{
 				id: "13162F2DD9665DDA"
 				type: "checkmark"
 				title: "GitHub"
 			}]
+			rewards: [
+				{
+					id: "26E81068F5257CFF"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_axe"
+						Count: 1b
+						tag: {
+							RepairCost: 1
+							Damage: 0
+							Enchantments: [{
+								lvl: 2s
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+				{
+					id: "733C4C5D0DD3872A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Comment"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbtestmodpack:textures/comment.png"
+				}
+			}
+			x: 2.0d
+			y: 4.0d
+			shape: "heart"
+			description: ["Comment in the comments section of the Curse Forge modpack page.I would like to know what you think of CrazyMC."]
+			dependencies: ["466D3D52A737C58C"]
+			size: 2.0d
+			id: "049BD3AED628EFE2"
+			tasks: [{
+				id: "2ADD60F1EC342283"
+				type: "checkmark"
+				title: "Comment in the comments section on the Curse Forege modpack page.I want to know what you think of CrazyMC."
+			}]
+			rewards: [
+				{
+					id: "18E58ACB853E57FD"
+					type: "item"
+					item: {
+						id: "thermal:satchel"
+						Count: 1b
+						tag: {
+							ItemInv: {
+								ItemInv: [
+									{
+										Slot: 0b
+										id: "alexsmobs:animal_dictionary"
+										Count: 1b
+									}
+									{
+										Slot: 1b
+										id: "tconstruct:materials_and_you"
+										Count: 1b
+									}
+									{
+										Slot: 2b
+										id: "ars_nouveau:worn_notebook"
+										Count: 1b
+									}
+									{
+										Slot: 3b
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "apotheosis:apoth_chronicle"
+										}
+									}
+									{
+										Slot: 4b
+										id: "guideapi-vp:vampirism-guidebook"
+										Count: 1b
+									}
+									{
+										Slot: 5b
+										id: "patchouli:guide_book"
+										Count: 1b
+										tag: {
+											"patchouli:book": "advancedperipherals:manual"
+										}
+									}
+									{
+										Slot: 6b
+										id: "theoneprobe:probenote"
+										Count: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "5A4D94AAFA14BBA4"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbtestmodpack:textures/donation_icon.png"
+				}
+			}
+			x: -2.0d
+			y: 4.0d
+			shape: "heart"
+			description: ["These modpacks take a long time to make and if you could donate some money I would be grateful."]
+			dependencies: ["466D3D52A737C58C"]
+			size: 2.0d
+			id: "0D35E98D76FA824E"
+			tasks: [{
+				id: "28BDD0157F34B3EA"
+				type: "checkmark"
+				title: "Donation <3"
+			}]
+			rewards: [
+				{
+					id: "314D710A38AF7A08"
+					type: "item"
+					item: "pamhc2foodcore:epicbaconitem"
+					count: 16
+				}
+				{
+					id: "35C4F7696613D29B"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 	]
 }

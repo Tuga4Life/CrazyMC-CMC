@@ -34,10 +34,10 @@
 		{
 			x: 3.0d
 			y: 6.5d
-			width: 1.0d
-			height: 1.0d
+			width: 2.5d
+			height: 2.5d
 			rotation: 0.0d
-			image: "minecraft:textures/gui/presets/isles.png"
+			image: "ftbtestmodpack:textures/radiacion.png"
 			hover: [ ]
 			click: ""
 			dev: false
