@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = resources/54a656478.jpg
+  path = resources/background.jpg
   action = texturizebackground
 }
 
@@ -154,6 +154,11 @@ customization {
 }
 
 customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
   orientation = top-left
   hidden = true
   x = 346
@@ -219,10 +224,5 @@ customization {
   actionid = 1b9a4da5-b7da-4020-9696-6073581c09791713732025230
   y = 0
   height = 30
-}
-
-customization {
-  identifier = %id=376346%
-  action = hidebutton
 }
 

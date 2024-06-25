@@ -7,6 +7,18 @@
 	icon: "pandorasbox:pandoras_box"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -4.5d
+		width: 11.0d
+		height: 7.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/Iniciais.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			icon: "pandorasbox:pandoras_box"
@@ -85,7 +97,7 @@
 			}
 			x: 2.0d
 			y: 4.0d
-			shape: "heart"
+			shape: "circle"
 			description: ["Comment in the comments section of the Curse Forge modpack page.I would like to know what you think of CrazyMC."]
 			dependencies: ["466D3D52A737C58C"]
 			size: 2.0d
@@ -159,17 +171,17 @@
 			]
 		}
 		{
+			title: "By me a coffee"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
 				tag: {
-					Icon: "ftbtestmodpack:textures/donation_icon.png"
+					Icon: "pamhc2crops:textures/item/hotcoffeeitem.png"
 				}
 			}
 			x: -2.0d
 			y: 4.0d
-			shape: "heart"
-			description: ["These modpacks take a long time to make and if you could donate some money I would be grateful."]
+			description: ["These modpacks take a long time to make and if you could by me a coffee I would be grateful."]
 			dependencies: ["466D3D52A737C58C"]
 			size: 2.0d
 			id: "0D35E98D76FA824E"
