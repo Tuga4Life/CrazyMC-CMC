@@ -7,11 +7,24 @@
 	icon: "allthemodium:allthemodium_ingot"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.0d
+		y: -3.5d
+		width: 15.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/allthemodium.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
+			title: "Allthemodium"
 			icon: "allthemodium:allthemodium_ingot"
 			x: 0.0d
-			y: -3.0d
+			y: -1.0d
 			description: ["This is one of the most powerful ingots"]
 			size: 2.0d
 			id: "7F44082EEA9F23EC"
@@ -281,7 +294,10 @@
 		{
 			x: -1.5d
 			y: 5.0d
-			description: ["In this dimension you will find almost all types of ores and a new danger is added... be careful with the dragons."]
+			description: [
+				"In this dimension you will find almost all types of ores and a new danger is added... be careful with the dragons."
+				"To enter the dimension shift+right-click, without any item in hand."
+			]
 			dependencies: ["1AC8901518F9198A"]
 			id: "68579A80A8703C9F"
 			tasks: [{
@@ -508,7 +524,7 @@
 		}
 		{
 			x: 0.0d
-			y: -0.5d
+			y: 1.0d
 			description: ["Now you can read all about it"]
 			dependencies: ["7F44082EEA9F23EC"]
 			id: "2536F6E0536BEE80"
@@ -550,10 +566,7 @@
 			x: -1.5d
 			y: 7.5d
 			description: ["The lightning dragon will help you to forge"]
-			dependencies: [
-				"29CFECDD1C236046"
-				"3ED8A9C9B74FF033"
-			]
+			dependencies: ["29CFECDD1C236046"]
 			id: "464FF2E78357900D"
 			tasks: [{
 				id: "1DFF8DD0E31F91CE"
@@ -582,10 +595,7 @@
 			x: 0.0d
 			y: 7.5d
 			description: ["The ice dragon will help you to forge"]
-			dependencies: [
-				"29CFECDD1C236046"
-				"5C21FFCE14A61846"
-			]
+			dependencies: ["29CFECDD1C236046"]
 			id: "1EA6DDA5F2CF01E8"
 			tasks: [{
 				id: "7515AD8244D75796"
@@ -614,10 +624,7 @@
 			x: -3.0d
 			y: 7.5d
 			description: ["The fire dragon will help you to forge"]
-			dependencies: [
-				"29CFECDD1C236046"
-				"3ED8A9C9B74FF033"
-			]
+			dependencies: ["29CFECDD1C236046"]
 			id: "48153BF9924F99CE"
 			tasks: [{
 				id: "4EE4C5F6B220BF49"

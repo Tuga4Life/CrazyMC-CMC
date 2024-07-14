@@ -1,7 +1,7 @@
 {
 	id: "0B826D13BAD43EEB"
 	group: ""
-	order_index: 6
+	order_index: 8
 	filename: "draconic_evolution"
 	title: "Draconic Evolution"
 	icon: {
@@ -27,8 +27,8 @@
 			corner: false
 		}
 		{
-			x: 4.5d
-			y: -1.5d
+			x: 17.0d
+			y: 0.5d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
@@ -38,11 +38,23 @@
 			dev: false
 			corner: false
 		}
+		{
+			x: 7.0d
+			y: -2.5d
+			width: 18.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/draconicevolution.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
 	]
 	quests: [
 		{
-			x: 0.0d
-			y: -3.0d
+			x: -3.0d
+			y: 1.0d
 			shape: "pentagon"
 			id: "52847C168E65DCF0"
 			tasks: [{
@@ -995,7 +1007,7 @@
 		{
 			title: "Draconium"
 			x: 0.0d
-			y: -0.5d
+			y: 1.0d
 			dependencies: ["52847C168E65DCF0"]
 			id: "3F1918A3D549E1D3"
 			tasks: [{

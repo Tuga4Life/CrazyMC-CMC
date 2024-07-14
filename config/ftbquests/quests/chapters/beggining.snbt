@@ -4,7 +4,13 @@
 	order_index: 0
 	filename: "beggining"
 	title: "Welcome"
-	icon: "pandorasbox:pandoras_box"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "ftbtestmodpack:textures/crazymc.png"
+		}
+	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
@@ -13,7 +19,7 @@
 		width: 11.0d
 		height: 7.0d
 		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Iniciais.png"
+		image: "ftbtestmodpack:textures/cmctuga.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -21,11 +27,11 @@
 	}]
 	quests: [
 		{
-			icon: "pandorasbox:pandoras_box"
+			icon: "atmadditions:pulsating_black_hole"
 			x: 0.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["Start your adventure using the starting equipment"]
+			description: ["Conquer the power of the Black Hole to create creative crafts, achieving the power of the void."]
 			size: 3.0d
 			id: "466D3D52A737C58C"
 			tasks: [{
@@ -181,7 +187,10 @@
 			}
 			x: -2.0d
 			y: 4.0d
-			description: ["These modpacks take a long time to make and if you could by me a coffee I would be grateful."]
+			description: [
+				"These modpacks take a long time to make and if you could by me a coffee I would be grateful."
+				"To buy me a coffee click on the donation button on the modpack website in curse forge."
+			]
 			dependencies: ["466D3D52A737C58C"]
 			size: 2.0d
 			id: "0D35E98D76FA824E"

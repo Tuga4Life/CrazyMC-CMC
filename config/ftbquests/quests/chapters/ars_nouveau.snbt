@@ -9,24 +9,15 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: 0.0d
-		width: 15.0d
-		height: 13.0d
+		y: -4.0d
+		width: 13.0d
+		height: 3.0d
 		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Coming_soon.png"
+		image: "ftbtestmodpack:textures/arsnouveau.png"
 		hover: [ ]
 		click: ""
 		dev: false
 		corner: false
 	}]
-	quests: [{
-		x: 1.5d
-		y: 6.0d
-		id: "579D527931EF77B2"
-		tasks: [{
-			id: "1690CCDA7565C992"
-			type: "checkmark"
-			title: "More is coming soon"
-		}]
-	}]
+	quests: [ ]
 }

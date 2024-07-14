@@ -7,6 +7,18 @@
 	icon: "angelring:itemring"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -5.0d
+		width: 10.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/utilities.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: 0.0d
@@ -25,8 +37,8 @@
 			}]
 		}
 		{
-			x: 0.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 			description: ["Fly like in creative"]
 			dependencies: ["6A02245043A9B34E"]
 			id: "2D4CC5BDAB5283F0"
@@ -42,8 +54,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -1.5d
+			x: 2.0d
+			y: -0.5d
 			description: ["A wand that changes blocks effortlessly"]
 			dependencies: ["6A02245043A9B34E"]
 			id: "0E362A8BA04A22D7"
@@ -81,7 +93,7 @@
 		}
 		{
 			x: 2.0d
-			y: 0.0d
+			y: 0.5d
 			description: ["Stocks and accelerate time"]
 			dependencies: ["6A02245043A9B34E"]
 			id: "1C43AE04E2DB21C5"
@@ -1330,8 +1342,8 @@
 		}
 		{
 			title: "Nature and Explorer Compass"
-			x: 1.5d
-			y: 1.5d
+			x: 0.5d
+			y: 2.0d
 			description: [
 				"The Nature Compass is used to find Biomes."
 				"The Explorer Compass is used to find dungeons."
@@ -1361,7 +1373,7 @@
 			rewards: [{
 				id: "6B8077CC7B27B07E"
 				type: "xp"
-				xp: 100
+				xp: 200
 			}]
 		}
 		{
@@ -1550,7 +1562,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 2.0d
 			description: ["Used to grow plants"]
 			dependencies: ["6A02245043A9B34E"]
@@ -1570,7 +1582,7 @@
 			rewards: [{
 				id: "111F93AEA6917F08"
 				type: "xp"
-				xp: 100
+				xp: 200
 			}]
 		}
 		{
@@ -1589,6 +1601,381 @@
 				type: "xp"
 				xp: 100
 			}]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			description: ["A special torch which prevents mob spawning,"]
+			dependencies: ["6A02245043A9B34E"]
+			id: "40247B5C1B0340F1"
+			tasks: [
+				{
+					id: "0485D2CEC44C5A05"
+					type: "item"
+					item: "torchmaster:megatorch"
+				}
+				{
+					id: "5B031B7DC4ADA4CB"
+					type: "item"
+					item: "torchmaster:feral_flare_lantern"
+				}
+			]
+			rewards: [{
+				id: "2F59B8F60F900C79"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			title: "Compact machines"
+			x: -2.0d
+			y: -0.5d
+			description: ["Compact Machines have different sizes, so use the size that's appropriate for what you need. These sizes range from Tiny to Maximum."]
+			dependencies: ["6A02245043A9B34E"]
+			id: "46B8AADE6E1FF612"
+			tasks: [{
+				id: "0284F7BDE9EAD612"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [{
+				id: "47799ACF6F14BA5F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Dragon Kit"
+			x: 1.5d
+			y: 1.5d
+			dependencies: ["6A02245043A9B34E"]
+			id: "2B0B3DEEDC483B20"
+			tasks: [
+				{
+					id: "605844DE9594477E"
+					type: "item"
+					item: "iceandfire:dragon_horn"
+				}
+				{
+					id: "59D28198E97A2048"
+					type: "item"
+					item: "iceandfire:dragon_stick"
+				}
+				{
+					id: "181F44CFC5656993"
+					type: "item"
+					item: "iceandfire:dragon_flute"
+				}
+			]
+			rewards: [{
+				id: "58383C8D7A7DA11F"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["2B0B3DEEDC483B20"]
+			id: "726CB6B66D4E0CDC"
+			tasks: [{
+				id: "3978BF76E113DF47"
+				type: "item"
+				item: {
+					id: "dragonseeker:epic_dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4B442F1051B2AF60"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			dependencies: ["6A02245043A9B34E"]
+			id: "14B1E9047EE4FE6B"
+			tasks: [
+				{
+					id: "350453E9072E9AB4"
+					type: "item"
+					item: "iceandfire:summoning_crystal_fire"
+				}
+				{
+					id: "1286D2745BFFAABE"
+					type: "item"
+					item: "iceandfire:summoning_crystal_ice"
+				}
+				{
+					id: "4D2CC66E9A38400B"
+					type: "item"
+					item: "iceandfire:summoning_crystal_lightning"
+				}
+			]
+			rewards: [{
+				id: "6597F05BBA1B4EBC"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["1B6241EF2E4162A7"]
+			id: "0924115EE41AB2A2"
+			tasks: [{
+				id: "3889C0DBF7E7F507"
+				type: "item"
+				item: "ironfurnaces:gold_furnace"
+			}]
+			rewards: [
+				{
+					id: "7CE722B4F97F1E42"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "6D8324EB854470D7"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["0924115EE41AB2A2"]
+			id: "318E9F92A6AC7DFC"
+			tasks: [{
+				id: "636F3EB84C051BCB"
+				type: "item"
+				item: "ironfurnaces:diamond_furnace"
+			}]
+			rewards: [
+				{
+					id: "1E96EA00ECC7FE80"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "1A6324E50A62AA93"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			dependencies: ["318E9F92A6AC7DFC"]
+			optional: true
+			id: "2C155291EF8CDC19"
+			tasks: [{
+				id: "38C584EFC8F864F3"
+				type: "item"
+				item: "ironfurnaces:crystal_furnace"
+			}]
+			rewards: [
+				{
+					id: "0BA953E355C9B2C7"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "3F2FBBFE9856D295"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			dependencies: ["318E9F92A6AC7DFC"]
+			id: "36ADC6BDCB33F4C5"
+			tasks: [{
+				id: "2FB6DAD9944A8AD1"
+				type: "item"
+				item: "ironfurnaces:emerald_furnace"
+			}]
+			rewards: [
+				{
+					id: "0779C6A87C10B51C"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "2A06C92CD7A60058"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.0d
+			dependencies: [
+				"36ADC6BDCB33F4C5"
+				"2C155291EF8CDC19"
+			]
+			dependency_requirement: "one_completed"
+			id: "1006AD6EB9EB6415"
+			tasks: [{
+				id: "2549118E14E4B954"
+				type: "item"
+				item: "ironfurnaces:obsidian_furnace"
+			}]
+			rewards: [
+				{
+					id: "1495E346E801B20E"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "3384C5F2C126B711"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			dependencies: ["1006AD6EB9EB6415"]
+			id: "2DB4E9986138455E"
+			tasks: [{
+				id: "448244FC776BA60C"
+				type: "item"
+				item: "ironfurnaces:netherite_furnace"
+			}]
+			rewards: [
+				{
+					id: "12CC0FC3616D9238"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "731B9FC5CF9B5EB0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			title: "Iron Furnace"
+			x: 0.0d
+			y: 4.0d
+			id: "1B6241EF2E4162A7"
+			tasks: [{
+				id: "2DCCD9641AED181A"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironfurnaces:iron_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:copper_furnace"
+								Count: 1b
+							}
+							{
+								id: "ironfurnaces:silver_furnace"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "58ABCF55F8CF302E"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "27D8FF0CFEA9EBAF"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 11.0d
+			dependencies: ["2DB4E9986138455E"]
+			id: "515E5C28D90C5842"
+			tasks: [{
+				id: "43B93AF53EB92770"
+				type: "item"
+				item: "ironfurnaces:allthemodium_furnace"
+			}]
+			rewards: [
+				{
+					id: "6F8B00C28E6C28CE"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "35569CE443F9748F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 12.5d
+			dependencies: ["515E5C28D90C5842"]
+			id: "5ACD0EA4CFC54638"
+			tasks: [{
+				id: "1980ED7725069ACB"
+				type: "item"
+				item: "ironfurnaces:vibranium_furnace"
+			}]
+			rewards: [
+				{
+					id: "160BD3CCEEE7FC4E"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "3B04074E8C565631"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 12.5d
+			dependencies: ["5ACD0EA4CFC54638"]
+			id: "2AC6538A6CE5F530"
+			tasks: [{
+				id: "40D1826B69D16033"
+				type: "item"
+				item: "ironfurnaces:unobtainium_furnace"
+			}]
+			rewards: [
+				{
+					id: "4CAAC7E44D05A4D7"
+					type: "random"
+					table_id: 2142681524513952145L
+				}
+				{
+					id: "0E885E5B1F4277E2"
+					type: "xp"
+					xp: 10
+				}
+			]
 		}
 	]
 }

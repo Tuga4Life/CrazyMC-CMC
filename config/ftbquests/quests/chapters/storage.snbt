@@ -7,6 +7,18 @@
 	icon: "ironchest:diamond_chest"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: -7.5d
+		y: -5.5d
+		width: 12.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/basicsorage.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			x: -9.0d
@@ -17,7 +29,26 @@
 			tasks: [{
 				id: "77A9435B6739348E"
 				type: "item"
-				item: "ironchest:iron_chest"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "ironchest:iron_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:copper_chest"
+								Count: 1b
+							}
+							{
+								id: "ironchest:silver_chest"
+								Count: 1b
+							}
+						]
+					}
+				}
 			}]
 			rewards: [
 				{
@@ -90,6 +121,7 @@
 				"*Note: Too many of these has been known to cause lag."
 			]
 			dependencies: ["4C0BDD483CCB40C4"]
+			optional: true
 			id: "73CD1D166E4B89BE"
 			tasks: [{
 				id: "2CCB463CF049D5D9"
@@ -115,6 +147,7 @@
 			subtitle: "The best <3"
 			description: ["The obsidian chest has the same storage capacity as a diamond chest, it just can't be blown up."]
 			dependencies: ["4C0BDD483CCB40C4"]
+			optional: true
 			id: "77F241BEE9902751"
 			tasks: [{
 				id: "34B6EB0B801E4743"
@@ -137,8 +170,8 @@
 		{
 			title: "My First Drawer"
 			icon: "storagedrawers:oak_full_drawers_1"
-			x: -9.0d
-			y: -5.0d
+			x: 1.5d
+			y: -3.0d
 			subtitle: "Stacks on Stacks"
 			description: [
 				"Craft yourself a 1x1 drawer. This item holds 32 stacks of a single item."
@@ -175,8 +208,8 @@
 			]
 		}
 		{
-			x: -7.5d
-			y: -5.0d
+			x: 0.0d
+			y: -3.0d
 			subtitle: "Auto-Convert to blocks."
 			description: [
 				"This item can convert items placed inside to their nugget or block forms."
@@ -205,8 +238,8 @@
 			]
 		}
 		{
-			x: -6.0d
-			y: -5.0d
+			x: -1.5d
+			y: -3.0d
 			subtitle: "The Brain of the Drawers."
 			description: [
 				"When placed and connected to other drawers, this block acts as a \"Hub.\""
@@ -235,8 +268,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -11.0d
+			x: 2.0d
+			y: 2.0d
 			subtitle: "2x the Storage"
 			dependencies: ["6EFEF430894B1838"]
 			id: "07404AE25D403F15"
@@ -252,8 +285,8 @@
 			}]
 		}
 		{
-			x: -9.0d
-			y: -9.0d
+			x: 1.5d
+			y: 0.0d
 			dependencies: ["2746575C929B6C50"]
 			dependency_requirement: "one_started"
 			id: "6EFEF430894B1838"
@@ -276,8 +309,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: -10.0d
+			x: 1.0d
+			y: 2.0d
 			subtitle: "4x the Storage"
 			dependencies: ["6EFEF430894B1838"]
 			id: "6CD64A7FC1DB9142"
@@ -293,8 +326,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -9.0d
+			x: -0.5d
+			y: 2.0d
 			subtitle: "8x the Storage"
 			dependencies: ["6EFEF430894B1838"]
 			id: "03128285B915068C"
@@ -310,8 +343,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -8.0d
+			x: -0.5d
+			y: 1.0d
 			subtitle: "16x the Storage"
 			dependencies: ["6EFEF430894B1838"]
 			id: "0351BAA7E42AB7FF"
@@ -327,8 +360,8 @@
 			}]
 		}
 		{
-			x: -7.0d
-			y: -7.0d
+			x: -0.5d
+			y: 0.0d
 			subtitle: "32x the Storage"
 			dependencies: ["6EFEF430894B1838"]
 			id: "7EFF53FAC2017DD3"
@@ -344,8 +377,8 @@
 			}]
 		}
 		{
-			x: -9.5d
-			y: -11.0d
+			x: 3.5d
+			y: 1.0d
 			description: [
 				"The drawer key locks drawers. This is useful when pumping out items in a network."
 				""
@@ -381,8 +414,8 @@
 			]
 		}
 		{
-			x: -11.0d
-			y: -10.0d
+			x: 3.5d
+			y: -1.0d
 			dependencies: ["6EFEF430894B1838"]
 			id: "464997A7F2D97778"
 			tasks: [{
@@ -397,8 +430,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -8.0d
+			x: -0.5d
+			y: -2.0d
 			dependencies: ["6EFEF430894B1838"]
 			optional: true
 			id: "41785A3C46F4689D"
@@ -414,8 +447,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -7.0d
+			x: 3.5d
+			y: -2.0d
 			dependencies: ["6EFEF430894B1838"]
 			optional: true
 			id: "31334BC08715B6C1"
@@ -431,8 +464,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -9.0d
+			x: -0.5d
+			y: -1.0d
 			dependencies: ["6EFEF430894B1838"]
 			optional: true
 			id: "5EC418B8BE9EBDC4"
@@ -448,8 +481,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -11.0d
+			x: 3.5d
+			y: 2.0d
 			subtitle: "Shine bright like a.... drawer?"
 			description: ["This upgrade illuminates the drawer text at night."]
 			dependencies: ["6EFEF430894B1838"]
@@ -467,8 +500,8 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -11.0d
+			x: 3.5d
+			y: 0.0d
 			dependencies: ["6EFEF430894B1838"]
 			optional: true
 			id: "7E779B8E22899945"
@@ -484,8 +517,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -5.0d
+			x: -3.0d
+			y: -3.0d
 			subtitle: "A mini-hub."
 			description: ["Works like the controller. Used as another entry point to your Drawer Network."]
 			dependencies: ["6FBAE89EE782DABA"]
@@ -510,8 +543,8 @@
 		}
 		{
 			icon: "storagedrawers:oak_full_drawers_1"
-			x: -11.25d
-			y: -5.0d
+			x: 1.5d
+			y: -4.5d
 			shape: "square"
 			description: [
 				"Storage Drawers is a mod for storing stacks of the same items."
@@ -560,10 +593,7 @@
 			x: -13.0d
 			y: -1.5d
 			hide_dependency_lines: true
-			dependencies: [
-				"77F241BEE9902751"
-				"73CD1D166E4B89BE"
-			]
+			dependencies: ["4C0BDD483CCB40C4"]
 			hide: false
 			id: "2A90763CBDD42CB0"
 			tasks: [{
@@ -838,7 +868,7 @@
 		{
 			x: -8.0d
 			y: 1.5d
-			dependencies: ["7D326751678B22F5"]
+			dependencies: ["7A6AD4CF5ED51692"]
 			id: "5CEB07DDA8D698E6"
 			tasks: [{
 				id: "41B3F9E637E54619"
@@ -850,6 +880,113 @@
 				type: "xp"
 				xp: 10
 			}]
+		}
+		{
+			title: "Traveler's Backpack"
+			x: 1.5d
+			y: 4.0d
+			id: "1A648759DA52A21C"
+			tasks: [
+				{
+					id: "7F83B1860601F819"
+					type: "item"
+					item: {
+						id: "travelersbackpack:standard"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "09DC00B5B63E7A86"
+					type: "item"
+					item: "minecraft:smithing_table"
+				}
+			]
+			rewards: [{
+				id: "4702234F32498638"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			dependencies: ["1A648759DA52A21C"]
+			id: "6F48A5483CCB28B0"
+			tasks: [{
+				id: "2CDF5E09C3375D26"
+				type: "item"
+				item: "travelersbackpack:iron_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5E54FFEAD2D7099C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "1B22641D98DE56A7"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			dependencies: ["6F48A5483CCB28B0"]
+			id: "13CC8410F035C268"
+			tasks: [{
+				id: "3DBEDEEDFDA7157D"
+				type: "item"
+				item: "travelersbackpack:gold_tier_upgrade"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			dependencies: ["13CC8410F035C268"]
+			id: "37BBCB2B3696116E"
+			tasks: [{
+				id: "658B1660DF317F14"
+				type: "item"
+				item: "travelersbackpack:diamond_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "35B7A4F8CDD3C4CD"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "4DC148FC32222E7C"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			dependencies: ["37BBCB2B3696116E"]
+			id: "4B816FD8E6102E76"
+			tasks: [{
+				id: "4CEBD883313D6DF2"
+				type: "item"
+				item: "travelersbackpack:netherite_tier_upgrade"
+			}]
+			rewards: [
+				{
+					id: "69964F6B51B021B5"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+				{
+					id: "702F80BD20A154C8"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }

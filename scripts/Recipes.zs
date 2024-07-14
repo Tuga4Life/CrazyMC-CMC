@@ -47,7 +47,7 @@ craftingTable.removeByName("mekanism:atomic_disassembler");
 //adding shapped recipes
 craftingTable.addShaped("time_in_a_bottle",<item:tiab:timeinabottle>, [
     [<item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>],
-    [<item:minecraft:diamond>, <item:projecte:watch_of_flowing_time>, <item:minecraft:diamond>],
+    [<item:minecraft:diamond>, <item:minecraft:clock>, <item:minecraft:diamond>],
     [<item:minecraft:lapis_lazuli>, <item:minecraft:glass_bottle>, <item:minecraft:lapis_lazuli>]
 ]);
 
@@ -67,6 +67,11 @@ craftingTable.addShaped("allthemodiumjetpack",<item:ironjetpacks:allthemodium_je
     [<item:ironjetpacks:allthemodium_thruster>, <item:angelring:itemring>, <item:ironjetpacks:allthemodium_thruster>]
 ]);
 
+craftingTable.addShaped("creativejetpack",<item:ironjetpacks:creative_jetpack>, [
+    [<item:mysticalagradditions:creative_essence>, <item:ironjetpacks:creative_capacitor>, <item:mysticalagradditions:creative_essence>],
+    [<item:mysticalagradditions:creative_essence>, <item:ironjetpacks:unobtainium_jetpack>, <item:mysticalagradditions:creative_essence>],
+    [<item:ironjetpacks:creative_thruster>, <item:minecraft:air>, <item:ironjetpacks:creative_thruster>]
+]);
 
 /////////////////////////////////IVENTORYPETS///////////////////////////////////
 
@@ -336,25 +341,6 @@ craftingTable.addShaped("hollypetsun",<item:inventorypets:pet_sun>, [
     [<item:chaosawakens:sunstone>, <item:chaosawakens:sunstone_block>, <item:chaosawakens:sunstone>]
 ]);
 
-
-/////////////////////////////////PANDORA'SBOX///////////////////////////////////
-
-//remove recipe
-craftingTable.removeRecipe(<item:pandorasbox:pandoras_box>);
-
-//adding recipe
-mods.extendedcrafting.TableCrafting.addShaped("b8f79af5-b1b0-4901-bbdb-8bb7be714520", 0, <item:pandorasbox:pandoras_box>, [
-	[<item:minecraft:air>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:endrem:guardian_eye>.withTag({Damage: 0 as int}), <item:botania:life_essence>, <item:endrem:rogue_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>, <item:minecraft:air>], 
-	[<item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:endrem:witch_eye>.withTag({Damage: 0 as int}), <item:draconicadditions:chaos_heart>, <item:endrem:end_crystal_eye>.withTag({Damage: 0 as int}), <item:draconicadditions:chaos_heart>, <item:endrem:nether_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>], 
-	[<item:cataclysm:ignitium_ingot>, <item:endrem:magical_eye>.withTag({Damage: 0 as int}), <tag:items:forge:ingots/dragonsteel_lightning>, <item:iceandfire:ghost_ingot>, <tag:items:forge:ingots/dragonsteel_ice>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:forge:ingots/dragonsteel_lightning>, <item:endrem:wither_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>], 
-	[<item:cataclysm:ignitium_ingot>, <tag:items:vampirism:pure_blood>, <item:iceandfire:ghost_ingot>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/polonium>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:vampirism:pure_blood>, <item:cataclysm:ignitium_ingot>], 
-	[<item:chaosawakens:royal_guardian_scale>, <tag:items:forge:ingots/dragonsteel_ice>, <item:appliedenergistics2:singularity>, <tag:items:forge:pellets/polonium>, <item:cataclysm:void_core>, <tag:items:forge:pellets/polonium>, <item:appliedenergistics2:singularity>, <tag:items:forge:ingots/dragonsteel_ice>, <item:cataclysm:ignitium_ingot>], 
-	[<item:cataclysm:ignitium_ingot>, <tag:items:vampirism:pure_blood>, <item:iceandfire:ghost_ingot>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/polonium>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:vampirism:pure_blood>, <item:chaosawakens:royal_guardian_scale>], 
-	[<item:chaosawakens:royal_guardian_scale>, <item:endrem:old_eye>.withTag({Damage: 0 as int}), <tag:items:forge:ingots/dragonsteel_lightning>, <item:iceandfire:ghost_ingot>, <tag:items:forge:ingots/dragonsteel_ice>, <tag:items:forge:ingots/dragonsteel_fire>, <tag:items:forge:ingots/dragonsteel_lightning>, <item:endrem:lost_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>], 
-	[<item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:endrem:cold_eye>.withTag({Damage: 0 as int}), <item:mysticalagradditions:insanium_essence>, <item:endrem:corrupted_eye>.withTag({Damage: 0 as int}), <item:mysticalagradditions:insanium_essence>, <item:endrem:black_eye>.withTag({Damage: 0 as int}), <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>], 
-	[<item:allthecompressed:nether_star_block_9x>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:allthecompressed:nether_star_block_9x>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:chaosawakens:royal_guardian_scale>, <item:allthecompressed:nether_star_block_9x>]
-]);
-
 /////////////////////////////////REFINED STORAGE/////////////////////////////////
 
 //remove recipe
@@ -362,14 +348,196 @@ craftingTable.removeRecipe(<item:rsinfinitybooster:infinity_card>);
 craftingTable.removeRecipe(<item:rsinfinitybooster:dimension_card>);
 
 //adding recipe
-craftingTable.addShaped("dimensioncard",<item:rsinfinitybooster:dimension_card>, [
+craftingTable.addShaped("rsdimensioncard",<item:rsinfinitybooster:dimension_card>, [
     [<item:rsinfinitybooster:infinity_card>, <item:allthecompressed:nether_star_block_1x>, <item:rsinfinitybooster:infinity_card>],
     [<item:allthecompressed:nether_star_block_1x>, <item:allthecompressed:vibranium_block_1x>, <item:allthecompressed:nether_star_block_1x>],
     [<item:rsinfinitybooster:infinity_card>, <item:allthecompressed:nether_star_block_1x>, <item:rsinfinitybooster:infinity_card>]
 ]);
 
-craftingTable.addShaped("infinitycard",<item:rsinfinitybooster:infinity_card>, [
+craftingTable.addShaped("rsinfinitycard",<item:rsinfinitybooster:infinity_card>, [
     [<item:allthemodium:vibranium_ingot>, <item:refinedstorage:range_upgrade>, <item:allthemodium:vibranium_ingot>],
     [<item:refinedstorage:range_upgrade>, <item:allthecompressed:nether_star_block_1x>, <item:refinedstorage:range_upgrade>],
     [<item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>, <item:allthemodium:allthemodium_ingot>]
+]);
+
+/////////////////////////////////COMPACT MACHINES///////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:compactmachines:machine_maximum>);
+craftingTable.removeRecipe(<item:compactmachines:machine_giant>);
+craftingTable.removeRecipe(<item:compactmachines:machine_normal>);
+craftingTable.removeRecipe(<item:compactmachines:machine_small>);
+craftingTable.removeRecipe(<item:compactmachines:machine_large>);
+
+//adding recipe
+craftingTable.addShaped("compactmax",<item:compactmachines:machine_maximum>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:machine_giant>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.addShaped("compactgiant",<item:compactmachines:machine_giant>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:machine_large>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.addShaped("compactlarge",<item:compactmachines:machine_large>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:machine_normal>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.addShaped("compactnormal",<item:compactmachines:machine_normal>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:machine_small>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+craftingTable.addShaped("compactsmall",<item:compactmachines:machine_small>, [
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:machine_tiny>, <item:compactmachines:wall>],
+    [<item:compactmachines:wall>, <item:compactmachines:wall>, <item:compactmachines:wall>]
+]);
+
+/////////////////////////////////ICE AND FIRE///////////////////////////////////
+
+//adding recipe
+craftingTable.addShaped("godlydragonseeker",<item:dragonseeker:godly_dragonseeker>, [
+    [<item:minecraft:air>, <item:atmadditions:pulsating_black_hole>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:allthemodium:unobtainium_allthemodium_alloy_ingot>, <item:minecraft:air>],
+    [<item:minecraft:air>, <item:allthemodium:unobtainium_allthemodium_alloy_ingot>, <item:minecraft:air>]
+]);
+
+/////////////////////////////////ATM TWEAKS///////////////////////////////////
+
+//adding recipe
+mods.extendedcrafting.TableCrafting.addShaped("megafuel", <item:atmadditions:philosophers_fuel>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:lapis_block_9x>, <item:allthecompressed:copper_block_9x>, <item:allthecompressed:copper_block_9x>, <item:allthecompressed:lapis_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:gold_block_9x>, <item:allthecompressed:iron_block_9x>, <item:projecte:aeternalis_fuel>, <item:allthecompressed:iron_block_9x>, <item:allthecompressed:gold_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>], 
+	[<item:allthecompressed:redstone_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:steel_block_9x>, <item:allthecompressed:diamond_block_9x>, <item:projecte:klein_star_omega>, <item:allthecompressed:diamond_block_9x>, <item:allthecompressed:steel_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:redstone_block_9x>], 
+	[<item:allthecompressed:redstone_block_9x>, <item:allthecompressed:aluminum_block_9x>, <item:allthecompressed:gold_block_9x>, <item:allthecompressed:emerald_block_9x>, <item:projecte:aeternalis_fuel>, <item:allthecompressed:emerald_block_9x>, <item:allthecompressed:gold_block_9x>, <item:allthecompressed:aluminum_block_9x>, <item:allthecompressed:redstone_block_9x>], 
+	[<item:allthecompressed:redstone_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:lapis_block_9x>, <item:allthecompressed:copper_block_9x>, <item:allthecompressed:copper_block_9x>, <item:allthecompressed:copper_block_9x>, <item:allthecompressed:lapis_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:redstone_block_9x>], 
+	[<item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:aluminum_block_9x>, <item:allthecompressed:netherite_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:allthecompressed:redstone_block_9x>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped("blackhole", <item:atmadditions:pulsating_black_hole>, [
+	[<item:minecraft:air>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <item:minecraft:air>], 
+	[<tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:cataclysm:music_disc_ender_guardian>, <item:botania:life_essence>, <item:botania:life_essence>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <item:chaosawakens:royal_guardian_scale>, <item:atmadditions:philosophers_fuel>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:botania:life_essence>, <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <item:chaosawakens:royal_guardian_scale>, <item:botania:life_essence>, <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <item:mowziesmobs:barako_mask>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <item:chaosawakens:royal_guardian_scale>, <item:mowziesmobs:ice_crystal>.withTag({Damage: 0 as int}), <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <item:botania:life_essence>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <tag:items:forge:ingots/unobtainium_vibranium_alloy>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <item:botania:life_essence>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <item:atmadditions:philosophers_fuel>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:pellets/antimatter>], 
+	[<tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <item:botania:life_essence>, <item:botania:life_essence>, <item:mowziesmobs:naga_fang>, <item:chaosawakens:royal_guardian_scale>, <item:chaosawakens:royal_guardian_scale>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>], 
+	[<item:minecraft:air>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <tag:items:forge:pellets/antimatter>, <item:minecraft:air>]
+]);
+
+/////////////////////////////////CHAOS AWAKENS///////////////////////////////////
+
+//adding recipe
+mods.extendedcrafting.TableCrafting.addShaped("royalguardianscale", <item:chaosawakens:royal_guardian_scale>, [
+	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <tag:items:forge:gems/carminite>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/nebu>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:draconicevolution:chaotic_core>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>], 
+	[<tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/nebu>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:draconicevolution:chaotic_core>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>], 
+	[<tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <item:cataclysm:ignitium_ingot>, <tag:items:forge:ingots/nebu>, <item:draconicevolution:chaotic_core>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>], 
+	[<tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/nebu>, <item:cataclysm:ignitium_ingot>, <tag:items:forge:ingots/nebu>, <item:draconicevolution:chaotic_core>, <item:mysticalagradditions:insanium_essence>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>], 
+	[<tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <item:draconicevolution:chaotic_core>, <item:draconicevolution:chaotic_core>, <item:draconicevolution:chaotic_core>, <item:mysticalagradditions:insanium_essence>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:gems/carminite>, <tag:items:forge:gems/carminite>, <tag:items:forge:gems/carminite>, <tag:items:forge:gems/carminite>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>, <item:minecraft:air>], 
+	[<item:minecraft:air>, <item:minecraft:air>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <tag:items:forge:ingots/unobtainium_allthemodium_alloy>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>]
+]);
+
+/////////////////////////////////PROJECTEX///////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:projecte:watch_of_flowing_time>);
+craftingTable.removeRecipe(<item:projectex:final_star>);
+craftingTable.removeRecipe(<item:projectex:knowledge_sharing_book>);
+craftingTable.removeRecipe(<item:projectex:stone_table>);
+craftingTable.removeRecipe(<item:projectex:arcane_tablet>);
+
+//adding recipe
+craftingTable.addShaped("watchfloowingtime",<item:projecte:watch_of_flowing_time>, [
+    [<item:projecte:dark_matter>, <item:tiab:timeinabottle>, <item:projecte:dark_matter>],
+    [<item:projecte:dark_matter_block>, <item:atmadditions:philosophers_fuel>, <item:projecte:dark_matter_block>],
+    [<item:projecte:dark_matter>, <item:tiab:timeinabottle>, <item:projecte:dark_matter>]
+]);
+
+craftingTable.addShaped("finalstar",<item:projectex:final_star>, [
+    [<item:projectex:final_power_flower>, <item:projectex:final_power_flower>, <item:projectex:final_power_flower>],
+    [<item:projectex:final_power_flower>, <item:atmadditions:pulsating_black_hole>, <item:projectex:final_power_flower>],
+    [<item:projectex:final_power_flower>, <item:projectex:final_power_flower>, <item:projectex:final_power_flower>]
+]);
+
+craftingTable.addShaped("knoledgesharingbook",<item:projectex:knowledge_sharing_book>, [
+    [<item:projectex:fading_matter>, <item:allthecompressed:nether_star_block_1x>, <item:projectex:fading_matter>],
+    [<item:allthecompressed:nether_star_block_1x>, <item:atmadditions:philosophers_fuel>, <item:allthecompressed:nether_star_block_1x>],
+    [<item:projectex:fading_matter>, <item:allthecompressed:nether_star_block_1x>, <item:projectex:fading_matter>]
+]);
+
+/////////////////////////////////APPLIED ENERGISTIS///////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:aeinfinitybooster:infinity_card>);
+
+//adding recipe
+craftingTable.addShaped("infinitbooster",<item:aeinfinitybooster:infinity_card>, [
+    [<item:minecraft:ender_eye>, <item:mysticalagradditions:insanium_essence>, <item:minecraft:ender_eye>],
+    [<item:mysticalagradditions:insanium_essence>, <item:allthecompressed:nether_star_block_1x>, <item:mysticalagradditions:insanium_essence>],
+    [<item:allthecompressed:netherite_block_1x>, <item:mysticalagradditions:insanium_essence>, <item:allthecompressed:netherite_block_1x>]
+]);
+
+/////////////////////////////////MYSTICAL AGRICULTURE///////////////////////////////////
+
+//adding recipe
+craftingTable.addShaped("crativessence",<item:mysticalagradditions:creative_essence>, [
+    [<item:minecraft:air>, <item:mysticalagradditions:insanium_essence>, <item:minecraft:air>],
+    [<item:mysticalagradditions:insanium_essence>, <item:atmadditions:pulsating_black_hole>, <item:mysticalagradditions:insanium_essence>],
+    [<item:minecraft:air>, <item:mysticalagradditions:insanium_essence>, <item:minecraft:air>]
+]);
+
+/////////////////////////////////BOTANIA///////////////////////////////////
+
+//adding recipe
+craftingTable.addShaped("crativepool",<item:botania:creative_pool>, [
+    [<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
+    [<item:botania:bifrost_perm>, <item:atmadditions:pulsating_black_hole>, <item:botania:bifrost_perm>],
+    [<item:botania:bifrost_perm>, <item:botania:bifrost_perm>, <item:botania:bifrost_perm>]
+]);
+
+/////////////////////////////////MEKANISM///////////////////////////////////
+
+//adding recipe
+craftingTable.addShaped("crativenergycube",<item:mekanism:creative_energy_cube>.withTag({mekData: {EnergyContainers: [{Container: 0 as byte, stored: "18446744073709551615.9999" as string}]}}), [
+    [<item:mekanism:alloy_atomic>, <item:mekanism:energy_tablet>, <item:atmadditions:pulsating_black_hole>],
+    [<item:allthemodium:unobtainium_allthemodium_alloy_ingot>, <item:mekanism:ultimate_energy_cube>, <item:allthemodium:unobtainium_allthemodium_alloy_ingot>],
+    [<item:atmadditions:pulsating_black_hole>, <item:mekanism:energy_tablet>, <item:mekanism:alloy_atomic>]
+]);
+
+/////////////////////////////////SIMPLESTORAGE///////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:storagenetwork:crafting_remote>);
+
+//adding recipe
+craftingTable.addShaped("craftremote",<item:storagenetwork:crafting_remote>, [
+    [<item:minecraft:sea_lantern>, <item:minecraft:ender_chest>, <item:minecraft:sea_lantern>],
+    [<item:minecraft:gold_block>, <item:storagenetwork:master>, <item:minecraft:gold_block>],
+    [<item:minecraft:sea_lantern>, <item:storagenetwork:inventory_remote>, <item:minecraft:sea_lantern>]
+]);
+
+/////////////////////////////////IRONFURNACE///////////////////////////////////
+
+//remove recipe
+craftingTable.removeRecipe(<item:ironfurnaces:netherite_furnace>);
+
+//adding recipe
+craftingTable.addShaped("netheritefurnace",<item:ironfurnaces:netherite_furnace>, [
+    [<item:minecraft:netherite_ingot>, <item:minecraft:magma_cream>, <item:minecraft:netherite_ingot>],
+    [<item:minecraft:magma_cream>, <item:storagenetwork:master>, <item:minecraft:magma_cream>],
+    [<item:minecraft:netherite_ingot>, <item:minecraft:soul_sand>, <item:minecraft:netherite_ingot>]
 ]);

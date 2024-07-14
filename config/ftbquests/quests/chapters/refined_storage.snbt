@@ -7,11 +7,23 @@
 	icon: "refinedstorage:creative_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	images: [{
+		x: 0.5d
+		y: -11.0d
+		width: 14.0d
+		height: 3.0d
+		rotation: 0.0d
+		image: "ftbtestmodpack:textures/refinedstorage.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+	}]
 	quests: [
 		{
 			title: "Refined Storage"
 			x: 0.0d
-			y: -7.5d
+			y: -6.0d
 			shape: "gear"
 			subtitle: "Make your first controller!"
 			description: ["The Controller is the core of the Refined Storage network. You need to connect all the Refined Storage devices to this block."]
@@ -99,7 +111,7 @@
 		}
 		{
 			x: 0.0d
-			y: -10.5d
+			y: -9.0d
 			subtitle: "Automated crafting!"
 			description: ["The Crafter is a block that crafts items with patterns. It can take speed upgrades to increase the crafting speed."]
 			dependencies: ["59F5ED931FD70C55"]
@@ -124,7 +136,7 @@
 		}
 		{
 			x: 0.0d
-			y: -6.0d
+			y: -4.5d
 			subtitle: "You spin me right round'"
 			description: ["The Wrench in Refined Storage is a tool that can do two things. Rotate blocks and Break Refined Storage covers. Simply sneak and right click when using the Wrench."]
 			dependencies: ["01F18150EC923482"]
@@ -149,7 +161,7 @@
 		}
 		{
 			x: -1.5d
-			y: -7.5d
+			y: -6.0d
 			subtitle: "Connections!"
 			description: ["Cable is used to connect devices to the Controller. Cables are not always necessary, as long as the devices are next to each other in any direction a connection will be established as well."]
 			dependencies: ["01F18150EC923482"]
@@ -174,7 +186,7 @@
 		}
 		{
 			x: -2.5d
-			y: -8.5d
+			y: -7.0d
 			subtitle: "Importing Items!"
 			dependencies: ["6904EC449FBEE387"]
 			id: "532229D285CA4858"
@@ -190,7 +202,7 @@
 		}
 		{
 			x: -3.0d
-			y: -7.5d
+			y: -6.0d
 			subtitle: "Breaking Blocks!"
 			dependencies: ["6904EC449FBEE387"]
 			id: "6092490EC9008A05"
@@ -206,7 +218,7 @@
 		}
 		{
 			x: -2.5d
-			y: -6.5d
+			y: -5.0d
 			subtitle: "Placing Blocks!"
 			dependencies: ["6904EC449FBEE387"]
 			id: "2CFEE04BA574921E"
@@ -222,7 +234,7 @@
 		}
 		{
 			x: -1.5d
-			y: -6.0d
+			y: -4.5d
 			subtitle: "Exporting Items!"
 			dependencies: ["6904EC449FBEE387"]
 			id: "4CD83943865018EA"
@@ -307,7 +319,7 @@
 		}
 		{
 			x: -1.5d
-			y: -9.0d
+			y: -7.5d
 			dependencies: ["6904EC449FBEE387"]
 			id: "253657BE5D9D9162"
 			tasks: [{
@@ -322,7 +334,7 @@
 		}
 		{
 			x: 0.0d
-			y: -4.5d
+			y: -3.0d
 			subtitle: "Secure your grid!"
 			description: ["Allows you to limit who can access your grid, and what permissions they have."]
 			dependencies: ["01F18150EC923482"]
@@ -352,7 +364,7 @@
 		}
 		{
 			x: 0.0d
-			y: -3.0d
+			y: -1.5d
 			description: ["Will detect contents in your storage and send a redstone signal if it is the right amount."]
 			dependencies: ["01F18150EC923482"]
 			id: "5D31FCC61B02E17A"
@@ -369,7 +381,7 @@
 		}
 		{
 			x: 1.5d
-			y: -7.5d
+			y: -6.0d
 			shape: "rsquare"
 			description: ["Lets you access your storage."]
 			dependencies: ["01F18150EC923482"]
@@ -394,7 +406,7 @@
 		}
 		{
 			x: 1.5d
-			y: -6.0d
+			y: -4.5d
 			description: ["Lets you access your storage but with a craftin table."]
 			dependencies: ["43E8912CB307E421"]
 			id: "0F00BBDF3618B3BA"
@@ -418,7 +430,7 @@
 		}
 		{
 			x: 1.5d
-			y: -9.0d
+			y: -7.5d
 			shape: "rsquare"
 			description: ["Allows you to create patterns for autocrafting."]
 			dependencies: [
@@ -447,7 +459,7 @@
 		}
 		{
 			x: 1.5d
-			y: -4.5d
+			y: -3.0d
 			description: ["Lets you access your fluid storage."]
 			dependencies: ["43E8912CB307E421"]
 			id: "51E9D03CD755A607"
@@ -471,7 +483,7 @@
 		}
 		{
 			x: 3.0d
-			y: -7.5d
+			y: -6.0d
 			description: ["Allows you to access your grid wirelessly."]
 			dependencies: ["43E8912CB307E421"]
 			id: "15ECBC8E174FA39B"
@@ -495,7 +507,7 @@
 		}
 		{
 			x: 3.0d
-			y: -4.5d
+			y: -3.0d
 			description: ["Allows you to access your fluid grid wirelessly."]
 			dependencies: ["51E9D03CD755A607"]
 			id: "7FA85713C86166DA"
@@ -519,7 +531,7 @@
 		}
 		{
 			x: 3.0d
-			y: -6.0d
+			y: -4.5d
 			description: ["Allows you to access your grid wirelessly but with a crafting table built-in."]
 			dependencies: ["0F00BBDF3618B3BA"]
 			id: "744842B2AED28344"
@@ -543,7 +555,7 @@
 		}
 		{
 			x: -3.0d
-			y: -4.5d
+			y: -3.0d
 			subtitle: "On-The-Go Grid"
 			description: ["The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network."]
 			hide_dependency_lines: true
@@ -612,7 +624,7 @@
 		}
 		{
 			x: 0.0d
-			y: -9.0d
+			y: -7.5d
 			description: ["Used to tell crafters how to carft items for auto-crafting."]
 			dependencies: ["01F18150EC923482"]
 			id: "59F5ED931FD70C55"
@@ -629,7 +641,7 @@
 		}
 		{
 			x: 1.5d
-			y: -3.0d
+			y: -1.5d
 			description: ["Allows you to monitor the number of a certain item in your grid."]
 			dependencies: ["43E8912CB307E421"]
 			id: "64E85274D24FE394"
@@ -824,7 +836,7 @@
 		{
 			title: "Destructor Upgrades"
 			x: -1.5d
-			y: -4.5d
+			y: -3.0d
 			description: ["These can add different attributes to Deconstructors to effect what happens when they mine a block."]
 			hide_dependency_lines: true
 			dependencies: ["6092490EC9008A05"]
@@ -845,7 +857,7 @@
 		{
 			title: "Other Upgrades"
 			x: -1.5d
-			y: -3.0d
+			y: -1.5d
 			description: ["This can make machines work faster, or automatically craft items that are requested to be outputted."]
 			hide_dependency_lines: true
 			dependency_requirement: "one_completed"

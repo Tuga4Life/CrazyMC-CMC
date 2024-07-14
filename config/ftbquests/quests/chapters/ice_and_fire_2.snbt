@@ -5,28 +5,768 @@
 	filename: "ice_and_fire_2"
 	title: "Ice and fire"
 	icon: "iceandfire:dragon_skull_lightning"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 0.0d
-		y: 0.0d
+		x: 0.5d
+		y: -12.0d
 		width: 15.0d
-		height: 13.0d
+		height: 3.0d
 		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Coming_soon.png"
+		image: "ftbtestmodpack:textures/iceandfire.png"
 		hover: [ ]
 		click: ""
 		dev: false
 		corner: false
 	}]
-	quests: [{
-		x: 0.5d
-		y: 6.0d
-		id: "56654E9071C18083"
-		tasks: [{
-			id: "67FFE15A7225623E"
-			type: "checkmark"
-			title: "More is coming soon"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"To get to the dragon dimension you need to be in the Nether and place a Teleport Pad."
+				""
+				"To enter the dimension shift+right-click, without any item in hand."
+			]
+			dependencies: ["05C7A25694D6747B"]
+			id: "6C329B4202B010D6"
+			tasks: [{
+				id: "189EBA8074FB9C0D"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "0AE5E2B9764975C8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "allthemodium:teleport_pad"
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"The Basalt Deltas are the home of the Fire Dragons!"
+				""
+				"The Desert is the place for the Lightning Dragon!"
+				""
+				"The Mountain biomes is where you'll find the Ice Dragons!"
+				""
+				"Dragons have 5 different stages they come in. It changes how much health they have, the way they attack, and the loot they drop."
+			]
+			dependencies: [
+				"6C329B4202B010D6"
+				"68579A80A8703C9F"
+			]
+			id: "68B0E5A8DEA24CF2"
+			tasks: [{
+				id: "309BBF78F50E7800"
+				type: "dimension"
+				dimension: "allthemodium:the_other"
+			}]
+			rewards: [{
+				id: "3D29F419D15864B9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["68B0E5A8DEA24CF2"]
+			id: "7D198F25083DC709"
+			tasks: [
+				{
+					id: "1DDC0401E9C92A3A"
+					type: "kill"
+					entity: "iceandfire:fire_dragon"
+					value: 1L
+				}
+				{
+					id: "7D6D4992DF6FDD96"
+					type: "item"
+					item: "iceandfire:fire_dragon_heart"
+				}
+				{
+					id: "2950A2E2C6B25499"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:fire_dragon_blood"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_red"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_green"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_bronze"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_gray"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "787FCF9D9B47BB15"
+					type: "item"
+					item: "iceandfire:dragonbone"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "5C3137ACD8ECC42E"
+					type: "item"
+					item: "iceandfire:dragon_skull_fire"
+				}
+				{
+					id: "7016C27980FB8A46"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["68B0E5A8DEA24CF2"]
+			id: "1B0F6B504F4407CB"
+			tasks: [
+				{
+					id: "4825759848FF66B7"
+					type: "kill"
+					entity: "iceandfire:ice_dragon"
+					value: 1L
+				}
+				{
+					id: "583A3321342658B4"
+					type: "item"
+					item: "iceandfire:ice_dragon_heart"
+				}
+				{
+					id: "36CE1FDE62733CA4"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:ice_dragon_blood"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_blue"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_white"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_sapphire"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_silver"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44CE755E00468651"
+					type: "item"
+					item: "iceandfire:dragonbone"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "507BF9F24520F1BD"
+					type: "item"
+					item: "iceandfire:dragon_skull_ice"
+				}
+				{
+					id: "35D10E6194A175AE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["68B0E5A8DEA24CF2"]
+			id: "2DF79CA6DEAE29CD"
+			tasks: [
+				{
+					id: "28D10576FC48E2D7"
+					type: "kill"
+					entity: "iceandfire:lightning_dragon"
+					value: 1L
+				}
+				{
+					id: "089015C02421D372"
+					type: "item"
+					item: "iceandfire:lightning_dragon_heart"
+				}
+				{
+					id: "39B3E1C0299411D9"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:lightning_dragon_blood"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_electric"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_amythest"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_copper"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonscales_black"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A9A0F77F38ABC0A"
+					type: "item"
+					item: "iceandfire:dragonbone"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "68A641F1EA4E20AA"
+					type: "item"
+					item: "iceandfire:dragon_skull_lightning"
+				}
+				{
+					id: "7875EA5FF5BA5F19"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Fire Dragon Eggs"
+			x: -3.0d
+			y: -1.5d
+			description: ["The Fire Dragon Eggs require mass amounts of heat to hatch. They must be kept surrounded by fire for a few days."]
+			dependencies: ["7D198F25083DC709"]
+			id: "46039931238B694B"
+			tasks: [{
+				id: "4C1FCD0FA3B1C410"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_red"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_green"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_bronze"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_gray"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "265FC0DEB0B75513"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Ice Dragon Eggs"
+			x: 3.0d
+			y: -1.5d
+			description: ["The Ice Dragon Eggs to be hatched you need to put them in a pond of water and let them freeze to hatch."]
+			dependencies: ["1B0F6B504F4407CB"]
+			id: "55A131EB57905768"
+			tasks: [{
+				id: "646D21C3069193A8"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_blue"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_white"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_sapphire"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_silver"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DA7E491FEF3368D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Lightning Dragon Eggs"
+			x: 0.0d
+			y: -4.5d
+			description: ["Lightning Dragons to be hatched need stormy weather to hatch then just leave them outside and let it rain!"]
+			dependencies: ["2DF79CA6DEAE29CD"]
+			id: "6C71166B029B8514"
+			tasks: [{
+				id: "21ECD587ADE9FC3B"
+				type: "item"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_electric"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_amythest"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_copper"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "27EC7A6E6BCBF17A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["Dragon Meal will be needed to help grow your baby Dragon."]
+			dependencies: ["55A131EB57905768"]
+			id: "2F9C8BDA57DF6B22"
+			tasks: [{
+				id: "7107AC8993BD93D6"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+			}]
+			rewards: [
+				{
+					id: "4B426A2509DD9392"
+					type: "item"
+					item: "iceandfire:dragon_meal"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "2F9712760C114906"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Dragon Meal will be needed to help grow your baby Dragon."]
+			dependencies: ["46039931238B694B"]
+			id: "5E9DD884D1B3CCEA"
+			tasks: [{
+				id: "314615BB21399FD5"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+			}]
+			rewards: [
+				{
+					id: "1CDB7C958B71CD63"
+					type: "item"
+					item: "iceandfire:dragon_meal"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4206228C318CD5C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			description: ["Dragon Meal will be needed to help grow your baby Dragon."]
+			dependencies: ["6C71166B029B8514"]
+			id: "6C9871F2B87DF350"
+			tasks: [{
+				id: "5ED27A4B70C56FA2"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+			}]
+			rewards: [
+				{
+					id: "0AA2BA8C8AE53736"
+					type: "item"
+					item: "iceandfire:dragon_meal"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4E2191FE83603500"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "05C7A25694D6747B"
+			tasks: [{
+				id: "50C0B89F33A6BFA6"
+				type: "item"
+				item: "iceandfire:bestiary"
+			}]
+		}
+		{
+			title: "Lightining Forge"
+			x: 0.0d
+			y: -7.0d
+			description: ["The Lightning Forge needs a Lightning Dragon to power it. It's a 3x3x3 structure. It has Dragon Bone Blocks in all of the corners and a Core in the exact middle with an Aperature next to it. The rest is Forge Bricks."]
+			dependencies: ["6C9871F2B87DF350"]
+			id: "74A52F8DB30E07C5"
+			tasks: [
+				{
+					id: "68E6FE1DBEBA74CC"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_brick"
+					count: 17L
+				}
+				{
+					id: "778B6A77D28AB64C"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_input"
+				}
+				{
+					id: "528C60C111B6E124"
+					type: "item"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+				}
+				{
+					id: "099CFC9BA62E8717"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "5779DBCA43B85F72"
+					type: "item"
+					item: "iceandfire:lightning_stew"
+				}
+				{
+					id: "429D7EDE358AABAF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Ice Forge"
+			x: 5.5d
+			y: -1.5d
+			description: ["The Ice Forge needs an Ice Dragon to power it. Its a 3x3x3 structure. The corners are Dragon Bone Blocks and the exact middle is the Core with an Aperature is next to it. The rest of the structure is Forge Bricks."]
+			dependencies: ["2F9C8BDA57DF6B22"]
+			id: "22AD79E1217F7ABA"
+			tasks: [
+				{
+					id: "4348C9D19398E97E"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_brick"
+					count: 17L
+				}
+				{
+					id: "42ABD7C3686BE2FA"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_input"
+				}
+				{
+					id: "609278CAFAAA7F92"
+					type: "item"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+				}
+				{
+					id: "6C7DAF8887844157"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7FA82D2637BD3B77"
+					type: "item"
+					item: "iceandfire:frost_stew"
+				}
+				{
+					id: "4B49F729131AA82E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			title: "Fire Forge"
+			x: -5.5d
+			y: -1.5d
+			description: ["Fire Forge needs a Fire Dragon to power it. It's a 3x3x3 structure. It has Dragon Bone Blocks in all of its corners. It has an Core in the exact middle with a Aperature next to it. The rest is Forge Bricks."]
+			dependencies: ["5E9DD884D1B3CCEA"]
+			id: "2A2DBE064AB84AB2"
+			tasks: [
+				{
+					id: "31CAB2FA8BF93AED"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_brick"
+					count: 17L
+				}
+				{
+					id: "40A8D337A5810924"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_input"
+				}
+				{
+					id: "0DBA086DE3B782B5"
+					type: "item"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+				}
+				{
+					id: "4E33C608B0FFAE2F"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "3EA2BCCD9588B0A1"
+					type: "item"
+					item: "iceandfire:fire_stew"
+				}
+				{
+					id: "5BFF5CC98AF17B30"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			dependencies: ["2A2DBE064AB84AB2"]
+			id: "189741DC57318BB9"
+			tasks: [{
+				id: "54AD14571B963ED0"
+				type: "item"
+				item: "iceandfire:dragonsteel_fire_ingot"
+			}]
+			rewards: [
+				{
+					id: "61888451BD0DD9F9"
+					type: "item"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					count: 2
+				}
+				{
+					id: "311EFB80F3B79132"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			dependencies: ["22AD79E1217F7ABA"]
+			id: "2AC899804E7B7F83"
+			tasks: [{
+				id: "298A18E2389FB7B8"
+				type: "item"
+				item: "iceandfire:dragonsteel_ice_ingot"
+			}]
+			rewards: [
+				{
+					id: "6EEEFD16ABD3D7FD"
+					type: "item"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					count: 2
+				}
+				{
+					id: "0B8EEE3EDE8DBDBE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -8.0d
+			dependencies: ["74A52F8DB30E07C5"]
+			id: "7E76DC345728AF47"
+			tasks: [{
+				id: "36ADB5A6E4CA6B5A"
+				type: "item"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+			}]
+			rewards: [
+				{
+					id: "067589438E78720E"
+					type: "item"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					count: 2
+				}
+				{
+					id: "5E5E609A63BF611E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			dependencies: ["2A2DBE064AB84AB2"]
+			id: "3883E275E3709431"
+			tasks: [{
+				id: "3BEA10D71D1099F3"
+				type: "item"
+				item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "0DE270CE2019BB4D"
+					type: "item"
+					item: "allthemodium:vibranium_allthemodium_alloy_ingot"
+					count: 2
+				}
+				{
+					id: "3C8EFC09506CC6C6"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -1.0d
+			dependencies: ["22AD79E1217F7ABA"]
+			id: "57E411AAE1FAF02A"
+			tasks: [{
+				id: "0051FB53A3F892C0"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "71368442797B0962"
+					type: "item"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+					count: 2
+				}
+				{
+					id: "266DE5219A8990CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			dependencies: ["74A52F8DB30E07C5"]
+			id: "1C65570C905E34EC"
+			tasks: [{
+				id: "2911D5DBB6F5EE40"
+				type: "item"
+				item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+			}]
+			rewards: [
+				{
+					id: "4EE96767CA2D5B0E"
+					type: "item"
+					item: "allthemodium:unobtainium_allthemodium_alloy_ingot"
+					count: 2
+				}
+				{
+					id: "5D51B7EE5B47AA8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+	]
 }

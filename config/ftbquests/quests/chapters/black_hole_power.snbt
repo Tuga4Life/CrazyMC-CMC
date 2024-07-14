@@ -1,0 +1,11 @@
+{
+	id: "3B85AD8D5472BEAA"
+	group: ""
+	order_index: 4
+	filename: "black_hole_power"
+	title: "Black Hole Power"
+	icon: "atmadditions:pulsating_black_hole"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+}

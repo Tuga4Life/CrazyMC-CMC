@@ -9,24 +9,631 @@
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: 0.0d
-		width: 15.0d
-		height: 13.0d
+		y: -5.0d
+		width: 11.0d
+		height: 3.0d
 		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Coming_soon.png"
+		image: "ftbtestmodpack:textures/twilight.png"
 		hover: [ ]
 		click: ""
 		dev: false
 		corner: false
 	}]
-	quests: [{
-		x: 0.5d
-		y: 6.0d
-		id: "218C74810F1EBA4D"
-		tasks: [{
-			id: "5A867059B5A5346C"
-			type: "checkmark"
-			title: "More is coming soon"
-		}]
-	}]
+	quests: [
+		{
+			x: 0.0d
+			y: -2.5d
+			id: "3ACB880E7FE95CC2"
+			tasks: [{
+				id: "41215EDB338C3C8E"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "202E054D7CA5E0C7"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The Magic Map functions similarly to the Map, though its area is 4x larger."
+				"It also displays any nearby bosses, dungeons, and regions within the Twilight Forest dimension."
+			]
+			dependencies: [
+				"11CE616CE6087DFB"
+				"3C29B9D47D8D804E"
+			]
+			id: "4E83C99F18E0DD8C"
+			tasks: [{
+				id: "4150B3B2661F2BE5"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+			rewards: [{
+				id: "2147AB02C1869493"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: [" It is dropped when mining Torchberry Plants or Trollber."]
+			dependencies: ["3ACB880E7FE95CC2"]
+			id: "3C29B9D47D8D804E"
+			tasks: [{
+				id: "26CC58691189DCBD"
+				type: "item"
+				item: "twilightforest:torchberries"
+			}]
+			rewards: [{
+				id: "068312FD656F4C1D"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: [""]
+			dependencies: ["3ACB880E7FE95CC2"]
+			id: "11CE616CE6087DFB"
+			tasks: [
+				{
+					id: "2BCA76939FEB6BF2"
+					type: "item"
+					item: "twilightforest:raven_feather"
+				}
+				{
+					id: "7752D2DC39731029"
+					type: "kill"
+					entity: "twilightforest:raven"
+					value: 1L
+				}
+			]
+			rewards: [{
+				id: "4FB4A16DCE1EF7B6"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: [
+				"It can be found in the Naga Courtyard."
+				""
+				"As the Naga sustains damage it will lose its large segments and move faster."
+				""
+				"If it is not attacked for a while it will begin to heal itself."
+			]
+			dependencies: ["4E83C99F18E0DD8C"]
+			id: "0572C3C053DEA1A8"
+			tasks: [{
+				id: "5E6AD5957985B5F6"
+				type: "kill"
+				icon: "twilightforest:naga_trophy"
+				entity: "twilightforest:naga"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "09C4D2225B622BCB"
+					type: "item"
+					item: "twilightforest:naga_scale"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "324BADC3BFE8671D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			icon: "twilightforest:lich_tower_miniature_structure"
+			x: 0.0d
+			y: 3.5d
+			description: [
+				"It is found at the top of the Lich Tower, and will spawn as soon as the player reaches the top floor."
+				""
+				"It will shoot Ender Pearl projectiles, as well as Fireball projectiles. The ender pearls can be reflected back at the Lich, removing a shield for every pearl the Lich is hit."
+				""
+				"The fireball projectiles will explode on impact."
+			]
+			dependencies: ["0572C3C053DEA1A8"]
+			id: "583385773BE4A6BC"
+			tasks: [{
+				id: "490F87F5461344FB"
+				type: "kill"
+				icon: "twilightforest:lich_trophy"
+				entity: "twilightforest:lich"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "37360331C7A67838"
+					type: "item"
+					item: "twilightforest:lich_tower_miniature_structure"
+				}
+				{
+					id: "427392CED508A99A"
+					type: "item"
+					item: {
+						id: "appliedenergistics2:facade"
+						Count: 1b
+						tag: {
+							item: "twilightforest:lich_tower_miniature_structure"
+						}
+					}
+				}
+				{
+					id: "603DC6DB016EBE57"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			description: ["He can be found in the bottom of a Labyrinth inside a large cube with fences covering each entrance."]
+			dependencies: ["583385773BE4A6BC"]
+			id: "062A60D93F1F1A36"
+			tasks: [{
+				id: "5D77589C8339E0BD"
+				type: "kill"
+				icon: "twilightforest:minoshroom_trophy"
+				entity: "twilightforest:minoshroom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "453E4364E32EF6B9"
+					type: "item"
+					item: "mowziesmobs:glowing_jelly"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "1ABC447E9975E267"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			description: ["It is used to summon special Zombies to fight for the user."]
+			dependencies: ["583385773BE4A6BC"]
+			id: "1983074BDE31906D"
+			tasks: [{
+				id: "0D6ABE5E9355BAC6"
+				type: "item"
+				item: {
+					id: "twilightforest:zombie_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "492F6293EE7DFB85"
+					type: "item"
+					item: "minecraft:zombie_head"
+				}
+				{
+					id: "62261A82DADD7418"
+					type: "item"
+					item: "mysticalagriculture:zombie_seeds"
+				}
+				{
+					id: "52296EEC621E275B"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			description: ["This weapon will drain the health of entity it is aimed at and will replenish the user's health by that amount."]
+			dependencies: ["583385773BE4A6BC"]
+			id: "60C6156C4C850439"
+			tasks: [{
+				id: "278B15F5B28BFABE"
+				type: "item"
+				item: {
+					id: "twilightforest:lifedrain_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "48F60C1CFEA82332"
+					type: "item"
+					item: "twilightforest:charm_of_life_2"
+				}
+				{
+					id: "319BE297CC3AC7F5"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Right-clicking with the Scepter shoots Ender Pearl-textured projectiles which inflict damage."]
+			dependencies: ["583385773BE4A6BC"]
+			id: "482F1FA82E6EE516"
+			tasks: [{
+				id: "7B3478FD3DB02FE9"
+				type: "item"
+				item: {
+					id: "twilightforest:twilight_scepter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "40BA6D31F8D15BA9"
+					type: "item"
+					item: "twilightforest:ironwood_ingot"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "125ACFF962B8F2D8"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["The Alpha Yeti resides in the Yeti Lair in the Snowy Forest."]
+			dependencies: ["583385773BE4A6BC"]
+			id: "29807138683A31A9"
+			tasks: [{
+				id: "66A33BF40B1F546E"
+				type: "kill"
+				icon: "twilightforest:yeti_trophy"
+				entity: "twilightforest:yeti_alpha"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5E7BD6DF11B39E74"
+					type: "item"
+					item: "twilightforest:alpha_fur"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "25BC8CCFB3E67DC4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			description: [
+				"This boss is found in a large room inside of the Goblin Knight Stronghold-"
+				""
+				"Only one is the real Knight Phantom."
+			]
+			dependencies: ["583385773BE4A6BC"]
+			id: "503AF8376CF122CE"
+			tasks: [{
+				id: "0665A925AFB76412"
+				type: "kill"
+				icon: "twilightforest:knight_phantom_trophy"
+				entity: "twilightforest:knight_phantom"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1EE5C4CB8607B81D"
+					type: "item"
+					item: "twilightforest:knightmetal_ingot"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "394A67D4D302EB3E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			description: [
+				"Hydras can be found in a Hydra Lair, which are only found in Twilight Swamps, and Fire Swamps."
+				""
+				"This boss cannot be attacked until the player has eaten Meef Stroganoff."
+				""
+				"The Hydra will only take damage from close distance projectiles when the mouth is open."
+				"Damage to the head does significantly higher damage than on the body."
+			]
+			dependencies: ["2B0392513D6DE55A"]
+			id: "390EDC2AB6FAB05A"
+			tasks: [{
+				id: "61C46E6D0F0CEEB6"
+				type: "kill"
+				icon: "twilightforest:hydra_trophy"
+				entity: "twilightforest:hydra"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3FD6A9B3D4BE3D5A"
+					type: "item"
+					item: "twilightforest:hydra_chop"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4D25AC788417183F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			description: ["She spawns at the top of one of the towers in the Aurora Palace."]
+			dependencies: ["29807138683A31A9"]
+			id: "50CD51BF292561D1"
+			tasks: [{
+				id: "7FE60C22B1D0FB31"
+				type: "kill"
+				icon: "twilightforest:snow_queen_trophy"
+				entity: "twilightforest:snow_queen"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "592544BF90BFB026"
+					type: "item"
+					item: {
+						id: "travelersbackpack:snow"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "29E788C961B20DEA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: [
+				"It can be found at the top of a Dark Tower."
+				"There are multiple ways to damage the Ur-Ghast."
+			]
+			dependencies: ["503AF8376CF122CE"]
+			id: "52C67D15A78D9969"
+			tasks: [{
+				id: "28BD3F4B3CCB1234"
+				type: "kill"
+				icon: "twilightforest:ur_ghast_trophy"
+				entity: "twilightforest:ur_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "43DA424EB34C0EE3"
+					type: "item"
+					item: "twilightforest:carminite"
+					count: 4
+					random_bonus: 4
+				}
+				{
+					id: "4831AE6F9297CC30"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 11.5d
+			description: [
+				"When the Hydra, Ur-Ghast and Snow Queen have been defeated, the Highlands will unlock, revealing the final stages in progression."
+				"The Final Castle is the final stage of the Twilight Forest mod. It is currently unfinished."
+			]
+			dependencies: [
+				"52C67D15A78D9969"
+				"50CD51BF292561D1"
+				"390EDC2AB6FAB05A"
+			]
+			id: "1AA8BAE79EC4C052"
+			tasks: [{
+				id: "15AFBC07C8A7AE9C"
+				type: "checkmark"
+				title: "Final Castle"
+			}]
+			rewards: [{
+				id: "7433E90306746F10"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			description: ["CAUTION FRAGILE!!"]
+			dependencies: ["50CD51BF292561D1"]
+			id: "47ED92D4D9E6C72C"
+			tasks: [{
+				id: "0964F4154902626A"
+				type: "item"
+				item: {
+					id: "twilightforest:glass_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6EA799EE16F97096"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			description: ["Tasty..."]
+			dependencies: ["062A60D93F1F1A36"]
+			id: "2B0392513D6DE55A"
+			tasks: [{
+				id: "191377C413EFE0D3"
+				type: "item"
+				item: "twilightforest:meef_stroganoff"
+			}]
+			rewards: [{
+				id: "1B07DA42F25CDDFF"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "hexagon"
+			description: ["Is a special pickaxe that is found in a secret room in the Labyrinth that is adjacent to the second floor and can only be found if a Maze Map  is available to map the room through the wall which it is buried behind."]
+			dependencies: ["062A60D93F1F1A36"]
+			hide: true
+			id: "73B320606164DD3B"
+			tasks: [{
+				id: "65F0102CA7820CAB"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C4C1F507C13BAEA"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["They are dropped rarely by Cave Trolls, found in Mushroom Vaults, or by random chance when breaking Thorn Leaves or Beanstalk Leaves."]
+			hide_dependency_lines: true
+			dependencies: ["583385773BE4A6BC"]
+			id: "00BB05F2C8110A45"
+			tasks: [{
+				id: "549776BF5D222E88"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			description: ["Just a little bigger..."]
+			dependencies: ["00BB05F2C8110A45"]
+			id: "0303CB9C4A56314E"
+			tasks: [
+				{
+					id: "7B1314EC89B913C3"
+					type: "kill"
+					entity: "twilightforest:giant_miner"
+					value: 1L
+				}
+				{
+					id: "4E979F80CF28B7E4"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "01581F55B717CC13"
+					type: "item"
+					item: {
+						id: "twilightforest:giant_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "168ED913BD0BF252"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.0d
+			description: ["I think the name says everything..."]
+			dependencies: ["062A60D93F1F1A36"]
+			hide: true
+			id: "2163EF8F78B97D28"
+			tasks: [{
+				id: "076DB5F608BBE3C2"
+				type: "item"
+				item: "twilightforest:uncrafting_table"
+			}]
+			rewards: [{
+				id: "7C303C82B1FA0AF8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
 }

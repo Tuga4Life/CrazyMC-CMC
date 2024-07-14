@@ -1,7 +1,7 @@
 #Enables backups to run automatically.
 auto = true
 #If set to true, no messages will be displayed in chat/status bar.
-silent = false
+silent = true
 #The number of backup files to keep.
 #More backups = more space used
 #0 - Infinite
@@ -20,7 +20,7 @@ backup_timer = 120
 #Range: 0 ~ 9
 compression_level = 1
 #Absolute path to backups folder.
-folder = ""
+folder = "saves"
 #Prints (current size | total size) when backup is done.
 display_file_size = true
 #Add extra files that will be placed in backup _extra_/ folder.

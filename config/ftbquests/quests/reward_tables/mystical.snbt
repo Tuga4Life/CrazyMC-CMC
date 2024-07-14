@@ -1,0 +1,18 @@
+{
+	id: "1CC6D42BFE6243E6"
+	order_index: 9
+	title: "mystical"
+	loot_size: 1
+	rewards: [
+		{ item: "mysticalagriculture:inferium_essence", weight: 20 }
+		{ item: "mysticalagriculture:prudentium_essence", weight: 16 }
+		{ item: "mysticalagriculture:tertium_essence", weight: 13 }
+		{ item: "mysticalagriculture:imperium_essence", weight: 10 }
+		{ item: "mysticalagriculture:supremium_essence", weight: 2 }
+		{ item: "mysticalagradditions:insanium_essence" }
+		{ item: "mysticalagriculture:prosperity_gemstone", weight: 20 }
+		{ item: "mysticalagriculture:prosperity_seed_base", weight: 20 }
+		{ item: "mysticalagriculture:prosperity_shard", weight: 20 }
+		{ item: "mysticalagriculture:prosperity_ingot", weight: 20 }
+	]
+}

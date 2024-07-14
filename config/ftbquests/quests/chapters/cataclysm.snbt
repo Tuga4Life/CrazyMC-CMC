@@ -1,32 +1,376 @@
 {
 	id: "19AEF50EF3107A67"
 	group: ""
-	order_index: 5
+	order_index: 7
 	filename: "cataclysm"
 	title: "Cataclysm"
 	icon: "cataclysm:void_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.0d
-		y: 0.0d
-		width: 15.0d
-		height: 13.0d
-		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Coming_soon.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
-	quests: [{
-		x: 0.5d
-		y: 5.5d
-		id: "3797B3C1848C50DE"
-		tasks: [{
-			id: "50BFEBDD6D18172F"
-			type: "checkmark"
-			title: "More is coming soon"
-		}]
-	}]
+	images: [
+		{
+			x: -1.0d
+			y: 3.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "cataclysm:textures/entity/flame_strike_sigil.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			width: 18.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/eldersvataclism.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["543DF4F145576495"]
+			id: "47F07BD6D8668E3F"
+			tasks: [{
+				id: "6B37EBB1CB944714"
+				type: "item"
+				item: "cataclysm:void_core"
+			}]
+			rewards: [{
+				id: "719B20D18069F691"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Visit Nether"
+			x: -2.5d
+			y: 0.0d
+			id: "5512CD1A726AF61A"
+			tasks: [{
+				id: "4B1173A5CE2B3D24"
+				type: "dimension"
+				dimension: "minecraft:the_nether"
+			}]
+			rewards: [{
+				id: "6269011A559C0259"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["6773A4222D298CDA"]
+			id: "7D2CC4A04D7768B7"
+			tasks: [{
+				id: "6917C8B3694838D0"
+				type: "item"
+				item: "cataclysm:burning_ashes"
+			}]
+			rewards: [
+				{
+					id: "464CD7469CE637F8"
+					type: "item"
+					item: "cataclysm:burning_ashes"
+				}
+				{
+					id: "1994837AD56BB44E"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			icon: "cataclysm:altar_of_fire"
+			x: -2.5d
+			y: 3.5d
+			description: ["Right click with burning ashes in Altar of Fire to summon Ignis"]
+			dependencies: ["7D2CC4A04D7768B7"]
+			id: "10EDE715E587143C"
+			tasks: [{
+				id: "4E8B0727D24C23B5"
+				type: "checkmark"
+				title: "Altar of Fire"
+			}]
+			rewards: [{
+				id: "240FD6681967239C"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			dependencies: ["3312C3E8E53A7F56"]
+			id: "07B139AC28ADAB46"
+			tasks: [{
+				id: "5020A3E7296F340D"
+				type: "item"
+				item: "cataclysm:ignitium_ingot"
+			}]
+			rewards: [
+				{
+					id: "3626D9CF5A5A83E4"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+					count: 2
+				}
+				{
+					id: "34F8832B8EFF4257"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 5.0d
+			dependencies: ["3312C3E8E53A7F56"]
+			id: "6FA564C0AD8FA597"
+			tasks: [{
+				id: "5E64FCC5C113B895"
+				type: "item"
+				item: "cataclysm:the_incinerator"
+			}]
+			rewards: [
+				{
+					id: "6334DBB081CC813B"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+				}
+				{
+					id: "65B8A9A31A887855"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			dependencies: ["3312C3E8E53A7F56"]
+			id: "7DE77DE64B3AED9D"
+			tasks: [{
+				id: "7BE9830F3BE3F0D4"
+				type: "item"
+				item: "cataclysm:bulwark_of_the_flame"
+			}]
+			rewards: [
+				{
+					id: "760C22F1AE933239"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+				}
+				{
+					id: "494ACC6C486AF1BD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["5512CD1A726AF61A"]
+			id: "6773A4222D298CDA"
+			tasks: [{
+				id: "1979AFD44A691072"
+				type: "kill"
+				entity: "cataclysm:ignited_revenant"
+				value: 1L
+			}]
+			rewards: [{
+				id: "509CE174CA0039B7"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			title: "Visit End"
+			x: 2.0d
+			y: 0.0d
+			id: "31EC7DC08DF97510"
+			tasks: [{
+				id: "7D56FAF1FADAF259"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+			rewards: [{
+				id: "7567DA60E51AC8EF"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			dependencies: ["5CFD19249C77ABFB"]
+			id: "75E77205E262CEB0"
+			tasks: [{
+				id: "505365ABB294F1D0"
+				type: "item"
+				item: "cataclysm:gauntlet_of_guard"
+			}]
+			rewards: [{
+				id: "4CA0B82CB695310F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["5CFD19249C77ABFB"]
+			id: "39CD213D13096B59"
+			tasks: [{
+				id: "3F9B572D8434F0D7"
+				type: "item"
+				item: "cataclysm:music_disc_ender_guardian"
+			}]
+			rewards: [{
+				id: "4ED5ABB6BC106492"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["593BC7939E6A1A7D"]
+			id: "67E7D34011BE3E69"
+			tasks: [{
+				id: "620ABEFC1CF8F4A0"
+				type: "item"
+				item: "cataclysm:music_disc_netherite_monstrosity"
+			}]
+			rewards: [
+				{
+					id: "0C0AC35F42CF4BD5"
+					type: "item"
+					item: "minecraft:netherite_block"
+				}
+				{
+					id: "121B5C86825DD83F"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			dependencies: ["10EDE715E587143C"]
+			id: "3312C3E8E53A7F56"
+			tasks: [{
+				id: "4A39C5A3CE4227B8"
+				type: "kill"
+				entity: "cataclysm:ignis"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7E4A1375E7CB3149"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.0d
+			dependencies: ["5512CD1A726AF61A"]
+			id: "593BC7939E6A1A7D"
+			tasks: [{
+				id: "1540EE92E43DB282"
+				type: "kill"
+				entity: "cataclysm:netherite_monstrosity"
+				value: 1L
+			}]
+			rewards: [{
+				id: "2117E33D5841013F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			dependencies: ["3312C3E8E53A7F56"]
+			id: "6CA6C4A786B71D56"
+			tasks: [{
+				id: "44E544C164CE8FF1"
+				type: "item"
+				item: "cataclysm:music_disc_ignis"
+			}]
+			rewards: [
+				{
+					id: "357CC32B58EBDB5C"
+					type: "item"
+					item: "cataclysm:ignitium_ingot"
+				}
+				{
+					id: "297177ED4E10AA93"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["31EC7DC08DF97510"]
+			id: "5CFD19249C77ABFB"
+			tasks: [{
+				id: "49DB871527ED2678"
+				type: "kill"
+				entity: "cataclysm:ender_guardian"
+				value: 1L
+			}]
+			rewards: [{
+				id: "14943B50AB5ABA14"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["31EC7DC08DF97510"]
+			id: "543DF4F145576495"
+			tasks: [{
+				id: "0AB8E2F73383C1CE"
+				type: "kill"
+				entity: "cataclysm:ender_golem"
+				value: 1L
+			}]
+			rewards: [{
+				id: "735E947206ECF0BE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["543DF4F145576495"]
+			id: "2E3E5500BDD3CB5F"
+			tasks: [{
+				id: "3F70C2D1607668C0"
+				type: "item"
+				item: "cataclysm:void_jaw"
+			}]
+			rewards: [{
+				id: "7A218D6CD58DA897"
+				type: "xp"
+				xp: 10
+			}]
+		}
+	]
 }

@@ -1,4 +1,8 @@
 {
-  "entries": [],
-  "__comment": "Use the in-game commands to edit this file"
+  "entries": [
+    {
+      "item": "atmadditions:philosophers_fuel",
+      "emc": 1785728761879150
+    }
+  ]
 }

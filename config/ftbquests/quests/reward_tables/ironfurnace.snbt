@@ -1,0 +1,25 @@
+{
+	id: "1DBC557E7F725191"
+	order_index: 10
+	title: "ironfurnace"
+	icon: "ironfurnaces:iron_furnace"
+	loot_size: 1
+	rewards: [
+		{ item: "ironfurnaces:upgrade_iron2", weight: 12 }
+		{ item: "ironfurnaces:upgrade_gold2", weight: 12 }
+		{ item: "ironfurnaces:upgrade_silver2", weight: 12 }
+		{ item: "ironfurnaces:upgrade_allthemodium", weight: 3 }
+		{ item: "ironfurnaces:upgrade_vibranium", weight: 2 }
+		{ item: "ironfurnaces:upgrade_unobtainium" }
+		{ item: "ironfurnaces:upgrade_silver", weight: 12 }
+		{ item: "ironfurnaces:upgrade_copper", weight: 16 }
+		{ item: "ironfurnaces:upgrade_netherite" }
+		{ item: "ironfurnaces:upgrade_crystal", weight: 6 }
+		{ item: "ironfurnaces:upgrade_emerald", weight: 6 }
+		{ item: "ironfurnaces:upgrade_gold", weight: 12 }
+		{ item: "ironfurnaces:upgrade_iron", weight: 16 }
+		{ item: "ironfurnaces:upgrade_diamond", weight: 7 }
+		{ item: "ironfurnaces:upgrade_obsidian", weight: 4 }
+		{ item: "ironfurnaces:upgrade_obsidian2", weight: 4 }
+	]
+}

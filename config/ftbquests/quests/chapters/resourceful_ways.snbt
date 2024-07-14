@@ -9,8 +9,8 @@
 	default_hide_dependency_lines: false
 	images: [
 		{
-			x: 1.0d
-			y: 4.5d
+			x: -7.0d
+			y: 3.5d
 			width: 5.0d
 			height: 5.0d
 			rotation: 0.0d
@@ -21,12 +21,24 @@
 			corner: false
 		}
 		{
-			x: 0.0d
-			y: -3.5d
+			x: 10.0d
+			y: 0.0d
 			width: 3.0d
 			height: 3.0d
 			rotation: 0.0d
 			image: "mysticaladaptations:textures/blocks/insanium_furnace_front_on.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			width: 20.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/mysticalagriculture.png"
 			hover: [ ]
 			click: ""
 			dev: false
@@ -53,17 +65,24 @@
 					count: 8L
 				}
 			]
-			rewards: [{
-				id: "026B01C5F2485988"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "mysticalagriculture:guide"
+			rewards: [
+				{
+					id: "026B01C5F2485988"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "mysticalagriculture:guide"
+						}
 					}
 				}
-			}]
+				{
+					id: "07293678BC64DC28"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			title: "The Inferior Essence"
@@ -77,6 +96,18 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_farmland"
 			}]
+			rewards: [
+				{
+					id: "74C66E9F195E34B3"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "4A34D0105769E2EB"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			title: "Circle of Souls"
@@ -114,6 +145,11 @@
 					item: "mysticalagriculture:experience_capsule"
 				}
 			]
+			rewards: [{
+				id: "0ECA5B41B4A266D5"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: -3.5d
@@ -126,6 +162,18 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_farmland"
 			}]
+			rewards: [
+				{
+					id: "02689EA6D098E519"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "03775D4DCDCC7426"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -138,6 +186,18 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_farmland"
 			}]
+			rewards: [
+				{
+					id: "1A95804D099F62EA"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "4C68AC81E68C435D"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: -5.5d
@@ -150,6 +210,18 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_farmland"
 			}]
+			rewards: [
+				{
+					id: "24C8AB251145F157"
+					type: "xp"
+					xp: 400
+				}
+				{
+					id: "5FC430E73AA7F314"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -162,6 +234,18 @@
 				type: "item"
 				item: "mysticalagradditions:insanium_farmland"
 			}]
+			rewards: [
+				{
+					id: "6090986F42C4D588"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "539478A2C9FF6D6C"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -173,6 +257,11 @@
 				id: "7DDEA59FB8F44932"
 				type: "item"
 				item: "mysticalagriculture:tinkering_table"
+			}]
+			rewards: [{
+				id: "5603CE75C468D5F7"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -253,11 +342,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "61C3CB8F69044668"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "61C3CB8F69044668"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "300F4DC2179C4E00"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -277,11 +373,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "226425CC2C3070A8"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "226425CC2C3070A8"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "64E32B746AD4B267"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -301,11 +404,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "63520F13132B75AA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "63520F13132B75AA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5E5ED6246187545E"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -325,11 +435,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "56AFAD359178EBDB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "56AFAD359178EBDB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "335803A4FD186C87"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -349,11 +466,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "7A467CAF5A86B9AE"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "7A467CAF5A86B9AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ADFFB8AEBBB39B7"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -370,11 +494,18 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_reprocessor"
 			}]
-			rewards: [{
-				id: "2EBD92A6FBE3A3E5"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2EBD92A6FBE3A3E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "33292CEF47F47DE1"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -386,11 +517,18 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_reprocessor"
 			}]
-			rewards: [{
-				id: "308A67A2650B80A0"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "308A67A2650B80A0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "51EE8B07E123FF9D"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -402,11 +540,18 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_reprocessor"
 			}]
-			rewards: [{
-				id: "0828D71F269CBA32"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "0828D71F269CBA32"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "528DD77ECB3C90D9"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -418,11 +563,18 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_reprocessor"
 			}]
-			rewards: [{
-				id: "2B139FF1064647DA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2B139FF1064647DA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0C102E39420D8AA1"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -434,11 +586,18 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_reprocessor"
 			}]
-			rewards: [{
-				id: "3A5396A1AE8C7638"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "3A5396A1AE8C7638"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "7BB7655BE63E9A72"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -455,11 +614,18 @@
 				type: "item"
 				item: "mysticalagradditions:inferium_apple"
 			}]
-			rewards: [{
-				id: "387BEF4EAD03289E"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "387BEF4EAD03289E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "07111EC2B4B89FDB"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -471,11 +637,18 @@
 				type: "item"
 				item: "mysticalagradditions:prudentium_apple"
 			}]
-			rewards: [{
-				id: "06579293E81E43C6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "06579293E81E43C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "110F62FF1F15129C"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -487,11 +660,18 @@
 				type: "item"
 				item: "mysticalagradditions:tertium_apple"
 			}]
-			rewards: [{
-				id: "4FA7407A526B88F6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4FA7407A526B88F6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2E122059D6B4537D"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -503,11 +683,18 @@
 				type: "item"
 				item: "mysticalagradditions:imperium_apple"
 			}]
-			rewards: [{
-				id: "51813633D6C04B1A"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "51813633D6C04B1A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3C1C2E7CF232D29C"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -519,11 +706,18 @@
 				type: "item"
 				item: "mysticalagradditions:supremium_apple"
 			}]
-			rewards: [{
-				id: "423746359ADF47A4"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "423746359ADF47A4"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "17421220F82F4F33"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -535,11 +729,18 @@
 				type: "item"
 				item: "mysticalagradditions:insanium_apple"
 			}]
-			rewards: [{
-				id: "189354D4B4D2D435"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "189354D4B4D2D435"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "76ADE64B5301D6F1"
+					type: "loot"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -592,11 +793,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1641C6A9369E6C6D"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1641C6A9369E6C6D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "424D639A1A371E70"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -650,11 +858,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "5DB8918AA1F4681D"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "5DB8918AA1F4681D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "198FA31A4D38EAE6"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -708,11 +923,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "2246FED93E9771DB"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2246FED93E9771DB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2ED666FF635E9C9A"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -766,11 +988,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "2CAAAF821DC43EB6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2CAAAF821DC43EB6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "29641BEC0F7F55B1"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -824,17 +1053,23 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "23823567B4AA78B3"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "23823567B4AA78B3"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0D5F038E78346A72"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 7.5d
 			y: -2.0d
 			dependencies: ["5B1E0E3E876339E7"]
-			optional: true
 			id: "1E8273A73813DB16"
 			tasks: [
 				{
@@ -882,11 +1117,18 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "6841EA33A3876303"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "6841EA33A3876303"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "22BA2CC3FE1B7812"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -906,11 +1148,18 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "51A8FBB72F8248F5"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "51A8FBB72F8248F5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4B8BE9BD58778520"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -922,11 +1171,18 @@
 				type: "item"
 				item: "mysticaladaptations:insanium_reprocessor"
 			}]
-			rewards: [{
-				id: "4D0DD62B6798AB8D"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "4D0DD62B6798AB8D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0CBA8B6816F26B5A"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -938,11 +1194,18 @@
 				type: "item"
 				item: "mysticalagriculture:inferium_furnace"
 			}]
-			rewards: [{
-				id: "44C5C5C5A5617998"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "44C5C5C5A5617998"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58413333312237C1"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -954,11 +1217,18 @@
 				type: "item"
 				item: "mysticalagriculture:prudentium_furnace"
 			}]
-			rewards: [{
-				id: "6984AE66E1191754"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "6984AE66E1191754"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B916038C6F9E593"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -970,11 +1240,18 @@
 				type: "item"
 				item: "mysticalagriculture:tertium_furnace"
 			}]
-			rewards: [{
-				id: "520CB6DAC77191C6"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "520CB6DAC77191C6"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3D2F6C5042A8E8F7"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -986,11 +1263,18 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_furnace"
 			}]
-			rewards: [{
-				id: "1A4AF188E3DAC2EC"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "1A4AF188E3DAC2EC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "059966405B95580E"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -1002,11 +1286,18 @@
 				type: "item"
 				item: "mysticalagriculture:supremium_furnace"
 			}]
-			rewards: [{
-				id: "30973BC0A52090B2"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "30973BC0A52090B2"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5D6FD11329463124"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1018,11 +1309,18 @@
 				type: "item"
 				item: "mysticaladaptations:insanium_furnace"
 			}]
-			rewards: [{
-				id: "23E03C0CF40C7793"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "23E03C0CF40C7793"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "45994C085E4F6851"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -1034,6 +1332,18 @@
 				type: "item"
 				item: "mysticalagriculture:imperium_farmland"
 			}]
+			rewards: [
+				{
+					id: "6233A9EE692EAD87"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "5C9960E935C3FCF3"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
 		}
 	]
 }

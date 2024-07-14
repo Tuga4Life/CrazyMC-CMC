@@ -1,7 +1,7 @@
 {
 	id: "44085F43FC35484B"
 	group: ""
-	order_index: 4
+	order_index: 6
 	filename: "kill"
 	title: "Bounty"
 	icon: {
@@ -14,12 +14,12 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 1.0d
-		y: 4.5d
-		width: 5.0d
-		height: 3.0d
+		x: -1.0d
+		y: -3.0d
+		width: 13.0d
+		height: 7.0d
 		rotation: 0.0d
-		image: "ftbtestmodpack:textures/Coming_soon.png"
+		image: "ftbtestmodpack:textures/bounty.png"
 		hover: [ ]
 		click: ""
 		dev: false
@@ -71,7 +71,7 @@
 				type: "kill"
 				icon: "botania:gaia_head"
 				entity: "botania:doppleganger"
-				value: 10L
+				value: 7L
 			}]
 			rewards: [{
 				id: "193ED7A66F930DE4"
@@ -80,7 +80,7 @@
 			}]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 0.0d
 			id: "60B76EB297B90254"
 			tasks: [{
@@ -113,7 +113,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 1.0d
 			dependencies: ["60B76EB297B90254"]
 			id: "2DFFAEF3E2668BCE"
@@ -138,7 +138,7 @@
 			]
 		}
 		{
-			x: 0.0d
+			x: -0.5d
 			y: 2.0d
 			dependencies: ["2DFFAEF3E2668BCE"]
 			id: "56FFA4D79597F213"
@@ -163,7 +163,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 			id: "5EACA8A759E46747"
 			tasks: [{
@@ -180,7 +180,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: 1.0d
 			dependencies: ["5EACA8A759E46747"]
 			id: "403C2C55F8C2BB2B"
@@ -189,7 +189,7 @@
 				type: "kill"
 				icon: "draconicadditions:chaos_heart"
 				entity: "draconicevolution:draconic_guardian"
-				value: 3L
+				value: 2L
 			}]
 			rewards: [{
 				id: "39966499A3E21A64"
@@ -198,7 +198,7 @@
 			}]
 		}
 		{
-			x: 3.0d
+			x: 0.5d
 			y: 0.0d
 			id: "4855A38D340703D3"
 			tasks: [{
@@ -231,7 +231,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 0.5d
 			y: 1.0d
 			dependencies: ["4855A38D340703D3"]
 			id: "353C2FE48DA4F967"
@@ -256,7 +256,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 0.5d
 			y: 2.0d
 			dependencies: ["353C2FE48DA4F967"]
 			id: "2AF8C9EB43634545"
@@ -277,6 +277,1235 @@
 					id: "4CE7B3ED2AF85874"
 					type: "item"
 					item: "majruszs_difficulty:wither_treasure_bag"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "096C8AB6F7C04CCC"
+			tasks: [{
+				id: "1D7D8663972F5E51"
+				type: "kill"
+				entity: "alexsmobs:void_worm"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "27F66C2711D464D7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "38712FEF116B5107"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.5d
+			id: "5A6ADE2C66249D18"
+			tasks: [{
+				id: "2A4DF01B3152B381"
+				type: "kill"
+				entity: "chaosawakens:acacia_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7248763C6679DD33"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1857C1C2B83F1572"
+					type: "item"
+					item: "minecraft:acacia_log"
+					count: 5
+				}
+				{
+					id: "6D0461FED77840CB"
+					type: "item"
+					item: "minecraft:acacia_sapling"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			id: "05AC542BBB35FE2A"
+			tasks: [{
+				id: "427C6F773F20488A"
+				type: "kill"
+				entity: "chaosawakens:apple_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0550D01278236A07"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54156C25D678E4F1"
+					type: "item"
+					item: "chaosawakens:apple_log"
+					count: 5
+				}
+				{
+					id: "365134624C5C2A3C"
+					type: "item"
+					item: "chaosawakens:apple_sapling"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			id: "235F66B10B76809F"
+			tasks: [{
+				id: "2A73AEEA67F746A2"
+				type: "kill"
+				entity: "chaosawakens:birch_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "349FC76FB67BC023"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "088B19385D09CEC9"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 5
+				}
+				{
+					id: "2DD9C8615ADADAC0"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			id: "3D369C19EBCAE784"
+			tasks: [{
+				id: "3D9FECF5B24A52E4"
+				type: "kill"
+				entity: "chaosawakens:cherry_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "61219AD9B8C6C1F0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "66BB814C68341CDD"
+					type: "item"
+					item: "biomesoplenty:cherry_log"
+					count: 5
+				}
+				{
+					id: "79E475426A4E03EA"
+					type: "item"
+					item: "biomesoplenty:white_cherry_sapling"
+				}
+				{
+					id: "3798A1071CC64713"
+					type: "item"
+					item: "biomesoplenty:pink_cherry_sapling"
+				}
+				{
+					id: "3C2AEAAD2DFFFC60"
+					type: "item"
+					item: "chaosawakens:cherry_log"
+					count: 5
+				}
+				{
+					id: "34FCE07F80C8ACE8"
+					type: "item"
+					item: "chaosawakens:cherry_sapling"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			id: "058BF86D916947F0"
+			tasks: [{
+				id: "70888F9B5DD9319D"
+				type: "kill"
+				entity: "chaosawakens:peach_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "363D546FCED3CF3D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "031F1B597EFD86C2"
+					type: "item"
+					item: "chaosawakens:peach_log"
+					count: 5
+				}
+				{
+					id: "1EC9329F8795BA79"
+					type: "item"
+					item: "chaosawakens:peach_sapling"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "6D72057FC767BADB"
+			tasks: [{
+				id: "4F54D2920D1A5803"
+				type: "kill"
+				entity: "chaosawakens:crimson_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "68348F4B16DE18D3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7C07A6BFBCA9C591"
+					type: "item"
+					item: "minecraft:crimson_stem"
+					count: 5
+				}
+				{
+					id: "0B73A71DFAD141ED"
+					type: "item"
+					item: "minecraft:crimson_fungus"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			id: "264C3315F7F6A437"
+			tasks: [{
+				id: "5E11FBE664599969"
+				type: "kill"
+				entity: "chaosawakens:dark_oak_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "76422581C769EB41"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2341D06061B82AC4"
+					type: "item"
+					item: "minecraft:dark_oak_log"
+					count: 5
+				}
+				{
+					id: "24B734CFD844D5F2"
+					type: "item"
+					item: "minecraft:dark_oak_sapling"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			id: "68D4FC8F318F6BC1"
+			tasks: [{
+				id: "02608F3EEF63085B"
+				type: "kill"
+				entity: "chaosawakens:jungle_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "581B61A483F41281"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "689C5EBCFCAC63FB"
+					type: "item"
+					item: "minecraft:jungle_log"
+					count: 5
+				}
+				{
+					id: "7C436D3F102D19B1"
+					type: "item"
+					item: "minecraft:jungle_sapling"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			id: "0E062366CC775FF3"
+			tasks: [{
+				id: "14B0C664EF4867A5"
+				type: "kill"
+				entity: "chaosawakens:oak_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "79EA43CFE52B4A1D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "48885F919D8C010B"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 5
+				}
+				{
+					id: "3A9C7F72BCD4CA19"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			id: "1CE6D25E549953CB"
+			tasks: [{
+				id: "2DCBC969148BCC65"
+				type: "kill"
+				entity: "chaosawakens:skywood_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7D62E8D9B01F9948"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "32638CF686F13315"
+					type: "item"
+					item: "chaosawakens:skywood_log"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			id: "1E77062A38B0FCB9"
+			tasks: [{
+				id: "363089604A186F22"
+				type: "kill"
+				entity: "chaosawakens:spruce_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00BC989AC6C24F91"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "37D64419721092AE"
+					type: "item"
+					item: "minecraft:spruce_log"
+					count: 5
+				}
+				{
+					id: "203CA30F9A7770EB"
+					type: "item"
+					item: "minecraft:spruce_sapling"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			id: "120081A12F5D771B"
+			tasks: [{
+				id: "6D3A83C2D161023B"
+				type: "kill"
+				entity: "chaosawakens:warped_ent"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "4E4A394AED972805"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "43ECFCD49185D9D0"
+					type: "item"
+					item: "minecraft:warped_stem"
+					count: 5
+				}
+				{
+					id: "128EAD9825E1CDD2"
+					type: "item"
+					item: "minecraft:warped_fungus"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			id: "499EB82E8B01F9E2"
+			tasks: [{
+				id: "146FE7276D6144AA"
+				type: "kill"
+				entity: "cataclysm:endermaptera"
+				value: 1L
+			}]
+		}
+		{
+			x: -1.5d
+			y: 6.5d
+			id: "7F38E3D62DAC6984"
+			tasks: [{
+				id: "33B606F042E7C5D1"
+				type: "kill"
+				entity: "minecraft:illusioner"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "67D4DA4B4C98FF13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "5F71F92BD6B53DEE"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+			]
+		}
+		{
+			title: "Robo killer"
+			x: -0.5d
+			y: 6.5d
+			subtitle: "Kill Robo Pounder, Robo Sniper and Robo Warrior"
+			id: "45E87C271EE62B25"
+			tasks: [
+				{
+					id: "2E3CEC03B5C79ED3"
+					type: "kill"
+					entity: "chaosawakens:robo_pounder"
+					value: 1L
+				}
+				{
+					id: "4A480CD626A3DA3C"
+					type: "kill"
+					entity: "chaosawakens:robo_sniper"
+					value: 1L
+				}
+				{
+					id: "2E9DA160B06D09D2"
+					type: "kill"
+					entity: "chaosawakens:robo_warrior"
+					value: 1L
+				}
+			]
+			rewards: [
+				{
+					id: "7F863E4E760A56D9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0C3714F64E65C6F2"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 5
+				}
+				{
+					id: "50E1B516B5954C46"
+					type: "item"
+					item: {
+						id: "travelersbackpack:redstone"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			id: "652D7B9B440EDF35"
+			tasks: [{
+				id: "73D21BA61D6A39E1"
+				type: "kill"
+				entity: "chaosawakens:wasp"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "68301BD9879A968D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2817AAAF9950B682"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			id: "6C949436D0264AAA"
+			tasks: [{
+				id: "0BFF833C6F6A58DB"
+				type: "kill"
+				entity: "minecraft:giant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1B05457C96E33D1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0EF03EE614F92D5F"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			id: "0F32A0D21AA1B62B"
+			tasks: [{
+				id: "465FAEDCDBFDF523"
+				type: "kill"
+				entity: "chaosawakens:hercules_beetle"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "58AB432DEC7BE8C1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "74F998457A868720"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+				{
+					id: "5E2D9050FB1843CE"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "4A9889E618CC3232"
+					type: "item"
+					item: "chaosawakens:tigers_eye"
+				}
+				{
+					id: "73FD0473DB98B8D3"
+					type: "item"
+					item: "chaosawakens:ruby"
+				}
+				{
+					id: "59B074225277ABAA"
+					type: "item"
+					item: "chaosawakens:amethyst"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			id: "6DF14599645C690E"
+			tasks: [{
+				id: "416743966ABF11AD"
+				type: "kill"
+				entity: "born_in_chaos_v1:skeleton_thrasher"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "14070E4BDEA66EF1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "10134945912CE3BA"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+				{
+					id: "54D51B5BE0A4B612"
+					type: "item"
+					item: "born_in_chaos_v1:shattered_skull"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			id: "6EB1264AF574415A"
+			tasks: [{
+				id: "1CA1632E0C613495"
+				type: "kill"
+				entity: "born_in_chaos_v1:seared_spirit"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3468A0D3BC6DF757"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5931CF30A1364EDC"
+					type: "item"
+					item: "born_in_chaos_v1:fire_dust"
+					count: 3
+				}
+				{
+					id: "6AB80D860954D9B6"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 2
+				}
+				{
+					id: "092AEF13286A75E4"
+					type: "item"
+					item: "minecraft:jack_o_lantern"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			id: "3DC005F23D9EA9A1"
+			tasks: [{
+				id: "4654EEEF4DDD15C9"
+				type: "kill"
+				entity: "born_in_chaos_v1:s_bonescaller_n"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "034BBBF55BDD529B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "585CF04F1B88F768"
+					type: "item"
+					item: "minecraft:bone"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			id: "1AA95DAF6D12697D"
+			tasks: [{
+				id: "56654D94E5E766C0"
+				type: "kill"
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "0404CC04850049EA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7989F46C539ED593"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			id: "399AF5719FA5488E"
+			tasks: [{
+				id: "30A675567A24AD0D"
+				type: "kill"
+				entity: "born_in_chaos_v1:nightmare_stalker"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "075B941EB5EAAB88"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D7FE6FC385D130E"
+					type: "item"
+					item: "born_in_chaos_v1:anluka_doors"
+				}
+				{
+					id: "6E6547D441C6FE1A"
+					type: "item"
+					item: "born_in_chaos_v1:nightmare_claw"
+				}
+				{
+					id: "15BA9F156E53326D"
+					type: "item"
+					item: "born_in_chaos_v1:gnawed_bones"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			id: "44BD94471370A19C"
+			tasks: [{
+				id: "05F35808CC641794"
+				type: "kill"
+				entity: "born_in_chaos_v1:pumpkin_spirit"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "732892B18E3831E2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6F2C50090432120C"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+				}
+				{
+					id: "3AE4CE825583B536"
+					type: "item"
+					item: "minecraft:hay_block"
+				}
+				{
+					id: "3BE257E549F306CE"
+					type: "item"
+					item: "minecraft:stick"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			id: "689CBE1D08A51A6D"
+			tasks: [{
+				id: "228EC5C82FD4028B"
+				type: "kill"
+				entity: "born_in_chaos_v1:zombiesina_barrel"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "45DDA569B254BD1F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "29761B3CAF8C0E51"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 5
+				}
+				{
+					id: "23907711E6D25AD7"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "312DCB91E4AA5CC6"
+					type: "item"
+					item: "minecraft:prismarine_crystals"
+				}
+				{
+					id: "1C56D2CDE200B65A"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.5d
+			description: [
+				"Night Lich, found in rare towers in cold biomes. Locate the towers by following soul stars."
+				"Soul stars are dropped by undead monsters."
+			]
+			id: "780020DA47E09803"
+			tasks: [{
+				id: "11098CD6E2793241"
+				type: "kill"
+				entity: "bosses_of_mass_destruction:lich"
+				value: 1L
+			}]
+			rewards: [{
+				id: "6E80782473D7A90A"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.5d
+			description: ["Nether Gauntlet, which appears in rare structures in the nether."]
+			id: "4D4BAF511F4D7F4D"
+			tasks: [{
+				id: "568154D26CD48A96"
+				type: "kill"
+				entity: "bosses_of_mass_destruction:gauntlet"
+				value: 1L
+			}]
+			rewards: [{
+				id: "616C0C3F5E27A56C"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: ["Void Blossom, appears in rare caves at the bottom of the world. Void lilies will point the way."]
+			id: "5909C9C0390AF9B4"
+			tasks: [{
+				id: "592417AC01270EB6"
+				type: "kill"
+				entity: "bosses_of_mass_destruction:obsidilith"
+				value: 1L
+			}]
+			rewards: [{
+				id: "295E06EC4E6899E2"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			id: "0978786F90B72BB2"
+			tasks: [{
+				id: "6980D6AACFA8246B"
+				type: "kill"
+				entity: "mutantbeasts:mutant_creeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "3A00F0B88471D96E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1E6A97AD857D2CD8"
+					type: "item"
+					item: {
+						id: "mutantbeasts:creeper_shard"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			id: "53F859BA694988FA"
+			tasks: [{
+				id: "0D90843C41983E0B"
+				type: "kill"
+				entity: "mutantbeasts:mutant_enderman"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "699124FE99F6C4C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "653472A918B1710A"
+					type: "item"
+					item: {
+						id: "mutantbeasts:endersoul_hand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			id: "70F0D6F44DD62B5C"
+			tasks: [{
+				id: "0C5FE6C0AB8C01FD"
+				type: "kill"
+				entity: "mutantbeasts:mutant_skeleton"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2620A191528253DC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "205020F2B91AE637"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_skull"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0CEFC3F1FA0266F7"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "237BA639E80EFB72"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4FBBBCE867316A04"
+					type: "item"
+					item: {
+						id: "mutantbeasts:mutant_skeleton_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			id: "20FAC7CE2734543C"
+			tasks: [{
+				id: "2449106777926196"
+				type: "kill"
+				entity: "mutantbeasts:mutant_snow_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "423B1687AA1C3F16"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4E7BB7F15B814A91"
+					type: "item"
+					item: "mutantbeasts:chemical_x"
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 4.5d
+			id: "5209E62B86FB8D57"
+			tasks: [{
+				id: "12F9CC64B436CCEB"
+				type: "kill"
+				entity: "mutantbeasts:mutant_zombie"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6D97C2ECD7B947C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "454F13AD25DC72F7"
+					type: "item"
+					item: "mutantbeasts:chemical_x"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			id: "08D0BE89DFE890CA"
+			tasks: [{
+				id: "4ABBA8399AB3D278"
+				type: "kill"
+				entity: "majruszs_difficulty:giant"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "66A35F07A3446BC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C4F160BF29A90D9"
+					type: "item"
+					item: "minecraft:rotten_flesh"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			id: "05443E767542A37C"
+			tasks: [{
+				id: "76392D55B797011C"
+				type: "kill"
+				entity: "stalwart_dungeons:reinforced_blaze"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1D4C3D6F8B3D89D8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6E6D126B3E4E2498"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 5
+				}
+				{
+					id: "3F0CE96952DEFF33"
+					type: "item"
+					item: "stalwart_dungeons:blaze_armor_scrap"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			id: "6D7A494875842473"
+			tasks: [{
+				id: "14B744C6661D3B8E"
+				type: "kill"
+				entity: "stalwart_dungeons:nether_keeper"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7F739E41E5CA3B48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "24F8AB692F592491"
+					type: "item"
+					item: "minecraft:nether_brick"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			id: "3498DF8B12CD8D24"
+			tasks: [{
+				id: "48D757821C1101E6"
+				type: "kill"
+				entity: "stalwart_dungeons:awful_ghast"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "6F4DCF2FDF5754EB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "73001B191E197FC4"
+					type: "item"
+					item: "stalwart_dungeons:awful_crystal"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			id: "64D3F055CBB7CEA6"
+			tasks: [{
+				id: "2525A33D449C9BA4"
+				type: "kill"
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				value: 1L
+			}]
+			rewards: [{
+				id: "7EE7A2EACA9475EC"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			id: "7BEA3A65C5F3FD26"
+			tasks: [{
+				id: "7A0B1A340495AC9B"
+				type: "kill"
+				entity: "mowziesmobs:naga"
+				value: 1L
+			}]
+			rewards: [{
+				id: "718B7857201194B7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			id: "3F426673C745C8B2"
+			tasks: [{
+				id: "488580E43B3BC385"
+				type: "kill"
+				title: "Diamonds?!"
+				entity: "mowziesmobs:grottol"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "62A7612BED88876A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "53DF3FE8FC1F7705"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			id: "778388045933888E"
+			tasks: [{
+				id: "57CCC22E2AFB49BB"
+				type: "kill"
+				entity: "mowziesmobs:barako"
+				value: 1L
+			}]
+			rewards: [{
+				id: "1003990030A8D000"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			id: "3850FF78ACB53A26"
+			tasks: [{
+				id: "070E6D357BA395DC"
+				type: "kill"
+				entity: "mowziesmobs:foliaath"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7B5D4286C3A8357E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2DED3774F6A15DC8"
+					type: "item"
+					item: "mowziesmobs:foliaath_seed"
+					count: 5
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			id: "03A0623A2BD7FE6F"
+			tasks: [{
+				id: "71004DC4F4312A40"
+				type: "kill"
+				entity: "minecraft:zombie"
+				value: 100L
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			id: "3DE9EF9CB7921D96"
+			tasks: [{
+				id: "66C4BEA1C7536470"
+				type: "kill"
+				entity: "mowziesmobs:frostmaw"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "247507A425EDD67B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "304723556DD50E10"
+					type: "item"
+					item: "mowziesmobs:music_disc_petiole"
 				}
 			]
 		}

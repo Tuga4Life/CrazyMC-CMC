@@ -11,11 +11,11 @@
 		#Whitelist dragon gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 		whitelistDimensionsDragons = ["allthemodium:the_other"]
 		#Blacklisted feature(cyclops caves, hydra dens, etc) gen dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		blacklistDimensionsFeature = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+		blacklistDimensionsFeature = [""]
 		#Blacklisted mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
-		blacklistDimensionsMobs = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+		blacklistDimensionsMobs = [""]
 		#True if using blacklists, false if using whitelists for dragons and structure gen.
-		"Use Dimension Blacklist" = false
+		"Use Dimension Blacklist" = true
 
 	[Generation.Ores]
 		#Whether to generate copper ore or not
