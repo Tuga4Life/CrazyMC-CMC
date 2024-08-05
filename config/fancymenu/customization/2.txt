@@ -21,9 +21,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = top-left
-  x = 135
+  x = 63
   action = movebutton
-  y = 181
+  y = 153
 }
 
 customization {
@@ -50,9 +50,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-left
-  x = 135
+  x = 63
   action = movebutton
-  y = 289
+  y = 228
 }
 
 customization {
@@ -73,10 +73,10 @@ customization {
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
-  orientation = top-left
-  x = 837
+  orientation = bottom-right
+  x = -123
   action = movebutton
-  y = 448
+  y = -41
 }
 
 customization {
@@ -103,9 +103,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = top-left
-  x = 133
+  x = 63
   action = movebutton
-  y = 131
+  y = 82
 }
 
 customization {
@@ -127,9 +127,9 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = top-left
-  x = 134
+  x = 63
   action = movebutton
-  y = 239
+  y = 302
 }
 
 customization {

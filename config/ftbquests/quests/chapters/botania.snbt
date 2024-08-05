@@ -1,7 +1,7 @@
 {
 	id: "32C4B62281328EB9"
 	group: ""
-	order_index: 5
+	order_index: 4
 	filename: "botania"
 	title: "Botania"
 	icon: {
@@ -13,18 +13,32 @@
 	}
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: -7.5d
-		y: 9.0d
-		width: 9.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "ftbtestmodpack:textures/botania.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: -7.5d
+			y: 9.0d
+			width: 9.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/botania.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -7.5d
+			y: 22.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: ["Used to make Pulsating Black Hole"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			title: "Botania"
@@ -474,6 +488,7 @@
 		{
 			x: -7.0d
 			y: 22.5d
+			subtitle: "Used to make Pulsating Black Hole"
 			dependencies: ["798CCF9CC7B4D89E"]
 			id: "14FA99EC2C685D2C"
 			tasks: [{

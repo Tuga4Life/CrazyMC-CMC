@@ -1,7 +1,7 @@
 {
 	id: "44085F43FC35484B"
 	group: ""
-	order_index: 6
+	order_index: 5
 	filename: "kill"
 	title: "Bounty"
 	icon: {
@@ -16,8 +16,8 @@
 	images: [{
 		x: -1.0d
 		y: -3.0d
-		width: 13.0d
-		height: 7.0d
+		width: 45.0d
+		height: 25.0d
 		rotation: 0.0d
 		image: "ftbtestmodpack:textures/bounty.png"
 		hover: [ ]
@@ -27,8 +27,8 @@
 	}]
 	quests: [
 		{
-			x: -1.5d
-			y: 1.0d
+			x: -1.0d
+			y: -4.5d
 			dependencies: ["75116D931E9AE759"]
 			id: "05B823E0CB347E56"
 			tasks: [{
@@ -46,8 +46,8 @@
 		}
 		{
 			icon: "botania:gaia_head"
-			x: -1.5d
-			y: 0.0d
+			x: -1.0d
+			y: -5.5d
 			id: "75116D931E9AE759"
 			tasks: [{
 				id: "3980F97B751F98F4"
@@ -62,8 +62,8 @@
 			}]
 		}
 		{
-			x: -1.5d
-			y: 2.0d
+			x: -1.0d
+			y: -3.5d
 			dependencies: ["05B823E0CB347E56"]
 			id: "739664FBB1DF2B76"
 			tasks: [{
@@ -80,8 +80,8 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 0.0d
+			x: 0.5d
+			y: -5.5d
 			id: "60B76EB297B90254"
 			tasks: [{
 				id: "1561767532A1C29B"
@@ -113,8 +113,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 1.0d
+			x: 0.5d
+			y: -4.5d
 			dependencies: ["60B76EB297B90254"]
 			id: "2DFFAEF3E2668BCE"
 			tasks: [{
@@ -138,8 +138,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
+			x: 0.5d
+			y: -3.5d
 			dependencies: ["2DFFAEF3E2668BCE"]
 			id: "56FFA4D79597F213"
 			tasks: [{
@@ -163,8 +163,8 @@
 			]
 		}
 		{
-			x: 2.0d
-			y: 0.0d
+			x: 3.5d
+			y: -4.5d
 			id: "5EACA8A759E46747"
 			tasks: [{
 				id: "166C45F4584E9C99"
@@ -180,8 +180,8 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
+			x: 3.5d
+			y: -3.5d
 			dependencies: ["5EACA8A759E46747"]
 			id: "403C2C55F8C2BB2B"
 			tasks: [{
@@ -198,8 +198,8 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 0.0d
+			x: 2.0d
+			y: -5.5d
 			id: "4855A38D340703D3"
 			tasks: [{
 				id: "1A0354A6FA7E8123"
@@ -231,8 +231,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 1.0d
+			x: 2.0d
+			y: -4.5d
 			dependencies: ["4855A38D340703D3"]
 			id: "353C2FE48DA4F967"
 			tasks: [{
@@ -256,8 +256,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: -3.5d
 			dependencies: ["353C2FE48DA4F967"]
 			id: "2AF8C9EB43634545"
 			tasks: [{
@@ -281,8 +281,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 0.0d
+			x: 8.0d
+			y: -4.5d
 			id: "096C8AB6F7C04CCC"
 			tasks: [{
 				id: "1D7D8663972F5E51"
@@ -304,8 +304,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 3.5d
+			x: 0.5d
+			y: 0.5d
 			id: "5A6ADE2C66249D18"
 			tasks: [{
 				id: "2A4DF01B3152B381"
@@ -333,8 +333,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 3.5d
+			x: 5.0d
+			y: 0.5d
 			id: "05AC542BBB35FE2A"
 			tasks: [{
 				id: "427C6F773F20488A"
@@ -362,8 +362,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 4.5d
+			x: 6.5d
+			y: 0.5d
 			id: "235F66B10B76809F"
 			tasks: [{
 				id: "2A73AEEA67F746A2"
@@ -391,8 +391,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 5.5d
+			x: 3.5d
+			y: 0.5d
 			id: "3D369C19EBCAE784"
 			tasks: [{
 				id: "3D9FECF5B24A52E4"
@@ -436,8 +436,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 5.5d
+			x: 5.0d
+			y: -2.0d
 			id: "058BF86D916947F0"
 			tasks: [{
 				id: "70888F9B5DD9319D"
@@ -465,8 +465,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 4.5d
+			x: 6.5d
+			y: -2.0d
 			id: "6D72057FC767BADB"
 			tasks: [{
 				id: "4F54D2920D1A5803"
@@ -494,8 +494,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 4.5d
+			x: 2.0d
+			y: 0.5d
 			id: "264C3315F7F6A437"
 			tasks: [{
 				id: "5E11FBE664599969"
@@ -523,8 +523,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 4.5d
+			x: -1.0d
+			y: 0.5d
 			id: "68D4FC8F318F6BC1"
 			tasks: [{
 				id: "02608F3EEF63085B"
@@ -552,8 +552,8 @@
 			]
 		}
 		{
-			x: -1.5d
-			y: 5.5d
+			x: -4.0d
+			y: 0.5d
 			id: "0E062366CC775FF3"
 			tasks: [{
 				id: "14B0C664EF4867A5"
@@ -581,8 +581,8 @@
 			]
 		}
 		{
-			x: -0.5d
-			y: 5.5d
+			x: -2.5d
+			y: 0.5d
 			id: "1CE6D25E549953CB"
 			tasks: [{
 				id: "2DCBC969148BCC65"
@@ -605,8 +605,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 5.5d
+			x: 8.0d
+			y: -2.0d
 			id: "1E77062A38B0FCB9"
 			tasks: [{
 				id: "363089604A186F22"
@@ -634,8 +634,8 @@
 			]
 		}
 		{
-			x: 1.5d
-			y: 3.5d
+			x: 2.0d
+			y: -2.0d
 			id: "120081A12F5D771B"
 			tasks: [{
 				id: "6D3A83C2D161023B"
@@ -663,8 +663,8 @@
 			]
 		}
 		{
-			x: -7.0d
-			y: 0.0d
+			x: -5.5d
+			y: -7.0d
 			id: "499EB82E8B01F9E2"
 			tasks: [{
 				id: "146FE7276D6144AA"
@@ -672,10 +672,15 @@
 				entity: "cataclysm:endermaptera"
 				value: 1L
 			}]
+			rewards: [{
+				id: "06E58D48CF5EE70E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: -1.5d
-			y: 6.5d
+			x: -5.5d
+			y: 3.0d
 			id: "7F38E3D62DAC6984"
 			tasks: [{
 				id: "33B606F042E7C5D1"
@@ -699,8 +704,8 @@
 		}
 		{
 			title: "Robo killer"
-			x: -0.5d
-			y: 6.5d
+			x: -5.5d
+			y: 0.5d
 			subtitle: "Kill Robo Pounder, Robo Sniper and Robo Warrior"
 			id: "45E87C271EE62B25"
 			tasks: [
@@ -747,8 +752,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 4.5d
+			x: 3.5d
+			y: -2.0d
 			id: "652D7B9B440EDF35"
 			tasks: [{
 				id: "73D21BA61D6A39E1"
@@ -771,8 +776,8 @@
 			]
 		}
 		{
-			x: 0.5d
-			y: 3.5d
+			x: 8.0d
+			y: 0.5d
 			id: "6C949436D0264AAA"
 			tasks: [{
 				id: "0BFF833C6F6A58DB"
@@ -795,8 +800,8 @@
 			]
 		}
 		{
-			x: 2.5d
-			y: 3.5d
+			x: 0.5d
+			y: -2.0d
 			id: "0F32A0D21AA1B62B"
 			tasks: [{
 				id: "465FAEDCDBFDF523"
@@ -838,8 +843,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 3.5d
+			x: -4.0d
+			y: -2.0d
 			id: "6DF14599645C690E"
 			tasks: [{
 				id: "416743966ABF11AD"
@@ -867,8 +872,8 @@
 			]
 		}
 		{
-			x: 4.0d
-			y: 4.5d
+			x: -1.0d
+			y: -2.0d
 			id: "6EB1264AF574415A"
 			tasks: [{
 				id: "1CA1632E0C613495"
@@ -902,8 +907,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 3.5d
+			x: -2.5d
+			y: -4.5d
 			id: "3DC005F23D9EA9A1"
 			tasks: [{
 				id: "4654EEEF4DDD15C9"
@@ -926,8 +931,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 4.5d
+			x: -4.0d
+			y: -4.5d
 			id: "1AA95DAF6D12697D"
 			tasks: [{
 				id: "56654D94E5E766C0"
@@ -950,8 +955,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 3.5d
+			x: -5.5d
+			y: -2.0d
 			id: "399AF5719FA5488E"
 			tasks: [{
 				id: "30A675567A24AD0D"
@@ -984,8 +989,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 5.5d
+			x: -5.5d
+			y: -4.5d
 			id: "44BD94471370A19C"
 			tasks: [{
 				id: "05F35808CC641794"
@@ -1018,8 +1023,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: 4.5d
+			x: -2.5d
+			y: -2.0d
 			id: "689CBE1D08A51A6D"
 			tasks: [{
 				id: "228EC5C82FD4028B"
@@ -1057,8 +1062,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 3.5d
+			x: -4.0d
+			y: 3.0d
 			description: [
 				"Night Lich, found in rare towers in cold biomes. Locate the towers by following soul stars."
 				"Soul stars are dropped by undead monsters."
@@ -1077,8 +1082,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 4.5d
+			x: -2.5d
+			y: 3.0d
 			description: ["Nether Gauntlet, which appears in rare structures in the nether."]
 			id: "4D4BAF511F4D7F4D"
 			tasks: [{
@@ -1094,8 +1099,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 5.5d
+			x: -1.0d
+			y: 3.0d
 			description: ["Void Blossom, appears in rare caves at the bottom of the world. Void lilies will point the way."]
 			id: "5909C9C0390AF9B4"
 			tasks: [{
@@ -1111,8 +1116,8 @@
 			}]
 		}
 		{
-			x: -5.5d
-			y: 3.5d
+			x: 0.5d
+			y: 3.0d
 			id: "0978786F90B72BB2"
 			tasks: [{
 				id: "6980D6AACFA8246B"
@@ -1140,8 +1145,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 4.5d
+			x: 2.0d
+			y: 3.0d
 			id: "53F859BA694988FA"
 			tasks: [{
 				id: "0D90843C41983E0B"
@@ -1169,8 +1174,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 5.5d
+			x: 3.5d
+			y: 3.0d
 			id: "70F0D6F44DD62B5C"
 			tasks: [{
 				id: "0C5FE6C0AB8C01FD"
@@ -1231,8 +1236,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: 3.5d
+			x: 5.0d
+			y: 3.0d
 			id: "20FAC7CE2734543C"
 			tasks: [{
 				id: "2449106777926196"
@@ -1254,8 +1259,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: 4.5d
+			x: 6.5d
+			y: 3.0d
 			id: "5209E62B86FB8D57"
 			tasks: [{
 				id: "12F9CC64B436CCEB"
@@ -1277,8 +1282,8 @@
 			]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 8.0d
+			y: -7.0d
 			id: "08D0BE89DFE890CA"
 			tasks: [{
 				id: "4ABBA8399AB3D278"
@@ -1301,8 +1306,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 0.0d
+			x: 6.5d
+			y: -7.0d
 			id: "05443E767542A37C"
 			tasks: [{
 				id: "76392D55B797011C"
@@ -1331,8 +1336,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 2.0d
+			x: 5.0d
+			y: -4.5d
 			id: "6D7A494875842473"
 			tasks: [{
 				id: "14B744C6661D3B8E"
@@ -1355,8 +1360,8 @@
 			]
 		}
 		{
-			x: 3.5d
-			y: 1.0d
+			x: 6.5d
+			y: -4.5d
 			id: "3498DF8B12CD8D24"
 			tasks: [{
 				id: "48D757821C1101E6"
@@ -1379,8 +1384,8 @@
 			]
 		}
 		{
-			x: -3.5d
-			y: 1.0d
+			x: -1.0d
+			y: -7.0d
 			id: "64D3F055CBB7CEA6"
 			tasks: [{
 				id: "2525A33D449C9BA4"
@@ -1395,8 +1400,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 2.0d
+			x: 0.5d
+			y: -7.0d
 			id: "7BEA3A65C5F3FD26"
 			tasks: [{
 				id: "7A0B1A340495AC9B"
@@ -1411,8 +1416,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.0d
+			x: 3.5d
+			y: -7.0d
 			id: "3F426673C745C8B2"
 			tasks: [{
 				id: "488580E43B3BC385"
@@ -1436,8 +1441,8 @@
 			]
 		}
 		{
-			x: -5.5d
-			y: 0.0d
+			x: -4.0d
+			y: -7.0d
 			id: "778388045933888E"
 			tasks: [{
 				id: "57CCC22E2AFB49BB"
@@ -1452,8 +1457,8 @@
 			}]
 		}
 		{
-			x: -3.5d
-			y: 0.0d
+			x: -2.5d
+			y: -7.0d
 			id: "3850FF78ACB53A26"
 			tasks: [{
 				id: "070E6D357BA395DC"
@@ -1476,8 +1481,8 @@
 			]
 		}
 		{
-			x: -4.5d
-			y: 0.0d
+			x: 2.0d
+			y: -7.0d
 			id: "03A0623A2BD7FE6F"
 			tasks: [{
 				id: "71004DC4F4312A40"
@@ -1485,10 +1490,15 @@
 				entity: "minecraft:zombie"
 				value: 100L
 			}]
+			rewards: [{
+				id: "484F6CE8505E6120"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			x: -4.5d
-			y: 2.0d
+			x: 5.0d
+			y: -7.0d
 			id: "3DE9EF9CB7921D96"
 			tasks: [{
 				id: "66C4BEA1C7536470"

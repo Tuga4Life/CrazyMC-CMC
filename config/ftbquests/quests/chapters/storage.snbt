@@ -620,6 +620,7 @@
 			x: -11.25d
 			y: 4.5d
 			shape: "square"
+			description: ["A simple mod to connect the chests in a single simple computer."]
 			size: 1.5d
 			id: "1921945E6EF0D2FC"
 			tasks: [{
@@ -885,6 +886,7 @@
 			title: "Traveler's Backpack"
 			x: 1.5d
 			y: 4.0d
+			description: ["The better the upgrade, the bigger the space inside it."]
 			id: "1A648759DA52A21C"
 			tasks: [
 				{
@@ -920,12 +922,12 @@
 			}]
 			rewards: [
 				{
-					id: "5E54FFEAD2D7099C"
-					type: "item"
-					item: "minecraft:iron_ingot"
+					id: "367D8844BD89FF23"
+					type: "choice"
+					table_id: 7242839069813880098L
 				}
 				{
-					id: "1B22641D98DE56A7"
+					id: "0088A13C9AD31366"
 					type: "xp"
 					xp: 100
 				}
@@ -941,6 +943,22 @@
 				type: "item"
 				item: "travelersbackpack:gold_tier_upgrade"
 			}]
+			rewards: [
+				{
+					id: "0375D20663A0B458"
+					type: "item"
+					item: {
+						id: "travelersbackpack:gold"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "6EF2E69DEFB917D4"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -956,7 +974,11 @@
 				{
 					id: "35B7A4F8CDD3C4CD"
 					type: "item"
-					item: "minecraft:diamond"
+					item: {
+						id: "travelersbackpack:diamond"
+						Count: 1b
+						tag: { }
+					}
 				}
 				{
 					id: "4DC148FC32222E7C"
@@ -979,7 +1001,11 @@
 				{
 					id: "69964F6B51B021B5"
 					type: "item"
-					item: "minecraft:netherite_ingot"
+					item: {
+						id: "travelersbackpack:netherite"
+						Count: 1b
+						tag: { }
+					}
 				}
 				{
 					id: "702F80BD20A154C8"

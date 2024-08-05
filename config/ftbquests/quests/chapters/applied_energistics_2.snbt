@@ -1368,5 +1368,22 @@
 				xp: 100
 			}]
 		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["Wireless to every place you go!"]
+			dependencies: ["25FFC52137326268"]
+			id: "6CF88E561B3D5A85"
+			tasks: [{
+				id: "26918C9E3FEA664D"
+				type: "item"
+				item: "aeinfinitybooster:infinity_card"
+			}]
+			rewards: [{
+				id: "2FCB35EF3DEDDB61"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
 	]
 }

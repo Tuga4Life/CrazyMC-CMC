@@ -1,7 +1,7 @@
 {
 	id: "24EA7F2A2A8DD765"
 	group: ""
-	order_index: 10
+	order_index: 9
 	filename: "mekanism"
 	title: "Mekanism"
 	icon: {
@@ -58,6 +58,18 @@
 			rotation: 0.0d
 			image: "ftbtestmodpack:textures/mekanism.png"
 			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: ["Used to make Pulsating Black Hole"]
 			click: ""
 			dev: false
 			corner: false
@@ -389,6 +401,8 @@
 			x: -7.5d
 			y: 5.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "672D7CB624EDCB2D"
 			tasks: [{
 				id: "0B8EB73AEF1E3DA1"
@@ -718,6 +732,8 @@
 			x: 1.0d
 			y: 5.0d
 			description: ["Coolant is needed to prevent the Reactor from overheating and exploding. The most common coolant is water which can be pumped in with an electric pump into an input valve."]
+			hide_dependency_lines: true
+			dependencies: ["2CE8FDD158020D56"]
 			id: "70EB774366E9016E"
 			tasks: [{
 				id: "691618E284F12496"
@@ -758,6 +774,8 @@
 			x: 3.0d
 			y: -1.0d
 			description: ["By putting sulfur dust into a Chemical Oxidizer we can make Sulfur Dioxide."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "71661C344A27C500"
 			tasks: [{
 				id: "2CEF9C084FE948E8"
@@ -856,6 +874,8 @@
 			x: 4.0d
 			y: 0.0d
 			description: ["To get oxygen for Sulfur Trioxide (and anything else that needs oxygen) you need an Electrolytic Separator. By using an Electric Pump you can directly pump water in it to be separated."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "22E9C3E8C9EBCA53"
 			tasks: [{
 				id: "384654188FC13B22"
@@ -903,6 +923,7 @@
 			x: -1.0d
 			y: 3.0d
 			description: ["Not necessary to create the Reactor but very important. In order to send redstone signals to start or stop your Reactor you'll need the logic adapter."]
+			dependencies: ["2CE8FDD158020D56"]
 			optional: true
 			id: "608E8B51900A16CC"
 			tasks: [{
@@ -1111,6 +1132,8 @@
 			x: 5.5d
 			y: 8.0d
 			description: ["Basically the spark plug for your Fusion Reactor. It needs to be filled with DT fuel and put in the slot of the Fusion Reactor."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "4C9182CEAAC6CF17"
 			tasks: [{
 				id: "380C09DD4F41EB63"
@@ -1141,6 +1164,8 @@
 			x: 5.0d
 			y: 4.0d
 			description: ["To start getting fuel for your Fusion Reactor you need Heavy Water. By using a Filter Upgrade on an electric pump you'll get Heavy Water."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "626793BDB7166F29"
 			tasks: [{
 				id: "24DE8C7B85C711D7"
@@ -1232,6 +1257,8 @@
 			x: 7.0d
 			y: 1.0d
 			description: ["In order to even think of making DT Fuel we need to set up a Thermal Evaporation Station."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "1E4B34231348CA51"
 			tasks: [
 				{
@@ -1316,6 +1343,8 @@
 			x: 9.0d
 			y: 5.0d
 			description: ["Lasers are exactly what the name suggests, they're lasers. They need power to shoot lasers in one direction. You'll need lasers for a laser amplifier to start the Fusion Reactor."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "110971613B1747B2"
 			tasks: [{
 				id: "40698DC46EE1BCCB"
@@ -1339,6 +1368,8 @@
 			x: 8.5d
 			y: 8.0d
 			description: ["You don't NEED coolant for Fusion Reactor as it doesn't explode. But it can still be used for the turbine for more power."]
+			hide_dependency_lines: true
+			dependencies: ["2CE8FDD158020D56"]
 			optional: true
 			id: "4E6A7D334893C587"
 			tasks: [{
@@ -1356,6 +1387,8 @@
 			x: -8.5d
 			y: 5.0d
 			description: ["Used to move liquids"]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "06C79EA6891E267A"
 			tasks: [{
 				id: "609CB0CE5D6ADA15"
@@ -1372,6 +1405,8 @@
 			x: -11.5d
 			y: 5.0d
 			description: ["Used to move gases"]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "1DDC7ABA085E9C99"
 			tasks: [{
 				id: "584E97E7B5659924"
@@ -1388,6 +1423,8 @@
 			x: -10.5d
 			y: 5.0d
 			description: ["Used to move blocks and items"]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "73AE2B965DFF64C6"
 			tasks: [{
 				id: "7A4A1928127E7577"
@@ -1404,6 +1441,8 @@
 			x: -9.5d
 			y: 5.0d
 			description: ["Used to move heat"]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "14C634924A55731E"
 			tasks: [{
 				id: "558F312A64F7B7DA"
@@ -1420,6 +1459,8 @@
 			x: -12.5d
 			y: 4.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "516F8B4E09221D6C"
 			tasks: [{
 				id: "1034CFE2A25A38B7"
@@ -1436,6 +1477,8 @@
 			x: -11.5d
 			y: 4.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "7E00878C5D2A81CF"
 			tasks: [{
 				id: "6D24698CD8F2058A"
@@ -1452,6 +1495,8 @@
 			x: -10.5d
 			y: 4.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "6B0D4E87F7CD567E"
 			tasks: [{
 				id: "74604234DA321166"
@@ -1468,6 +1513,8 @@
 			x: -8.5d
 			y: 4.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			optional: true
 			id: "0A46034050FBCC63"
 			tasks: [{
@@ -1485,6 +1532,8 @@
 			x: -9.5d
 			y: 4.0d
 			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "431380EA49EDC051"
 			tasks: [{
 				id: "2B2EBE02F54871E1"
@@ -1570,6 +1619,7 @@
 		{
 			x: 3.5d
 			y: 13.0d
+			subtitle: "Used to make Pulsating Black Hole"
 			description: [""]
 			dependencies: ["36F595B81DB6F8F4"]
 			id: "165F781CB25B86E9"
@@ -1640,6 +1690,8 @@
 			x: 5.0d
 			y: -5.5d
 			description: ["The most basic tool for Mekanism. It has many uses and modes. Its main use is to configure the pipes and input/output ports of machines."]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "41438B7D0DBE4E29"
 			tasks: [{
 				id: "31F91A6E1456D9DC"
@@ -1656,6 +1708,11 @@
 			x: 5.0d
 			y: -3.5d
 			description: ["Mekanism's version of the paxel. It can be used to destroy blocks the pick, shovel, and axe would break. It uses power to use though and has the same breaking power of diamond tools."]
+			hide_dependency_lines: true
+			dependencies: [
+				"2C0AEAC781C0B1AD"
+				"7F44082EEA9F23EC"
+			]
 			id: "77E2CB806AD3F397"
 			tasks: [{
 				id: "2C3C448E13F183BD"
@@ -1771,16 +1828,28 @@
 				type: "item"
 				item: "mekanism:dosimeter"
 			}]
+			rewards: [{
+				id: "19F3F3BD03AACA72"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 4.0d
 			y: 5.5d
 			description: ["The Geiger Counter is a tool to test the radiation levels of the area around you. "]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "6F3CB26E54C36953"
 			tasks: [{
 				id: "39576E71A08EED86"
 				type: "item"
 				item: "mekanism:geiger_counter"
+			}]
+			rewards: [{
+				id: "3FEF0A94A32227B2"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1834,16 +1903,28 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "681AF1966B856AFF"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 4.0d
 			y: 7.5d
 			description: ["The Radiation Shielding Unit is a module for the Meka Suit which will make it so the Meka Suit protects you from radiation."]
+			hide_dependency_lines: true
+			dependencies: ["18FE73DA79C99267"]
 			id: "62970E17984400AD"
 			tasks: [{
 				id: "66E75BB9B738BF02"
 				type: "item"
 				item: "mekanism:module_radiation_shielding_unit"
+			}]
+			rewards: [{
+				id: "21FC504BAA7531B5"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{
@@ -1938,6 +2019,8 @@
 			x: 14.5d
 			y: -4.5d
 			description: ["One of, if not the most OP armor set in the game. The amount of energy it has is how much damage you can take without being harmed. The ATM armor sets come prebuilt with extras but this one must have them added."]
+			hide_dependency_lines: true
+			dependencies: ["4B11FCFAC3544632"]
 			id: "529AA24C9BB3C28F"
 			tasks: [
 				{
@@ -2111,6 +2194,8 @@
 			x: 10.5d
 			y: 0.5d
 			description: ["The start to the long line till plastic is from Bio-Fuel. Bio-Fuel is made from crushing plants."]
+			hide_dependency_lines: true
+			dependencies: ["2F3B6995F7082A8D"]
 			id: "1690D8840D588840"
 			tasks: [{
 				id: "1601284193067DA3"
@@ -2127,6 +2212,8 @@
 			x: -12.5d
 			y: 5.0d
 			description: ["Used to move energy"]
+			hide_dependency_lines: true
+			dependencies: ["2C0AEAC781C0B1AD"]
 			id: "5FE92483174D4DED"
 			tasks: [{
 				id: "47752FB78957833B"

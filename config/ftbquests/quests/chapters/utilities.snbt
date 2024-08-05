@@ -8,10 +8,10 @@
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
-		x: 0.5d
-		y: -5.0d
-		width: 10.0d
-		height: 3.0d
+		x: 5.5d
+		y: 18.0d
+		width: 35.0d
+		height: 25.0d
 		rotation: 0.0d
 		image: "ftbtestmodpack:textures/utilities.png"
 		hover: [ ]
@@ -21,26 +21,9 @@
 	}]
 	quests: [
 		{
-			x: 0.0d
-			y: 0.0d
-			description: ["Utilities that will help you on your adventure"]
-			id: "6A02245043A9B34E"
-			tasks: [{
-				id: "3CC7ECB64F19FF3D"
-				type: "checkmark"
-				title: "Special things"
-			}]
-			rewards: [{
-				id: "16A362D34C49E78C"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 1.5d
-			y: -1.5d
+			x: -4.5d
+			y: 13.0d
 			description: ["Fly like in creative"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "2D4CC5BDAB5283F0"
 			tasks: [{
 				id: "5D7FFC1933859B8E"
@@ -54,10 +37,9 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: -0.5d
+			x: -1.5d
+			y: 13.0d
 			description: ["A wand that changes blocks effortlessly"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "0E362A8BA04A22D7"
 			tasks: [{
 				id: "076983BA86E55CA3"
@@ -75,27 +57,9 @@
 			}]
 		}
 		{
-			x: 13.125d
-			y: 3.125d
-			description: ["Pets that help you"]
-			size: 1.25d
-			id: "6359F4ED997A3042"
-			tasks: [{
-				id: "0CD11BEFF0156C61"
-				type: "checkmark"
-				title: "Iventory Pets"
-			}]
-			rewards: [{
-				id: "14574BBC02760E25"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 2.0d
-			y: 0.5d
+			x: 0.0d
+			y: 13.0d
 			description: ["Stocks and accelerate time"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "1C43AE04E2DB21C5"
 			tasks: [{
 				id: "03DF4A71E0E4936C"
@@ -115,10 +79,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -3.5d
+			x: 8.0d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "31C9E1AADDC7E457"
 			tasks: [{
 				id: "43FAF76F4D4052A7"
@@ -139,9 +102,8 @@
 		}
 		{
 			x: 11.0d
-			y: -3.5d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "200966A769521EE2"
 			tasks: [{
 				id: "271206D0B0E5A5EF"
@@ -161,10 +123,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -3.5d
+			x: 12.5d
+			y: 25.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "4C8FA31D05B3F298"
 			tasks: [{
 				id: "06F2FC154C5B534F"
@@ -179,10 +140,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: -2.0d
+			x: 12.5d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "512A28D2E210BB54"
 			tasks: [{
 				id: "19F68BBF04DEC4FD"
@@ -202,10 +162,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 11.0d
+			x: 8.0d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "2D917F4ECECC461F"
 			tasks: [{
 				id: "67FC116DCF454305"
@@ -225,10 +184,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 9.5d
+			x: 15.5d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "3418BF98E9A0E96D"
 			tasks: [{
 				id: "73C3A07689932F16"
@@ -248,10 +206,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 9.5d
+			x: 8.0d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "3BB7F72A4618955B"
 			tasks: [{
 				id: "3D2462EC7CA432BA"
@@ -271,10 +228,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: -2.0d
+			x: 9.5d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "71A9AA2B30A1FE8C"
 			tasks: [{
 				id: "01BC023C2FDCC1BA"
@@ -294,10 +250,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: -2.0d
+			x: 8.0d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "057EE323A6143795"
 			tasks: [{
 				id: "235F71F612740151"
@@ -317,10 +272,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -2.0d
+			x: 11.0d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "6C281F1D8A52B288"
 			tasks: [{
 				id: "080D7D2882BFD825"
@@ -340,10 +294,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: -3.5d
+			x: 9.5d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "323B162815C96481"
 			tasks: [{
 				id: "2121A635E41BBE3A"
@@ -363,10 +316,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 0.0d
+			x: 11.0d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "1E3120C88644A75D"
 			tasks: [{
 				id: "57AD5A396F1467C8"
@@ -386,10 +338,9 @@
 			}]
 		}
 		{
-			x: 11.0d
-			y: 11.0d
+			x: 14.0d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "767FCC93F19E8E6D"
 			tasks: [{
 				id: "13C77CF57D0DD44E"
@@ -409,10 +360,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: -2.0d
+			x: 15.5d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "030264E356199874"
 			tasks: [{
 				id: "4B6EFE2FA1F75FD1"
@@ -432,10 +382,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -3.5d
+			x: 15.5d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "1D01979F0F500DAE"
 			tasks: [{
 				id: "4A6FDF69056874AC"
@@ -455,10 +404,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: -2.0d
+			x: 14.0d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "2AC199944FF6BE22"
 			tasks: [{
 				id: "33D4DA5E9699B2DB"
@@ -478,10 +426,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 0.0d
+			x: 12.5d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7004A74872CEF79C"
 			tasks: [{
 				id: "6C83701BB88F397E"
@@ -501,10 +448,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 1.5d
+			x: 15.5d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "58E191E14120FD89"
 			tasks: [{
 				id: "6CDA270217488AC5"
@@ -524,10 +470,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 4.5d
+			x: 8.0d
+			y: 25.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "0D5AD7494B498AAD"
 			tasks: [{
 				id: "6A41769F6C0724EB"
@@ -547,10 +492,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 4.5d
+			x: 15.5d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "199AD6CDE07AE80A"
 			tasks: [{
 				id: "72B4834B05D66A6F"
@@ -570,10 +514,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 3.0d
+			x: 11.0d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "38FBE4D7B5ADB8A8"
 			tasks: [{
 				id: "667952D7C5EB1525"
@@ -593,10 +536,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 11.0d
+			x: 12.5d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "3038D84C2EF8B315"
 			tasks: [{
 				id: "24EAA1CC3C59ED10"
@@ -616,10 +558,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 11.0d
+			x: 12.5d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "5312BEEB4A537366"
 			tasks: [{
 				id: "77858E9BCE2E94A3"
@@ -639,10 +580,9 @@
 			}]
 		}
 		{
-			x: 12.5d
-			y: 11.0d
+			x: 14.0d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "72805C0B43D806B4"
 			tasks: [{
 				id: "166ADD79B86030BF"
@@ -662,10 +602,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 3.0d
+			x: 9.5d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "0EFD63A1DA4936EC"
 			tasks: [{
 				id: "3E6BE65A56F1E246"
@@ -685,10 +624,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 4.5d
+			x: 17.0d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "66BB6EDCAA09E7EC"
 			tasks: [{
 				id: "3875B74B833F0F45"
@@ -708,10 +646,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 4.5d
+			x: 11.0d
+			y: 25.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "5F4B8F8F40EC1193"
 			tasks: [{
 				id: "3AC17F62D23C6D23"
@@ -731,10 +668,9 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 9.5d
+			x: 8.0d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "515FA645CDCC08F8"
 			tasks: [{
 				id: "37B826ACCEBF7FF6"
@@ -754,10 +690,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 9.5d
+			x: 9.5d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "2FE204ADBC477079"
 			tasks: [{
 				id: "109C958F0FE4E2A3"
@@ -777,10 +712,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 3.0d
+			x: 14.0d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "686099637C9E6588"
 			tasks: [{
 				id: "48963261FE38AC54"
@@ -800,10 +734,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 0.0d
+			x: 12.5d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "327B5DBD34193989"
 			tasks: [{
 				id: "7ED08671DD36B6BE"
@@ -823,10 +756,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -3.5d
+			x: 11.0d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7300D3CA3C967A1B"
 			tasks: [{
 				id: "2CE3000DBDDB898A"
@@ -846,10 +778,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 0.0d
+			x: 9.5d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "26E30B529BBE3B5B"
 			tasks: [{
 				id: "5F369AD8EBCAB140"
@@ -869,10 +800,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 1.5d
+			x: 8.0d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7B258DC0737D8123"
 			tasks: [{
 				id: "42EDEBA94828A628"
@@ -892,10 +822,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: -2.0d
+			x: 12.5d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "38E787C33349BDC7"
 			tasks: [{
 				id: "1F607F1A50F28E8F"
@@ -915,10 +844,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -2.0d
+			x: 15.5d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "1C82C158F91EF9A4"
 			tasks: [{
 				id: "22791C6EFE907A20"
@@ -938,10 +866,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -3.5d
+			x: 17.0d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "52189F63C6389C3B"
 			tasks: [{
 				id: "6AB1C18A909DA091"
@@ -961,10 +888,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: -2.0d
+			x: 9.5d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "17A725E014A07B9D"
 			tasks: [{
 				id: "61C1026DB174BA42"
@@ -984,10 +910,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: -3.5d
+			x: 15.5d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "1B535F072470862D"
 			tasks: [{
 				id: "225DE8EDC40EC52A"
@@ -1002,10 +927,9 @@
 			}]
 		}
 		{
-			x: 15.5d
-			y: 9.5d
+			x: 14.0d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "04595980D3988909"
 			tasks: [{
 				id: "5209E703C4ADC1FB"
@@ -1025,10 +949,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 1.5d
+			x: 14.0d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7337925419E134F7"
 			tasks: [{
 				id: "65C8781BCCF25B65"
@@ -1048,10 +971,9 @@
 			}]
 		}
 		{
-			x: 9.5d
-			y: 11.0d
+			x: 17.0d
+			y: 17.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "6CE80959A865B3CF"
 			tasks: [{
 				id: "3FE5FB3A6A6EE8E4"
@@ -1071,10 +993,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 3.0d
+			x: 9.5d
+			y: 25.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "332C04B12726A86D"
 			tasks: [{
 				id: "7217770BFD1D2B0D"
@@ -1094,10 +1015,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 9.5d
+			x: 12.5d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "6D307A796E6673AB"
 			tasks: [{
 				id: "58D677562C11B3F3"
@@ -1117,10 +1037,9 @@
 			}]
 		}
 		{
-			x: 17.0d
-			y: 9.5d
+			x: 12.5d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "4C1DE4ED6A2927DD"
 			tasks: [{
 				id: "5D11B93DE2CEB860"
@@ -1140,10 +1059,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 9.5d
+			x: 11.0d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "0497F2A5C7DA7865"
 			tasks: [{
 				id: "16DF0572A37B81BB"
@@ -1163,10 +1081,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 7.5d
+			x: 17.0d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "6C142803F9979B3C"
 			tasks: [{
 				id: "7BB2D37E5DCD6E39"
@@ -1187,9 +1104,8 @@
 		}
 		{
 			x: 11.0d
-			y: 9.5d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "21536C1A966AE0B2"
 			tasks: [{
 				id: "6C0C35B0243924D3"
@@ -1209,10 +1125,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 1.5d
+			x: 8.0d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7BBB9A10F4C94E8E"
 			tasks: [{
 				id: "5EBFFC915DBC8036"
@@ -1232,10 +1147,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 9.5d
+			x: 9.5d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "51B627F92F7918C8"
 			tasks: [{
 				id: "473C0EC91315D128"
@@ -1255,10 +1169,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 11.0d
+			x: 14.0d
+			y: 13.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "711107B3F819A8DD"
 			tasks: [{
 				id: "2136DCCEF405ED45"
@@ -1278,10 +1191,9 @@
 			}]
 		}
 		{
-			x: 8.0d
-			y: 7.5d
+			x: 17.0d
+			y: 16.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "0744DBDCF7B33DBD"
 			tasks: [
 				{
@@ -1342,13 +1254,12 @@
 		}
 		{
 			title: "Nature and Explorer Compass"
-			x: 0.5d
-			y: 2.0d
+			x: -4.5d
+			y: 15.0d
 			description: [
 				"The Nature Compass is used to find Biomes."
 				"The Explorer Compass is used to find dungeons."
 			]
-			dependencies: ["6A02245043A9B34E"]
 			id: "44C6DD5ACA93EB6E"
 			tasks: [
 				{
@@ -1377,10 +1288,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 7.5d
+			x: 11.0d
+			y: 20.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "6D35BDF7FACE5AFF"
 			tasks: [{
 				id: "5F47ED05C24E4970"
@@ -1401,9 +1311,8 @@
 		}
 		{
 			x: 17.0d
-			y: 11.0d
+			y: 15.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "5FF3911B015359BA"
 			tasks: [{
 				id: "0223508B477DD061"
@@ -1423,10 +1332,9 @@
 			}]
 		}
 		{
-			x: 6.5d
-			y: 6.0d
+			x: 15.5d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "19A2D7813D669485"
 			tasks: [{
 				id: "0A2BE8F2F639F8D0"
@@ -1446,10 +1354,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: -2.0d
+			x: 14.0d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "41034A4A37582381"
 			tasks: [{
 				id: "3EE0AB3D62A81444"
@@ -1469,10 +1376,9 @@
 			}]
 		}
 		{
-			x: 20.0d
-			y: 7.5d
+			x: 17.0d
+			y: 19.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "7F46110034522D3D"
 			tasks: [{
 				id: "3B214C6B2DF7E43F"
@@ -1485,17 +1391,28 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "6E4BBF78B006DD71"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "6E4BBF78B006DD71"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30BCEF36CD9A6B15"
+					type: "item"
+					item: "majruszs_difficulty:wither_treasure_bag"
+				}
+				{
+					id: "76076423EF00390A"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
 		}
 		{
-			x: 8.0d
-			y: 6.0d
+			x: 17.0d
+			y: 23.5d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "782DE021E22AC3FD"
 			tasks: [{
 				id: "7C638CA4138CC654"
@@ -1515,10 +1432,9 @@
 			}]
 		}
 		{
-			x: 18.5d
-			y: 6.0d
+			x: 9.5d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
 			id: "5B6580D4F1B07F73"
 			tasks: [{
 				id: "4B3E2BD3CDA08984"
@@ -1534,12 +1450,17 @@
 					}
 				}
 			}]
+			rewards: [{
+				id: "51B0366F5B2B0EF3"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 20.0d
-			y: 6.0d
+			x: 8.0d
+			y: 22.0d
 			hide_dependency_lines: true
-			dependencies: ["6359F4ED997A3042"]
+			dependencies: ["5B6580D4F1B07F73"]
 			id: "7E30508ED04C0BD3"
 			tasks: [{
 				id: "66CFE224D082EB8F"
@@ -1562,10 +1483,9 @@
 			}]
 		}
 		{
-			x: -0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 13.0d
 			description: ["Used to grow plants"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "0D02B2A4ED9C0CC7"
 			tasks: [
 				{
@@ -1579,17 +1499,23 @@
 					item: "botanypots:hopper_botany_pot"
 				}
 			]
-			rewards: [{
-				id: "111F93AEA6917F08"
-				type: "xp"
-				xp: 200
-			}]
+			rewards: [
+				{
+					id: "111F93AEA6917F08"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "15809C7DAA173AC0"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+			]
 		}
 		{
-			x: -1.5d
-			y: 1.5d
+			x: 3.0d
+			y: 13.0d
 			description: ["Used to find meteorites"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "4C9021FDF5AB557B"
 			tasks: [{
 				id: "253DBCE0B025B1FC"
@@ -1603,10 +1529,9 @@
 			}]
 		}
 		{
-			x: -2.0d
-			y: 0.5d
+			x: -6.0d
+			y: 15.0d
 			description: ["A special torch which prevents mob spawning,"]
-			dependencies: ["6A02245043A9B34E"]
 			id: "40247B5C1B0340F1"
 			tasks: [
 				{
@@ -1628,10 +1553,9 @@
 		}
 		{
 			title: "Compact machines"
-			x: -2.0d
-			y: -0.5d
+			x: -3.0d
+			y: 13.0d
 			description: ["Compact Machines have different sizes, so use the size that's appropriate for what you need. These sizes range from Tiny to Maximum."]
-			dependencies: ["6A02245043A9B34E"]
 			id: "46B8AADE6E1FF612"
 			tasks: [{
 				id: "0284F7BDE9EAD612"
@@ -1646,9 +1570,9 @@
 		}
 		{
 			title: "Dragon Kit"
-			x: 1.5d
-			y: 1.5d
-			dependencies: ["6A02245043A9B34E"]
+			x: -3.0d
+			y: 15.0d
+			description: ["A special kit to help you in your adventure."]
 			id: "2B0B3DEEDC483B20"
 			tasks: [
 				{
@@ -1674,31 +1598,9 @@
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
-			dependencies: ["2B0B3DEEDC483B20"]
-			id: "726CB6B66D4E0CDC"
-			tasks: [{
-				id: "3978BF76E113DF47"
-				type: "item"
-				item: {
-					id: "dragonseeker:epic_dragonseeker"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
-			rewards: [{
-				id: "4B442F1051B2AF60"
-				type: "xp"
-				xp: 100
-			}]
-		}
-		{
-			x: 0.5d
-			y: -2.0d
-			dependencies: ["6A02245043A9B34E"]
+			x: -6.0d
+			y: 13.0d
+			description: ["With these crystals you can bound to your dragon and then teleport to you dragon."]
 			id: "14B1E9047EE4FE6B"
 			tasks: [
 				{
@@ -1722,260 +1624,6 @@
 				type: "xp"
 				xp: 300
 			}]
-		}
-		{
-			x: 0.0d
-			y: 5.0d
-			dependencies: ["1B6241EF2E4162A7"]
-			id: "0924115EE41AB2A2"
-			tasks: [{
-				id: "3889C0DBF7E7F507"
-				type: "item"
-				item: "ironfurnaces:gold_furnace"
-			}]
-			rewards: [
-				{
-					id: "7CE722B4F97F1E42"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "6D8324EB854470D7"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 6.0d
-			dependencies: ["0924115EE41AB2A2"]
-			id: "318E9F92A6AC7DFC"
-			tasks: [{
-				id: "636F3EB84C051BCB"
-				type: "item"
-				item: "ironfurnaces:diamond_furnace"
-			}]
-			rewards: [
-				{
-					id: "1E96EA00ECC7FE80"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "1A6324E50A62AA93"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 7.0d
-			dependencies: ["318E9F92A6AC7DFC"]
-			optional: true
-			id: "2C155291EF8CDC19"
-			tasks: [{
-				id: "38C584EFC8F864F3"
-				type: "item"
-				item: "ironfurnaces:crystal_furnace"
-			}]
-			rewards: [
-				{
-					id: "0BA953E355C9B2C7"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "3F2FBBFE9856D295"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 7.0d
-			dependencies: ["318E9F92A6AC7DFC"]
-			id: "36ADC6BDCB33F4C5"
-			tasks: [{
-				id: "2FB6DAD9944A8AD1"
-				type: "item"
-				item: "ironfurnaces:emerald_furnace"
-			}]
-			rewards: [
-				{
-					id: "0779C6A87C10B51C"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "2A06C92CD7A60058"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 8.0d
-			dependencies: [
-				"36ADC6BDCB33F4C5"
-				"2C155291EF8CDC19"
-			]
-			dependency_requirement: "one_completed"
-			id: "1006AD6EB9EB6415"
-			tasks: [{
-				id: "2549118E14E4B954"
-				type: "item"
-				item: "ironfurnaces:obsidian_furnace"
-			}]
-			rewards: [
-				{
-					id: "1495E346E801B20E"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "3384C5F2C126B711"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 9.5d
-			dependencies: ["1006AD6EB9EB6415"]
-			id: "2DB4E9986138455E"
-			tasks: [{
-				id: "448244FC776BA60C"
-				type: "item"
-				item: "ironfurnaces:netherite_furnace"
-			}]
-			rewards: [
-				{
-					id: "12CC0FC3616D9238"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "731B9FC5CF9B5EB0"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			title: "Iron Furnace"
-			x: 0.0d
-			y: 4.0d
-			id: "1B6241EF2E4162A7"
-			tasks: [{
-				id: "2DCCD9641AED181A"
-				type: "item"
-				item: {
-					id: "itemfilters:or"
-					Count: 1b
-					tag: {
-						items: [
-							{
-								id: "ironfurnaces:iron_furnace"
-								Count: 1b
-							}
-							{
-								id: "ironfurnaces:copper_furnace"
-								Count: 1b
-							}
-							{
-								id: "ironfurnaces:silver_furnace"
-								Count: 1b
-							}
-						]
-					}
-				}
-			}]
-			rewards: [
-				{
-					id: "58ABCF55F8CF302E"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "27D8FF0CFEA9EBAF"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 0.0d
-			y: 11.0d
-			dependencies: ["2DB4E9986138455E"]
-			id: "515E5C28D90C5842"
-			tasks: [{
-				id: "43B93AF53EB92770"
-				type: "item"
-				item: "ironfurnaces:allthemodium_furnace"
-			}]
-			rewards: [
-				{
-					id: "6F8B00C28E6C28CE"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "35569CE443F9748F"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: -1.0d
-			y: 12.5d
-			dependencies: ["515E5C28D90C5842"]
-			id: "5ACD0EA4CFC54638"
-			tasks: [{
-				id: "1980ED7725069ACB"
-				type: "item"
-				item: "ironfurnaces:vibranium_furnace"
-			}]
-			rewards: [
-				{
-					id: "160BD3CCEEE7FC4E"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "3B04074E8C565631"
-					type: "xp"
-					xp: 10
-				}
-			]
-		}
-		{
-			x: 1.0d
-			y: 12.5d
-			dependencies: ["5ACD0EA4CFC54638"]
-			id: "2AC6538A6CE5F530"
-			tasks: [{
-				id: "40D1826B69D16033"
-				type: "item"
-				item: "ironfurnaces:unobtainium_furnace"
-			}]
-			rewards: [
-				{
-					id: "4CAAC7E44D05A4D7"
-					type: "random"
-					table_id: 2142681524513952145L
-				}
-				{
-					id: "0E885E5B1F4277E2"
-					type: "xp"
-					xp: 10
-				}
-			]
 		}
 	]
 }

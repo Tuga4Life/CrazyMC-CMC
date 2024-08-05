@@ -1,0 +1,27 @@
+{
+	id: "6483BBC28193B522"
+	order_index: 11
+	title: "iron backpack"
+	icon: {
+		id: "travelersbackpack:iron_golem"
+		Count: 1b
+		tag: { }
+	}
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "travelersbackpack:iron_golem"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "travelersbackpack:iron"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+}

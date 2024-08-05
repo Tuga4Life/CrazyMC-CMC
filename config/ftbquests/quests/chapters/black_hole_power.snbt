@@ -1,11 +1,459 @@
 {
 	id: "3B85AD8D5472BEAA"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "black_hole_power"
 	title: "Black Hole Power"
 	icon: "atmadditions:pulsating_black_hole"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	images: [
+		{
+			x: 0.0d
+			y: -5.0d
+			width: 10.0d
+			height: 10.0d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: -5.0d
+			width: 13.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/blackhole.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "Black Hole Power"
+			icon: "atmadditions:pulsating_black_hole"
+			x: 0.0d
+			y: 0.0d
+			shape: "octagon"
+			description: [
+				"With this item you can craft creative items..."
+				"Interesting right?"
+			]
+			size: 2.5d
+			id: "799A424BAEAC5A1A"
+			tasks: [{
+				id: "71A982EA44198F51"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2CEBC913B4B5A727"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "hexagon"
+			description: [
+				"Congratulations, you managed to reach the modpack endgame."
+				""
+				"It must have been difficult, but if you got here then you will have access to the creative items!!"
+			]
+			dependencies: [
+				"461C04C2882AE0CB"
+				"58200B8CD06E5D9C"
+				"421D84A98CF4E348"
+				"1523BD0EF9E9ABC5"
+				"1D0BF1FA58460216"
+				"1DA1A12BE9E9FDA8"
+				"39C6FC6980F047DC"
+				"58C9DA403483C3D9"
+				"2364FDEF61179FB1"
+				"410409219F941850"
+			]
+			size: 2.5d
+			id: "5E3E0B5FAE8EF619"
+			tasks: [{
+				id: "5AA5D0020507237D"
+				type: "item"
+				item: "atmadditions:pulsating_black_hole"
+			}]
+			rewards: [
+				{
+					id: "647CA7548AFA8F38"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "7FE74038DC3C59B1"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			id: "58200B8CD06E5D9C"
+			tasks: [{
+				id: "7B5D98E972280F9E"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "5E05CD635401A1A1"
+					type: "item"
+					item: "mekanism:pellet_antimatter"
+					random_bonus: 2
+				}
+				{
+					id: "0471831F325E524A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			id: "1D0BF1FA58460216"
+			tasks: [{
+				id: "0816209E5700B545"
+				type: "item"
+				item: "chaosawakens:royal_guardian_scale"
+				count: 22L
+			}]
+			rewards: [
+				{
+					id: "5DFFBE2307A8CB5D"
+					type: "item"
+					item: "chaosawakens:royal_guardian_scale"
+					random_bonus: 2
+				}
+				{
+					id: "60E2637533555639"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "421D84A98CF4E348"
+			tasks: [{
+				id: "53F90C029ECA2D74"
+				type: "item"
+				item: "atmadditions:philosophers_fuel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "331DE3882020496D"
+					type: "item"
+					item: "atmadditions:philosophers_fuel"
+					random_bonus: 2
+				}
+				{
+					id: "7BE9B23E2C87B5E3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			id: "1523BD0EF9E9ABC5"
+			tasks: [{
+				id: "096222568D460796"
+				type: "item"
+				item: "botania:life_essence"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "3C7025EF9D3B2731"
+					type: "item"
+					item: "botania:life_essence"
+					random_bonus: 2
+				}
+				{
+					id: "3F07A5954ED0FA9C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			id: "1DA1A12BE9E9FDA8"
+			tasks: [{
+				id: "6C2FB955A8947221"
+				type: "item"
+				item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+				count: 9L
+			}]
+			rewards: [
+				{
+					id: "0BF85827DE44CE44"
+					type: "item"
+					item: "allthemodium:unobtainium_vibranium_alloy_ingot"
+					random_bonus: 2
+				}
+				{
+					id: "5D129A5228CA80A5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			id: "58C9DA403483C3D9"
+			tasks: [{
+				id: "34A4EFDB42BD240B"
+				type: "item"
+				item: "mowziesmobs:naga_fang"
+			}]
+			rewards: [
+				{
+					id: "4275D3ECE9E585B4"
+					type: "item"
+					item: "mowziesmobs:naga_fang"
+				}
+				{
+					id: "233BF21B4FDA7EA2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			id: "410409219F941850"
+			tasks: [{
+				id: "6A3F661793A9F859"
+				type: "item"
+				item: "mowziesmobs:barako_mask"
+			}]
+			rewards: [
+				{
+					id: "2124A84B933B4A16"
+					type: "item"
+					item: "mowziesmobs:barako_mask"
+				}
+				{
+					id: "688C262AA0B78858"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.5d
+			id: "2364FDEF61179FB1"
+			tasks: [{
+				id: "49BD0B5E872357B3"
+				type: "item"
+				item: {
+					id: "mowziesmobs:ice_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "07D2A4487FB66EE2"
+					type: "item"
+					item: {
+						id: "mowziesmobs:ice_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3455F3A8D896F61A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			id: "39C6FC6980F047DC"
+			tasks: [{
+				id: "2CAA6A0EF48F1704"
+				type: "item"
+				item: "cataclysm:music_disc_ender_guardian"
+			}]
+			rewards: [
+				{
+					id: "37D0590A77779CEF"
+					type: "item"
+					item: "cataclysm:music_disc_ender_guardian"
+				}
+				{
+					id: "00C5D85FF085CAE4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["799A424BAEAC5A1A"]
+			id: "461C04C2882AE0CB"
+			tasks: [{
+				id: "1B44E17DAF641172"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+			rewards: [{
+				id: "0AC9012E74BFA5B8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.0d
+			y: 10.0d
+			dependencies: ["4179C2FBE49CDA57"]
+			id: "4305B2149782A122"
+			tasks: [{
+				id: "060DD0A17DC586CD"
+				type: "item"
+				item: {
+					id: "ironjetpacks:creative_jetpack"
+					Count: 1b
+					tag: {
+						Throttle: 1.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4F89EF43BDBB85A5"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "4F26F5B454FDC733"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			dependencies: ["5E3E0B5FAE8EF619"]
+			id: "609D17B9F5EE4C3A"
+			tasks: [{
+				id: "08E3ECD6DA85DF04"
+				type: "item"
+				item: "mekanism:creative_energy_cube"
+			}]
+			rewards: [
+				{
+					id: "18CF1DDF36AFD2CB"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "2C13F7CBC7CCBDA1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["5E3E0B5FAE8EF619"]
+			id: "4179C2FBE49CDA57"
+			tasks: [{
+				id: "3B3638BB8FA2F6FE"
+				type: "item"
+				item: "mysticalagradditions:creative_essence"
+			}]
+			rewards: [
+				{
+					id: "44AE9080A1D87932"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "65840AEDF9EDA70C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 8.0d
+			dependencies: ["5E3E0B5FAE8EF619"]
+			id: "7864EAA5B9A2CB79"
+			tasks: [{
+				id: "3996607C798B8C5A"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+			rewards: [
+				{
+					id: "1D42CB87A7E4AE7B"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "760988AB6C441AC0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.0d
+			dependencies: ["5E3E0B5FAE8EF619"]
+			id: "6049BDBA17341CC3"
+			tasks: [{
+				id: "35DFD232E9179DAC"
+				type: "item"
+				item: "dragonseeker:godly_dragonseeker"
+			}]
+			rewards: [
+				{
+					id: "3E0EDC9EC5DC0793"
+					type: "random"
+					table_id: 3105909304568862244L
+				}
+				{
+					id: "372CCA00D46103EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+	]
 }

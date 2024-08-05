@@ -1,25 +1,38 @@
 {
 	id: "29BAA1EC2BDB75C8"
 	group: ""
-	order_index: 9
+	order_index: 8
 	filename: "ice_and_fire_2"
 	title: "Ice and fire"
 	icon: "iceandfire:dragon_skull_lightning"
-	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	images: [{
-		x: 0.5d
-		y: -12.0d
-		width: 15.0d
-		height: 3.0d
-		rotation: 0.0d
-		image: "ftbtestmodpack:textures/iceandfire.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
-	}]
+	images: [
+		{
+			x: 0.5d
+			y: -12.0d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/iceandfire.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: ["Used to make Pulsating Black Hole"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
 	quests: [
 		{
 			x: 0.0d
@@ -723,6 +736,7 @@
 		{
 			x: 6.5d
 			y: -1.0d
+			subtitle: "Used to make Pulsating Black Hole"
 			dependencies: ["22AD79E1217F7ABA"]
 			id: "57E411AAE1FAF02A"
 			tasks: [{

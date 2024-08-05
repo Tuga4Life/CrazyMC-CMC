@@ -1,7 +1,7 @@
 {
 	id: "19AEF50EF3107A67"
 	group: ""
-	order_index: 7
+	order_index: 6
 	filename: "cataclysm"
 	title: "Cataclysm"
 	icon: "cataclysm:void_core"
@@ -28,6 +28,18 @@
 			rotation: 0.0d
 			image: "ftbtestmodpack:textures/eldersvataclism.png"
 			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: ["Used to make Pulsating Black Hole"]
 			click: ""
 			dev: false
 			corner: false
@@ -229,6 +241,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
+			subtitle: "Used to make Pulsating Black Hole"
 			dependencies: ["5CFD19249C77ABFB"]
 			id: "39CD213D13096B59"
 			tasks: [{

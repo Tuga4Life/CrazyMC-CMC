@@ -1,7 +1,7 @@
 {
 	id: "0B826D13BAD43EEB"
 	group: ""
-	order_index: 8
+	order_index: 7
 	filename: "draconic_evolution"
 	title: "Draconic Evolution"
 	icon: {
@@ -273,11 +273,20 @@
 				type: "item"
 				item: "draconicevolution:draconium_ingot"
 			}]
-			rewards: [{
-				id: "7421D5F945C5278E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7421D5F945C5278E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "128FCF3910E8F85F"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -289,11 +298,20 @@
 				type: "item"
 				item: "draconicevolution:draconium_core"
 			}]
-			rewards: [{
-				id: "2046645A8F8C0E21"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "2046645A8F8C0E21"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "055A9D063DFFCA57"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -308,11 +326,20 @@
 				type: "item"
 				item: "draconicevolution:wyvern_core"
 			}]
-			rewards: [{
-				id: "4B45794FE5AB529C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4B45794FE5AB529C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0954A07958989C1F"
+					type: "item"
+					item: "minecraft:nether_star"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -327,11 +354,20 @@
 				type: "item"
 				item: "draconicevolution:awakened_core"
 			}]
-			rewards: [{
-				id: "7A3ADC7EC6D536F3"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7A3ADC7EC6D536F3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2FFBAD51BCF13530"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -346,11 +382,20 @@
 				type: "item"
 				item: "draconicevolution:chaotic_core"
 			}]
-			rewards: [{
-				id: "4B7720FD6B5B3F8B"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "4B7720FD6B5B3F8B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "678C1A4048761FF6"
+					type: "item"
+					item: "draconicevolution:large_chaos_frag"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -362,11 +407,20 @@
 				type: "item"
 				item: "draconicevolution:awakened_draconium_ingot"
 			}]
-			rewards: [{
-				id: "0781886C9197D018"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "0781886C9197D018"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "730AC155396AC908"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+					count: 2
+					random_bonus: 2
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -1039,11 +1093,20 @@
 					}
 				}
 			}]
-			rewards: [{
-				id: "490EEB6A05CE1755"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "490EEB6A05CE1755"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0272715985B0C27D"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+					count: 4
+					random_bonus: 4
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -1682,6 +1745,11 @@
 				id: "49C25112E5105678"
 				type: "item"
 				item: "draconicevolution:stabilized_spawner"
+			}]
+			rewards: [{
+				id: "4F05F900CFF7B8E0"
+				type: "xp"
+				xp: 100
 			}]
 		}
 		{

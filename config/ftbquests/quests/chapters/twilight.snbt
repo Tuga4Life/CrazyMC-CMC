@@ -3,13 +3,13 @@
 	group: "761F85CA97850FE2"
 	order_index: 0
 	filename: "twilight"
-	title: "Twilight"
+	title: "Twilight Forest"
 	icon: "twilightforest:twilight_portal_miniature_structure"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	images: [{
 		x: 0.0d
-		y: -5.0d
+		y: -3.5d
 		width: 11.0d
 		height: 3.0d
 		rotation: 0.0d
@@ -21,8 +21,9 @@
 	}]
 	quests: [
 		{
+			title: "Visit Twilight Forest"
 			x: 0.0d
-			y: -2.5d
+			y: -1.5d
 			id: "3ACB880E7FE95CC2"
 			tasks: [{
 				id: "41215EDB338C3C8E"
@@ -37,7 +38,7 @@
 		}
 		{
 			x: 0.0d
-			y: 0.0d
+			y: 0.5d
 			description: [
 				"The Magic Map functions similarly to the Map, though its area is 4x larger."
 				"It also displays any nearby bosses, dungeons, and regions within the Twilight Forest dimension."
@@ -59,8 +60,8 @@
 			}]
 		}
 		{
-			x: -1.0d
-			y: -1.5d
+			x: -2.0d
+			y: 0.5d
 			description: [" It is dropped when mining Torchberry Plants or Trollber."]
 			dependencies: ["3ACB880E7FE95CC2"]
 			id: "3C29B9D47D8D804E"
@@ -76,8 +77,8 @@
 			}]
 		}
 		{
-			x: 1.0d
-			y: -1.5d
+			x: 2.0d
+			y: 0.5d
 			description: [""]
 			dependencies: ["3ACB880E7FE95CC2"]
 			id: "11CE616CE6087DFB"
@@ -102,7 +103,7 @@
 		}
 		{
 			x: 0.0d
-			y: 1.5d
+			y: 2.0d
 			description: [
 				"It can be found in the Naga Courtyard."
 				""
@@ -195,7 +196,7 @@
 				{
 					id: "453E4364E32EF6B9"
 					type: "item"
-					item: "mowziesmobs:glowing_jelly"
+					item: "twilightforest:raw_meef"
 					count: 4
 					random_bonus: 4
 				}
@@ -387,7 +388,7 @@
 				{
 					id: "3FD6A9B3D4BE3D5A"
 					type: "item"
-					item: "twilightforest:hydra_chop"
+					item: "twilightforest:fiery_blood"
 					count: 4
 					random_bonus: 4
 				}
@@ -422,7 +423,14 @@
 					}
 				}
 				{
-					id: "29E788C961B20DEA"
+					id: "31F2C8707DDA3E37"
+					type: "item"
+					item: "twilightforest:aurora_block"
+					count: 8
+					random_bonus: 4
+				}
+				{
+					id: "7A8CD213D7251D4A"
 					type: "xp_levels"
 					xp_levels: 5
 				}
@@ -461,7 +469,7 @@
 		}
 		{
 			x: 0.0d
-			y: 11.5d
+			y: 12.5d
 			description: [
 				"When the Hydra, Ur-Ghast and Snow Queen have been defeated, the Highlands will unlock, revealing the final stages in progression."
 				"The Final Castle is the final stage of the Twilight Forest mod. It is currently unfinished."
@@ -470,6 +478,7 @@
 				"52C67D15A78D9969"
 				"50CD51BF292561D1"
 				"390EDC2AB6FAB05A"
+				"18C404A2C2E677C2"
 			]
 			id: "1AA8BAE79EC4C052"
 			tasks: [{
@@ -563,8 +572,8 @@
 			}]
 		}
 		{
-			x: 5.5d
-			y: 1.5d
+			x: -2.0d
+			y: 7.5d
 			description: ["They are dropped rarely by Cave Trolls, found in Mushroom Vaults, or by random chance when breaking Thorn Leaves or Beanstalk Leaves."]
 			hide_dependency_lines: true
 			dependencies: ["583385773BE4A6BC"]
@@ -574,10 +583,16 @@
 				type: "item"
 				item: "twilightforest:magic_beans"
 			}]
+			rewards: [{
+				id: "037876702B591782"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			x: 5.5d
-			y: 3.0d
+			title: "Giants"
+			x: -1.5d
+			y: 9.0d
 			description: ["Just a little bigger..."]
 			dependencies: ["00BB05F2C8110A45"]
 			id: "0303CB9C4A56314E"
@@ -633,6 +648,30 @@
 				id: "7C303C82B1FA0AF8"
 				type: "xp"
 				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.5d
+			description: [
+				"It is obtained from the Giant Obsidian Vault in the Mushroom Vault of a Troll Cave, below the Cloud Cottage, near the Thornlands."
+				""
+				"It allows the player to access the Thornlands, by burning Thorns into Burnt Thorns."
+				""
+				"Right-clicking a vine block will burn that individual block."
+			]
+			dependencies: ["0303CB9C4A56314E"]
+			id: "18C404A2C2E677C2"
+			tasks: [{
+				id: "3F9DA4FA37707F6C"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
 			}]
 		}
 	]

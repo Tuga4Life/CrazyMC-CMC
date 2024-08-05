@@ -2,7 +2,43 @@
   "entries": [
     {
       "item": "atmadditions:philosophers_fuel",
-      "emc": 1785728761879150
+      "emc": 2001377278
+    },
+    {
+      "item": "chaosawakens:amethyst",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:ruby",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:tigers_eye",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:titanium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:titanium_nugget",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:uranium_ingot",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:uranium_nugget",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:pink_tourmaline_ingot",
+      "emc": 0
+    },
+    {
+      "item": "chaosawakens:cats_eye_ingot",
+      "emc": 0
     }
   ]
 }

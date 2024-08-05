@@ -42,7 +42,7 @@
 	#Disable Sponge Pet absorb water (default:false)
 	disableSpongeWaterAbsorb = false
 	#Disable Illuminati Pet gives items ability (default:false)
-	disableIlluminatiGiveItems = false
+	disableIlluminatiGiveItems = true
 	#Illuminati Pet only gives craftable items (default:true)
 	illuminatiCraftedOnly = true
 	#Disable Machines that can Activate items (default:false)
@@ -200,7 +200,7 @@
 	#Disable the House pet (default:false)
 	disableHouse = true
 	#Disable the Illuminati pet (default:false)
-	disableIlluminati = false
+	disableIlluminati = true
 	#Disable the Iron Golem pet (default:false)
 	disableIronGolem = false
 	#Disable the Juggernaut pet (default:false)

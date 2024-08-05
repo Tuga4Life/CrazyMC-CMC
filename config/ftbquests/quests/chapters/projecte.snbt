@@ -1,0 +1,641 @@
+{
+	id: "0798F1C8EAB8A93B"
+	group: ""
+	order_index: 11
+	filename: "projecte"
+	title: "ProjectE"
+	icon: {
+		id: "projecte:philosophers_stone"
+		Count: 1b
+		tag: { }
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 6.5d
+			y: -3.0d
+			width: 5.0d
+			height: 5.0d
+			rotation: 0.0d
+			image: "projecte:textures/item/philosophers_stone.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			width: 15.0d
+			height: 3.0d
+			rotation: 0.0d
+			image: "ftbtestmodpack:textures/projecte.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.5d
+			y: 11.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "atmadditions:textures/item/pulsating_black_hole.png"
+			hover: ["Used to make Pulsating Black Hole"]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: 2.5d
+			y: 0.0d
+			id: "39F08A016389FAB8"
+			tasks: [{
+				id: "39B7189FB4915CD6"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "677C2822B44DB842"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			id: "2E74C22637FED35B"
+			tasks: [{
+				id: "1BD3E234DDAC02FA"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "236C3908B292651F"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			id: "4CFD55F553F9AFEB"
+			tasks: [{
+				id: "208F56231BF80BFB"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "32F0B18FBFEC5624"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			id: "5ECF8FE94D2A8366"
+			tasks: [{
+				id: "379C96DD28E2B132"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "3FBD9994B310CD8D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: [
+				"5ECF8FE94D2A8366"
+				"2E74C22637FED35B"
+				"4CFD55F553F9AFEB"
+			]
+			id: "553F8C4021D5EE9A"
+			tasks: [{
+				id: "4E152E1C8FBC68DF"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "31E9BDFC77C4A9DB"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: [
+				"Any items placed in the inventory will be destroyed and converted to EMC which is then stored in the internal buffer."
+				""
+				"It receives EMC energy from an adjacent Energy Collector or Anti-Matter Relay."
+				""
+				"Using EMC energy from the internal buffer, it creates items of the type specified."
+			]
+			dependencies: ["553F8C4021D5EE9A"]
+			id: "3F67F64E3C901121"
+			tasks: [{
+				id: "6E20DFC71A6F55D5"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "5722BE25C842F1A0"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["39F08A016389FAB8"]
+			id: "675E87AFBC5211E4"
+			tasks: [{
+				id: "5DD5B1821D627A1B"
+				type: "item"
+				item: "projecte:alchemical_coal"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "775B1677AD9E0BA7"
+					type: "item"
+					item: "projecte:alchemical_coal"
+					random_bonus: 1
+				}
+				{
+					id: "5E3F7DB77A821F8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["675E87AFBC5211E4"]
+			id: "580DAB78FDA9DEA7"
+			tasks: [{
+				id: "6343CE019C5D2B0C"
+				type: "item"
+				item: "projecte:mobius_fuel"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "5B6301001DBA0AAE"
+					type: "item"
+					item: "projecte:mobius_fuel"
+					random_bonus: 1
+				}
+				{
+					id: "007A5E773424AC23"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["580DAB78FDA9DEA7"]
+			id: "455708514CED4317"
+			tasks: [{
+				id: "43B97F4FAD7FBB5C"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "693E87D00B5F07FF"
+					type: "item"
+					item: "projecte:aeternalis_fuel"
+					random_bonus: 1
+				}
+				{
+					id: "64EACFC223EFEE3A"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			dependencies: ["455708514CED4317"]
+			id: "28D133086A7733DC"
+			tasks: [{
+				id: "540392774EB3A3AA"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [
+				{
+					id: "2409FB2A511F5569"
+					type: "item"
+					item: "projecte:dark_matter"
+					random_bonus: 1
+				}
+				{
+					id: "5C165847C9EE62EF"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			dependencies: ["28D133086A7733DC"]
+			id: "76B53D06C0B2BFDD"
+			tasks: [{
+				id: "531D4A3AE99EF8FC"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [
+				{
+					id: "078207E544D6E4F7"
+					type: "item"
+					item: "projecte:red_matter"
+					random_bonus: 1
+				}
+				{
+					id: "6DE949158E8AC983"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: [
+				"3F67F64E3C901121"
+				"28D133086A7733DC"
+				"76B53D06C0B2BFDD"
+			]
+			id: "28A99196054EABF2"
+			tasks: [{
+				id: "51731D6CF30C54B1"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [
+				{
+					id: "3B543464EA3A1D4E"
+					type: "item"
+					item: "projecte:dark_matter_block"
+				}
+				{
+					id: "6589A4F9FE3B4762"
+					type: "item"
+					item: "projecte:red_matter_block"
+				}
+				{
+					id: "49AC3CC8970801AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["The Transmutation Table functions as a battery for EMC energy, a charger for EMC storage items, as a library of blueprints and as a fabricator of items."]
+			dependencies: ["39F08A016389FAB8"]
+			id: "395E703D07FDE821"
+			tasks: [{
+				id: "60E412055929C76E"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "1DAB09A74EE8B568"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["Same thing but is portable."]
+			dependencies: [
+				"395E703D07FDE821"
+				"28D133086A7733DC"
+			]
+			id: "0B330FC5817F2D19"
+			tasks: [{
+				id: "72782E03A66C8ECC"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [{
+				id: "7B62C2985E4D2ECC"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: [
+				"The energy Collector uses light to create EMC which can then be used to upgrade one fuel type to another, exported to an Energy Condenser, or sent to an Antimatter Relay and used to charge a Klein Star."
+				""
+				"Glowstone blocks can be used to power all three versions of the Energy Collector."
+			]
+			id: "79AB587A1686689E"
+			tasks: [{
+				id: "6D2F9A0C00AAF9C3"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+			rewards: [{
+				id: "7B24FD4A76572206"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: [
+				"28D133086A7733DC"
+				"79AB587A1686689E"
+			]
+			id: "65D5CFF7CE5F0CFD"
+			tasks: [{
+				id: "066BD1BC2C28A7D5"
+				type: "item"
+				item: "projecte:collector_mk2"
+			}]
+			rewards: [{
+				id: "1ADD96EB588CF58D"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.5d
+			dependencies: [
+				"76B53D06C0B2BFDD"
+				"65D5CFF7CE5F0CFD"
+			]
+			id: "4C8FF7B352AEE7E7"
+			tasks: [{
+				id: "3DADFDCC9A680EFA"
+				type: "item"
+				item: "projecte:collector_mk3"
+			}]
+			rewards: [{
+				id: "57F821F9D44593A1"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			dependencies: [
+				"76B53D06C0B2BFDD"
+				"78F3151ACBC42088"
+			]
+			id: "62316D8CB70A125D"
+			tasks: [{
+				id: "4784AC1220A90BB2"
+				type: "item"
+				item: "projecte:relay_mk3"
+			}]
+			rewards: [{
+				id: "069B1495C1739F62"
+				type: "xp"
+				xp: 200
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.0d
+			dependencies: [
+				"28D133086A7733DC"
+				"43D9745462F62055"
+			]
+			id: "78F3151ACBC42088"
+			tasks: [{
+				id: "59EA185EAB9A437D"
+				type: "item"
+				item: "projecte:relay_mk2"
+			}]
+			rewards: [{
+				id: "7B465F8CCD4F10F6"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["It can be used with an Energy Collector of any tier by placing it adjacent to the Relay. The Collector will give its EMC to the Relay. There can be a maximum of six Collectors per Relay; one on each side."]
+			id: "43D9745462F62055"
+			tasks: [{
+				id: "71679D4ECB1870EA"
+				type: "item"
+				item: "projecte:relay_mk1"
+			}]
+			rewards: [{
+				id: "2DBD602033D7B508"
+				type: "xp"
+				xp: 10
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			shape: "gear"
+			subtitle: "Used to make Pulsating Black Hole"
+			dependencies: [
+				"455708514CED4317"
+				"1B2850068056B137"
+			]
+			size: 2.0d
+			id: "4DF708508E094615"
+			tasks: [{
+				id: "53F5DEBFBA9896CD"
+				type: "item"
+				item: "atmadditions:philosophers_fuel"
+			}]
+			rewards: [
+				{
+					id: "310801D2FA239D30"
+					type: "item"
+					item: {
+						id: "projecte:watch_of_flowing_time"
+						Count: 1b
+						tag: { }
+						ForgeCaps: {
+							Parent: { }
+						}
+					}
+				}
+				{
+					id: "0D3C8614A0E020E2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["580DAB78FDA9DEA7"]
+			id: "613EAE8E99E404F5"
+			tasks: [{
+				id: "6691754A40D6AC30"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+				count: 4L
+			}]
+			rewards: [{
+				id: "46C00BFAD0A93D3B"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["613EAE8E99E404F5"]
+			id: "1C5E3B852673B0F9"
+			tasks: [{
+				id: "541F5E7E93B56BC0"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "454197B23A4B8FE2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			dependencies: ["1C5E3B852673B0F9"]
+			id: "11A9BB441A8A261F"
+			tasks: [{
+				id: "2FDA0CAB9BCDFC42"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "13D180562D49B7FD"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["11A9BB441A8A261F"]
+			id: "7F51C7C7593F43F2"
+			tasks: [{
+				id: "6332289D284EAC86"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FFA60C7D22B5CC2"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.0d
+			dependencies: ["7F51C7C7593F43F2"]
+			id: "6FA449484C131881"
+			tasks: [{
+				id: "3860CB510734D4F0"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "10887F14BC768EA8"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["6FA449484C131881"]
+			id: "1B2850068056B137"
+			tasks: [{
+				id: "45B2824AC68D4D7B"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "48BD510AD1FFCFBA"
+				type: "xp"
+				xp: 100
+			}]
+		}
+	]
+}

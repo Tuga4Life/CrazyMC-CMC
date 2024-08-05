@@ -1,7 +1,7 @@
 {
 	id: "5C764279146E5E66"
 	group: ""
-	order_index: 11
+	order_index: 10
 	filename: "resourceful_ways"
 	title: "Mystical Agriculture"
 	icon: "mysticalagriculture:infusion_altar"
@@ -1340,6 +1340,121 @@
 				}
 				{
 					id: "5C9960E935C3FCF3"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["1CC4F8570A7A99EB"]
+			id: "78FCAB36C7B38C4E"
+			tasks: [{
+				id: "0F97EB631542126B"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+			rewards: [
+				{
+					id: "0AD2A405DCF3C64B"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3ACF24C13CCC9AD5"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.5d
+			dependencies: ["78FCAB36C7B38C4E"]
+			id: "624043B032DB653E"
+			tasks: [{
+				id: "4F29EA77413F90BB"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+			rewards: [
+				{
+					id: "4E9AD9217F01F574"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "40A27D33EE77381E"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			dependencies: ["624043B032DB653E"]
+			id: "4F17F46E68BDC2DF"
+			tasks: [{
+				id: "39872955E6F2237D"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+			rewards: [
+				{
+					id: "351E40899F6A1692"
+					type: "xp"
+					xp: 80
+				}
+				{
+					id: "54BB9A7F1EE813C6"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["4F17F46E68BDC2DF"]
+			id: "1F14464DDBE5B20D"
+			tasks: [{
+				id: "6DE350F59B024971"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+			rewards: [
+				{
+					id: "425B884589791D03"
+					type: "xp"
+					xp: 160
+				}
+				{
+					id: "14C52B7036D60E06"
+					type: "random"
+					table_id: 2073577963867227110L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			dependencies: ["1F14464DDBE5B20D"]
+			id: "53C3D9799965FC4A"
+			tasks: [{
+				id: "093538CEED8F544F"
+				type: "item"
+				item: "mysticalagradditions:insanium_essence"
+			}]
+			rewards: [
+				{
+					id: "179817D69C34411E"
+					type: "xp"
+					xp: 360
+				}
+				{
+					id: "388FEC3EE98721F5"
 					type: "random"
 					table_id: 2073577963867227110L
 				}

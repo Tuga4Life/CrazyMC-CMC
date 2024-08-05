@@ -1,0 +1,26 @@
+{
+	id: "2B1A680E83685624"
+	order_index: 12
+	title: "blackhole"
+	icon: "atmadditions:pulsating_black_hole"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:pellet_antimatter", count: 3, weight: 32 }
+		{ item: "chaosawakens:royal_guardian_scale", count: 3, weight: 22 }
+		{ item: "botania:life_essence", count: 2, weight: 8 }
+		{ item: "allthemodium:unobtainium_vibranium_alloy_ingot", count: 2, weight: 9 }
+		{ item: "mowziesmobs:naga_fang" }
+		{
+			item: {
+				id: "mowziesmobs:ice_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mowziesmobs:barako_mask" }
+		{ item: "cataclysm:music_disc_ender_guardian" }
+		{ item: "atmadditions:philosophers_fuel", weight: 2 }
+	]
+}
